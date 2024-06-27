@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
 /* Global */
 * {
   margin: 0;
@@ -16,7 +16,7 @@
   font-weight: 800;
 }
 
-.uppercase{
+.uppercase {
   text-transform: uppercase;
 }
 
@@ -75,20 +75,21 @@ section.banner {
   align-items: center;
   gap: 20px;
   text-align: center;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
-.offer-line >p:first-child{
+.offer-line > p:first-child {
   font-size: 11.33px;
   font-weight: 700;
 }
 
-.offer-line p:last-child{
+.offer-line p:last-child {
   font-size: 13.6px;
   font-weight: 400;
+  color: #ffffffbf;
 }
 
-.logo{
+.logo {
   width: 259.4px;
   height: 42.2px;
 }
@@ -137,7 +138,7 @@ p.desc {
   font-size: 18px;
   font-weight: 400;
   /* color: #ffffffa6; */
-  color: #FFFFFFBF;
+  color: #ffffffbf;
   text-align: center;
   font-family: gotham pro;
 }
@@ -161,7 +162,7 @@ a.btn {
 .btn > p {
   font-size: 17.62px;
   font-weight: 500;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .no-card-line {
@@ -182,11 +183,7 @@ a.btn {
 }
 .sample-slider img {
   height: auto;
-
 }
-
-
-
 
 .sample-slider .swiper-wrapper {
   transition-timing-function: linear;
@@ -198,7 +195,6 @@ a.btn {
   height: 100%;
   object-fit: cover;
   border-radius: 10px;
-
 }
 
 .partner-carousel-title {
@@ -240,8 +236,8 @@ p.future-heading {
   align-items: center;
   padding: 20px;
   gap: 20px;
+  line-height: 23.55px;
   height: 90%;
-
 }
 
 .future-detail {
@@ -258,14 +254,15 @@ p.future-heading {
   border-radius: 10px;
   padding: 6px;
   object-fit: none;
+  margin-right: 5px;
 }
 
 p.future-title {
   font-size: 21.07px;
-  font-weight: 400;
+  font-weight: 700;
   font-family: gotham pro;
   margin-bottom: 5px;
-  color: #1E2227;
+  color: #1e2227;
 }
 
 p.future-desc {
@@ -299,7 +296,7 @@ section.jump-start-container {
   width: 40%;
 }
 
-.jump-start-heading-box{
+.jump-start-heading-box {
   display: flex;
   flex-direction: column;
   /* align-items: end; */
@@ -323,8 +320,8 @@ p.speed-up-para {
 a.speed-up-link {
   display: flex;
   align-items: center;
-  gap: 10px;
-  margin-top: 5px;
+  gap: 5px;
+  margin-top: 15px;
   cursor: pointer;
 }
 
@@ -371,6 +368,7 @@ a.speed-up-link > p {
   color: #656f7e;
   font-weight: 400;
   text-align: center;
+  line-height: 30px;
 }
 
 .swiper {
@@ -397,7 +395,6 @@ a.speed-up-link > p {
   font-size: 13px;
 }
 /* Product Carousel */
-
 
 /* White board */
 .white-board {
@@ -475,7 +472,6 @@ p.white-board-desc {
 }
 /* White board */
 
-
 /* landing lastest Post Section Starts */
 
 .landing-latest-posts-container {
@@ -508,7 +504,7 @@ p.white-board-desc {
 
 .landing-latest-posts-headings-main-heading {
   font-family: gotham pro;
-  font-size: 36px;
+  font-size: 30px;
   font-weight: 700;
   max-width: 350px;
   margin-bottom: 20px;
@@ -572,7 +568,7 @@ p.white-board-desc {
   border-radius: 30px;
   font-size: 9px;
   color: #fff;
-  border: 1px solid #FF4610;
+  border: 1px solid #ff4610;
   font-weight: 400;
 }
 
@@ -592,16 +588,6 @@ a {
 }
 
 /* landing lastest Post Section Ends */
-
-
-
-
-
-
-
-
-
-
 
 /* landing Plans & Pricing Section Starts */
 
@@ -686,7 +672,6 @@ a {
   color: #ffffff;
   font-family: gotham pro;
   margin-bottom: 5px;
-
 }
 
 .landing-pricing-plan-price {
@@ -793,6 +778,7 @@ a {
 }
 
 .choose-plan-button a {
+  font-size: 14.46px;
   text-decoration: none;
   color: #fff;
 }
@@ -950,7 +936,6 @@ a {
 
 /* landing FAQ Section Ends */
 
-
 /* landing Footer Section Starts */
 
 .landing-footer-container {
@@ -970,7 +955,7 @@ a {
   /* justify-content: space-around; */
   justify-content: center;
   /* background-color: rgb(255, 125, 125); */
-} 
+}
 
 .landing-footer-upper-box-contact {
   order: 1;
@@ -990,7 +975,7 @@ a {
   font-size: 14px;
   font-weight: 400;
   font-family: gotham pro;
-} 
+}
 
 .landing-footer-upper-box-More {
   order: 2;
@@ -1038,7 +1023,7 @@ a {
   margin: 10px 0;
 }
 
-.icons-parent{
+.icons-parent {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1092,11 +1077,8 @@ a {
 
 /* landing Footer Section Ends */
 
-
-
-
 /* BLOGS PAGE Starts */
-.blogsMainContainer{
+.blogsMainContainer {
   width: 100%;
   height: 100vh;
   display: flex;
@@ -1105,7 +1087,7 @@ a {
   padding-top: 30px;
 }
 
-.blogSubContainer{
+.blogSubContainer {
   width: 80%;
   height: 100vh;
   display: flex;
@@ -1113,25 +1095,25 @@ a {
   align-items: center;
 }
 
-.blogsVariousDetail{
+.blogsVariousDetail {
   width: 100%;
-  display: flex; 
+  display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.blogsPromo{
-  color: #3749A6;
+.blogsPromo {
+  color: #3749a6;
   font-size: 14px;
   text-align: center;
 }
 
-.blogsTitle{    
+.blogsTitle {
   width: 50%;
   text-align: center;
 }
 
-.blogsMarketingImageContainer{
+.blogsMarketingImageContainer {
   background-image: url("./assets/blogs-page/header/marketingimage.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -1144,7 +1126,7 @@ a {
   position: relative;
 }
 
-.blogsReviewCard{
+.blogsReviewCard {
   background-color: #ffff;
   width: 50%;
   height: 200px;
@@ -1156,8 +1138,8 @@ a {
   box-shadow: 1px 1px 2px 1px gainsboro;
 }
 
-.cardTitle{
-  background-color: #4B6BFB;
+.cardTitle {
+  background-color: #4b6bfb;
   color: #ffff;
   margin-bottom: 10px;
   width: 80px;
@@ -1166,7 +1148,7 @@ a {
   font-size: 12px;
 }
 
-.userDetail{
+.userDetail {
   display: flex;
   font-size: 12px;
   align-items: flex-end;
@@ -1175,7 +1157,7 @@ a {
   color: grey;
 }
 
-.blogsAdSectiion{
+.blogsAdSectiion {
   margin-top: 80px;
   width: 60%;
   display: flex;
@@ -1188,12 +1170,12 @@ a {
   background-color: gainsboro;
 }
 
-.blogsAdSectiion p{
+.blogsAdSectiion p {
   font-size: 12px;
   color: gray;
 }
 
-.blogsCards{
+.blogsCards {
   width: 100%;
   margin-top: 40px;
   display: flex;
@@ -1202,7 +1184,7 @@ a {
   padding-bottom: 30px;
 }
 
-.cardList{
+.cardList {
   width: 100%;
   margin-top: 20px;
   display: flex;
@@ -1210,7 +1192,7 @@ a {
   flex-wrap: wrap;
 }
 
-.blogCard{
+.blogCard {
   width: 32%;
   height: 350px;
   border: 1px solid gray;
@@ -1219,13 +1201,13 @@ a {
   margin-top: 10px;
 }
 
-.blogCard .cardImageContainer img{
+.blogCard .cardImageContainer img {
   width: 100%;
   height: 180px;
   margin-bottom: 15px;
 }
 
-.seemore{
+.seemore {
   width: 10%;
   text-align: center;
   background-color: gainsboro;
@@ -1235,7 +1217,7 @@ a {
   font-size: 14px;
 }
 
-.blogUserDetail{
+.blogUserDetail {
   display: flex;
   font-size: 14px;
   align-items: flex-end;
@@ -1251,15 +1233,117 @@ a {
 
 
 
+@media only screen and (max-width: 768px) {
+  /* PRICING AND PLANS RESPONSVICE STARTS */
+
+  .landing-pricing-plan-dark{
+    min-height: 460px !important;
+  }
+
+  .landing-pricing-plan{
+    min-height: 320px;
+  }
+
+ 
 
 
+  .choose-plan-button a{
+    font-size: 10px;
+  }
 
+  .landing-pricing-box{
+    width: 90%;
+  }
+
+  .landing-pricing-heading{
+    font-size: 20px;
+  }
+
+  .landing-pricing-description{
+    font-size: 13px;
+    text-align: center;
+  }
+
+  .landing-pricing-plan-name-dark{
+    font-size: 24.5px;
+  }
+
+  .landing-pricing-plan-name-light{
+    font-size: 24.5px;
+  }
+
+  .landing-pricing-plan-price{
+    font-size: 14px;
+  }
+  .landing-pricing-plan-time-dark{
+    font-size: 9px;
+  }
+  .landing-pricing-plan-price-light{
+    font-size: 14px;
+  }
+  .landing-pricing-plan-time-light{
+    font-size: 9px;
+  }
+
+  .landing-pricing-plan-detail-para-dark{
+    font-size: 14px;
+  }
+
+  .landing-pricing-plan-detail-para-dark-highlighted
+  {
+    font-size: 14px;
+  }
+
+  .landing-pricing-plan-detail-para-light{
+    font-size: 14px;
+  
+  }
+
+  .landing-pricing-plan-detail-para-light-highlighted{
+    font-size: 14px;
+  }
+  /* PRICING AND PLANS RESPONSVICE ENDS */
+
+  
+/* FAQ section Sections Responsive Starts  */ 
+  .landing-faq-headings-Heading{
+    font-size: 20px;
+  }
+
+  .landing-faq-headings-description{
+    font-size: 14px;
+    line-height:  20px;
+  
+  }
+/* FAQ section Sections Ends  */
+}
 
 
 
 
 
 @media only screen and (max-width: 768px) {
+  /* sliders */
+
+  p.white-board-title{
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  p.white-board-desc {
+    width: 100%;
+    text-align: center;
+  }
+
+ .jump-start-heading-box{
+   width: 90%;
+ }
+
+
+  .sample-slider img {
+    padding: 0px 25px;
+  }
+
   /* Banner */
   section.banner {
     gap: 10px !important;
@@ -1270,7 +1354,7 @@ a {
     line-height: 50px !important;
   }
 
-  .heading > span{
+  .heading > span {
     font-size: 40px !important;
   }
 
@@ -1290,7 +1374,7 @@ a {
     font-size: 7px !important;
   }
 
-  .logo{
+  .logo {
     width: 160px;
     height: 26px;
   }
@@ -1305,7 +1389,7 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 50px;
+    margin-top: 0px;
   }
 
   .ai-future {
@@ -1319,7 +1403,7 @@ a {
   }
 
   .future-details {
-    width: 90% !important;
+    width: 100% !important;
   }
 
   .future-detail {
@@ -1334,7 +1418,7 @@ a {
   }
 
   .jump-start-img {
-    width: 200px;
+    width: 300px;
   }
 
   .jump-start-img::after {
@@ -1351,17 +1435,19 @@ a {
   }
 
   .product-carousel-desc {
-    width: 80%;
+    width: 90%;
+    font-size: 11px;
+    line-height: 12px;
   }
 
-  .jump-start-description-box{
+  .jump-start-description-box {
     width: 90%;
   }
   /* Product Carousel */
 }
 
-@media screen and (min-width:769px){
-  .ai-future{
+@media screen and (min-width: 769px) {
+  .ai-future {
     height: 590px;
   }
 }
@@ -1400,9 +1486,8 @@ a {
     flex-wrap: wrap;
   }
 
-  .ai-future{
+  .ai-future {
     width: 90% !important;
-  
   }
 }
 
@@ -1411,8 +1496,8 @@ a {
   .landing-footer-upper-box {
     width: 90%;
   }
-   .jump-start-img img{
-   width: 85%;
+  .jump-start-img img {
+    width: 85%;
   }
 }
 
@@ -1446,151 +1531,138 @@ a {
   .landing-footer-upper-box-get-in-touch-email-box {
     align-items: center;
   }
-  .jump-start{
+  .jump-start {
     width: 90%;
   }
-  .jump-start-img img{
+  .jump-start-img img {
     width: 85%;
-   }
+  }
 
   /* Footer section Sections Responsive Ends */
 }
 
-
-
-
-
- /* Blogs Page Media Queries Starts */
-
+/* Blogs Page Media Queries Starts */
 
 @media (min-width: 0px) and (max-width: 576px) {
-  .blogSubContainer{
-      width: 90%;
+  .blogSubContainer {
+    width: 90%;
   }
-  .blogsPromo{
-      font-size: 12px;
+  .blogsPromo {
+    font-size: 12px;
   }
-  .blogsTitle{
-      width: 90%;
-      font-size: 22px;
-      margin-top: 7px;
+  .blogsTitle {
+    width: 90%;
+    font-size: 22px;
+    margin-top: 7px;
   }
-  .blogsMarketingImageContainer{
-      object-fit: contain;
-      width: 100%;
-      height: 150px;
-      
+  .blogsMarketingImageContainer {
+    object-fit: contain;
+    width: 100%;
+    height: 150px;
   }
-  .blogsReviewCard{
-      width: 70%;
-      height: 120px;
-      position: absolute;
-      left: 20px;
-      bottom: -50px;
-      padding: 10px;
-
+  .blogsReviewCard {
+    width: 70%;
+    height: 120px;
+    position: absolute;
+    left: 20px;
+    bottom: -50px;
+    padding: 10px;
   }
-  .cardTitle{
-      font-size: 11px;
-      text-align: center;
+  .cardTitle {
+    font-size: 11px;
+    text-align: center;
   }
-  .blogsReviewCard h3{
-      font-size: 12px;
+  .blogsReviewCard h3 {
+    font-size: 12px;
   }
-  .userDetail{
-      display: flex;
-      font-size: 9px;
-      height: 30px;
-      color: grey;
-      gap: 7px;
+  .userDetail {
+    display: flex;
+    font-size: 9px;
+    height: 30px;
+    color: grey;
+    gap: 7px;
   }
-  .blogsAdSectiion{
-      width: 90%;
+  .blogsAdSectiion {
+    width: 90%;
   }
-  .cardList{
-      flex-direction: column;
-      align-items: center;
+  .cardList {
+    flex-direction: column;
+    align-items: center;
   }
-  .blogCard{
-      width: 100%;
+  .blogCard {
+    width: 100%;
   }
-  #lastAdSection{
-      margin-top: 15px;
+  #lastAdSection {
+    margin-top: 15px;
   }
-  .seemore{
-      width: 30%;
-     
-  }
-} 
-
-@media (min-width: 576px) and (max-width: 780px){
-  .blogsTitle{
-      width: 90%;
-      font-size: 22px;
-      margin-top: 7px;
-  }
-  .blogsMarketingImageContainer{
-      object-fit: contain;
-      width: 100%;
-      height: 320px;
-      
-  }
-  .blogsReviewCard{
-      width: 60%;
-      left: 20px;
-      padding: 20px;
-      height: 160px;
-  }
-  .userDetail{
-      display: flex;
-      font-size: 12px;
-      height: 30px;
-      color: grey;
-      gap: 7px;
-  }
-  .blogsAdSectiion{
-      width: 90%;
-  }
-  .blogCard{
-      width: 45%;
-  }
-  .blogCard h4{
-      font-size: 16px;
-  
-  }
-  .seemore{
-      width: 20%;
-     
+  .seemore {
+    width: 30%;
   }
 }
 
-@media(min-width: 780px) and (max-width: 992px) {
-  .blogSubContainer{
-      width: 80%;
+@media (min-width: 576px) and (max-width: 780px) {
+  .blogsTitle {
+    width: 90%;
+    font-size: 22px;
+    margin-top: 7px;
   }
-  .blogsAdSectiion{
-      width: 90%;
+  .blogsMarketingImageContainer {
+    object-fit: contain;
+    width: 100%;
+    height: 320px;
   }
-  .blogCard{
-      width: 45%;
-  
+  .blogsReviewCard {
+    width: 60%;
+    left: 20px;
+    padding: 20px;
+    height: 160px;
   }
-  .blogCard h4{
-      font-size: 16px;
-  
+  .userDetail {
+    display: flex;
+    font-size: 12px;
+    height: 30px;
+    color: grey;
+    gap: 7px;
+  }
+  .blogsAdSectiion {
+    width: 90%;
+  }
+  .blogCard {
+    width: 45%;
+  }
+  .blogCard h4 {
+    font-size: 16px;
+  }
+  .seemore {
+    width: 20%;
   }
 }
 
-@media(min-width: 992px) and (max-width: 1024px){
-  .blogSubContainer{
-      width: 80%;
+@media (min-width: 780px) and (max-width: 992px) {
+  .blogSubContainer {
+    width: 80%;
+  }
+  .blogsAdSectiion {
+    width: 90%;
+  }
+  .blogCard {
+    width: 45%;
+  }
+  .blogCard h4 {
+    font-size: 16px;
   }
 }
 
- /* Blogs Page Media Queries Ends */
+@media (min-width: 992px) and (max-width: 1024px) {
+  .blogSubContainer {
+    width: 80%;
+  }
+}
 
- @media only screen and (max-width: 1025px) {
-  .white-board{
+/* Blogs Page Media Queries Ends */
+
+@media only screen and (max-width: 1025px) {
+  .white-board {
     width: 90% !important;
     flex-direction: column !important;
   }
