@@ -89,7 +89,7 @@ lastestPosts.forEach((post) => {
       <div class="landing-latest-post-description-box">
         <p>${post.description}</p>
         <span>
-          <a href="#"> Read More </a>
+          <a href="#" class="uppercase"> Read More </a>
         </span>
       </div>
     </div>
