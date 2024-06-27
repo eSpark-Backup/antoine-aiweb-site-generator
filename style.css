@@ -1378,6 +1378,7 @@ a {
   }
 
   .landing-pricing-plan {
+    width: auto;
     min-height: 320px;
   }
 
