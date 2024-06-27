@@ -111,7 +111,7 @@ p.chip {
 }
 
 .moto {
-  font-size: 16px;
+  font-size: 17px;
   text-align: center;
   font-weight: 500;
   font-family: "Inter", sans-serif;
@@ -310,7 +310,7 @@ section.ai-future-container {
 }
 
 p.future-heading {
-  font-size: 61px;
+  font-size: 40px;
   font-weight: 700;
   text-align: center;
   font-family: gotham pro;
@@ -333,6 +333,7 @@ p.future-heading {
   width: 30%;
   display: flex;
   justify-content: flex-start;
+  align-items: start;
   gap: 10px;
   margin: 10px 0px;
 }
@@ -1186,6 +1187,7 @@ a {
   border: none;
   outline: none;
   border-bottom: 1px solid #000;
+  width: 100%;
 }
 
 .landing-footer-upper-box-get-in-touch-email-input:focus {
@@ -1653,9 +1655,7 @@ a {
   /* FAQ section Sections Ends  */
 
   /* Pricing section Sections Responsive Starts  */
-  .landing-pricing-plans-container {
-    flex-wrap: wrap;
-  }
+
 
   .ai-future {
     width: 90% !important;
@@ -1688,6 +1688,7 @@ a {
   .landing-footer-upper-box-contact {
     order: 2;
     text-align: center;
+    margin-top: 10px;
   }
 
   .landing-footer-upper-box-More {
@@ -1865,6 +1866,7 @@ a {
 /* Blogs Page Media Queries Ends */
 
 @media only screen and (max-width: 1025px) {
+
   .white-board {
     width: 90% !important;
     flex-direction: column !important;
@@ -1901,4 +1903,41 @@ a {
   }
 
   /* White board */
+}
+
+ 
+@media only screen and (max-width: 500px) {
+  .white-board-input{
+    flex-direction: column;
+  }
+
+  .white-board-input p {
+    margin-bottom: 10px;
+  }
+
+  .white-board-coming-soon {
+    display: block;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 700;
+  }
+}
+
+@media only screen and (max-width: 1150px) { 
+  .landing-pricing-plans-container{
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+
+
+@media only screen and  (max-width: 1250px) and (min-width: 768px) { 
+  .future-title {
+    font-size: 17px !important;
+  }
+
+  .future-detail{
+    width: 45%;
+  }
 }
