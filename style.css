@@ -1474,6 +1474,7 @@ a {
   p.white-board-title {
     text-align: center;
     margin-bottom: 10px;
+    font-size: 28px;
   }
 
   p.white-board-desc {
@@ -1635,6 +1636,15 @@ a {
     min-height: 450px;
   }
 }
+
+@media screen and (min-width: 769px) and (max-width:1025px) {
+
+  p.white-board-title{
+    font-size: 48px !important;
+  }
+}
+
+
 
 /* landing Media Queries */
 @media screen and (max-width: 1000px) {
@@ -1885,9 +1895,9 @@ a {
   }
 
   /* White board */
-  p.white-board-title {
+  /* p.white-board-title {
     font-size: 48px !important;
-  }
+  } */
 
   p.white-board-desc {
     font-size: 14px !important;
