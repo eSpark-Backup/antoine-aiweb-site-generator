@@ -141,7 +141,7 @@ const plans = [
 
 const planscontainer = document.getElementById("pricing-plans-container");
 
-plans.forEach((plan) => {
+plans.map((plan,i) => {
   const planElement = document.createElement("div");
   planElement.className = `landing-pricing-plan ${
     plan.light ? "landing-pricing-plan-light" : "landing-pricing-plan-dark"
@@ -153,10 +153,13 @@ plans.forEach((plan) => {
             : ""
         }
         <div>
-          <h2 class="landing-pricing-plan-name${
-            plan.light ? "-dark" : "-light"
-          }">${plan.name}</h2>
+    <h2 class="landing-pricing-plan-name${
+      i === 2 && plan.light ? "-dark2" :
+      plan.light ? "-dark" :
+      "-light"
+    }">${plan.name}</h2>
           <div>
+          
             <span class="landing-pricing-plan-price${
               plan.light ? "" : "-light"
             }">${plan.priceMonthly}</span>
