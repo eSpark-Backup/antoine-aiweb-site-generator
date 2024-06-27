@@ -4,6 +4,7 @@ const swiper = new Swiper(".sample-slider", {
   loop: true,
   autoplay: {
     delay: 0,
+    disableOnInteraction: false,
   },
   speed: 3000,
   slidesPerView: 3,
@@ -26,6 +27,7 @@ const swiper2 = new Swiper(".sample-slider-2", {
   loop: true,
   autoplay: {
     delay: 0,
+    disableOnInteraction: false,
   },
   speed: 3000,
   slidesPerView: 2,

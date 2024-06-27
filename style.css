@@ -69,7 +69,7 @@ section.banner {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 10px;
+  gap: 5px;
   margin-top: 30px;
 }
 
@@ -100,11 +100,12 @@ section.banner {
 
 .new>div {
   background: #3e444e;
-  padding: 4px 8px;
+  padding: 4px 7px;
   border-radius: 7px;
 }
 
 p.chip {
+  font-size: 10px;
   background: -webkit-linear-gradient(#caa9d3, #828ed6, #b7d6ef);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -322,7 +323,7 @@ p.future-heading {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
   padding: 20px;
   gap: 20px;
   line-height: 23.55px;
@@ -338,9 +339,9 @@ p.future-heading {
   margin: 10px 0px;
 }
 
-.future-detail>img {
-  width: 40px;
-  height: 40px;
+.future-detail > img {
+  width: 52px;
+  height: 52px;
   background: #f2f2f2;
   border-radius: 10px;
   padding: 6px;
@@ -368,7 +369,7 @@ p.future-desc {
 
 /* Jump Start */
 section.jump-start-container {
-  margin: 50px 0px;
+  margin: 100px 0px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -470,7 +471,7 @@ a.speed-up-link>p {
 }
 
 .slider-box {
-  width: 280px;
+  width: 450px;
   height: auto;
   padding: 10px;
   margin: 0px 10px;
@@ -603,7 +604,7 @@ p.white-board-desc {
   font-size: 36px;
   font-weight: 700;
   max-width: 350px;
-  margin-bottom: 20px;
+  margin: 5px 0 30px 0;
   color: #202224;
 }
 
@@ -615,7 +616,7 @@ p.white-board-desc {
 }
 
 .landing-latest-post-box {
-  width: 285px;
+  width: 30%;
   display: flex;
   flex-direction: column;
   gap: 15px;
@@ -746,7 +747,7 @@ a {
 
 .landing-pricing-plan {
   border: 1px solid #ddd;
-  border-radius: 10px;
+  border-radius: 25px;
   width: 387px;
   padding: 20px 30px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -826,7 +827,7 @@ a {
 .landing-pricing-plan-details-container {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 20px;
 }
 
 .landing-pricing-plan-detail-box {
@@ -951,16 +952,16 @@ a {
 
 .landing-faq-headings-highlight {
   background-color: #f1a30026;
-  padding: 4px 15px;
+  padding: 4px 18px;
   border-radius: 7.08px;
   display: flex;
   align-items: center;
-  gap: 5px;
+  gap: 7px;
 }
 
 .landing-faq-headings-title {
   color: #f1a300;
-  font-size: 10px;
+  font-size: 15px;
 }
 
 .landing-faq-headings-pointer {
@@ -972,7 +973,7 @@ a {
 
 .landing-faq-headings-desc {
   color: #ffac33;
-  font-size: 10px;
+  font-size: 15px;
 }
 
 .landing-faq-headings-Heading {
@@ -1024,6 +1025,7 @@ a {
   padding: 10px 0;
   font-size: 18.72px;
   font-weight: 500;
+  align-items: center;
 }
 
 .landing-faq-section-plus-icon-container {
@@ -1360,6 +1362,15 @@ a {
 
 
 @media only screen and (max-width: 768px) {
+
+  /* landing lastest Post Section Starts */
+
+  .landing-latest-post-box {
+    width: 100% !important;
+  }
+
+  /* landing lastest Post Section Ends */
+
   /* PRICING AND PLANS RESPONSVICE STARTS */
 
   .landing-pricing-plan-dark {
@@ -1935,9 +1946,5 @@ a {
 @media only screen and  (max-width: 1250px) and (min-width: 768px) { 
   .future-title {
     font-size: 17px !important;
-  }
-
-  .future-detail{
-    width: 45%;
   }
 }
