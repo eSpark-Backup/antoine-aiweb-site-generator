@@ -151,7 +151,7 @@ p.chip {
 .word {
   opacity: 0;
   animation-name: wordAnimation;
-  animation-duration: 5s;
+  animation-duration: 6s;
   animation-iteration-count: infinite;
 }
 
@@ -342,11 +342,13 @@ p.future-heading {
 
 .future-detail {
   width: 30%;
+  min-height: 130px;
   display: flex;
   justify-content: flex-start;
   align-items: start;
   gap: 8px;
   margin: 10px 0px;
+  /* border: 1px solid red; */
 }
 
 .future-image{
@@ -395,6 +397,7 @@ section.jump-start-container {
   display: flex;
   align-items: center;
   gap: 50px;
+  
 }
 
 .jump-start-description-box {
@@ -1099,11 +1102,23 @@ a {
 }
 
 .landing-footer-upper-box {
+/* <<<<<<< HEAD */
   /* width: 70%; */
   padding-top: 20x;
   padding-bottom: 60px;
   display: flex;
   justify-content: space-around;
+/* =======
+  width: 75%;
+  padding-top: 20x;
+  padding-bottom: 60px;
+  display: flex; */
+  /* justify-content: center; */
+  /* gap: 80px; */
+  /* justify-content: space-around; */
+  /* justify-content: space-between; */
+  /* background-color: rgb(255, 125, 125); */
+/* >>>>>>> 0bc70756074fd5f1f40e04da1bce902152c6bbe1 */
 }
 
 .landing-footer-upper-box-contact {
@@ -1532,7 +1547,7 @@ a {
 
   .jump-start-heading-box {
     width: 90%;
-    /* margin-left: 50px; */
+    padding-left: 10px;
   }
 
 
@@ -1642,7 +1657,7 @@ a {
 
   .future-detail {
     width: 100% !important;
-  
+
   }
 
   /* Ai Future */
@@ -1654,7 +1669,7 @@ a {
   }
 
   .jump-start-img {
-    width: 300px;
+    width: 250px;
   }
 
   .jump-start-img::after {
@@ -1817,7 +1832,7 @@ a {
   }
 
   .jump-start-img img {
-    width: 85%;
+    width: 100%;
   }
 
   /* Footer section Sections Responsive Ends */
@@ -2007,6 +2022,12 @@ a {
 
  
 @media only screen and (max-width: 500px) {
+  .generate-btn{
+    font-size: 12.62px;
+    width: 230px;
+    height: 45px;
+  }
+
   .white-board-input{
     flex-direction: column;
   }
