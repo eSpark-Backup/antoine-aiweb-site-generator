@@ -1569,13 +1569,16 @@ a {
       color: #DA4728;
       transform: translateY(-5px);
     }
-
+    50% {
+      opacity: 1;
+      color: #DA4728;
+      transform: translateY(-10px);
+    }
     75% {
       opacity: 1;
       color: #cb1000;
       transform: translateY(-55px);
     }
-
     100% {
       opacity: 1;
       color: #f1a300;
