@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
 
 /* Global */
 * {
@@ -1427,6 +1428,7 @@ a {
   color: #4B6BFB;
   font-size: 14px;
   font-weight: 500;
+  font-family: "Work Sans", sans-serif;
 }
 
 .blogCard > h4{
@@ -1457,6 +1459,7 @@ a {
   align-items: center;
   font-weight: 500;
   border-radius: 6px;
+  font-family: "Work Sans", sans-serif;
 }
 
 .blogUserDetail {
@@ -1478,12 +1481,14 @@ a {
 }
 
 .blogUserInfo p:first-child{
+  font-family: "Work Sans", sans-serif;
   font-size: 16px;
   font-weight: 500;
   color: #97989F;
 }
 
 .blogUserInfo p:last-child{
+  font-family: "Work Sans", sans-serif;
   font-size: 16px;
   font-weight: 400;
   color: #97989F;
@@ -1911,7 +1916,8 @@ a {
 
 @media screen and (min-width:1700px){
   .blogUserInfo{
-    width: 60%;
+    display: flex;
+    column-gap: 15px;
   }
 }
 
