@@ -12,6 +12,13 @@
 @font-face {
   font-family: gotham pro;
   src: url("./fonts/Gotham\ Pro/gothampro.ttf");
+  /* font-weight: normal; */
+}
+
+@font-face {
+  font-family: gotham pro b;
+  src: url("./fonts/Gotham\ Pro/gothampro_medium.ttf");
+  /* font-weight: bold; */
 }
 
 .bold {
@@ -452,7 +459,10 @@ a.speed-up-link>p {
   font-size: 62.65px;
   font-weight: 700;
   text-align: center;
-  font-family: gotham pro;
+  font-family: gotham pro b;
+}
+.product-carousel-heading span {
+  font-family: gotham pro b;
 }
 
 .product-carousel-desc {
@@ -516,7 +526,7 @@ section.white-board-container {
 p.white-board-title {
   font-size: 71.71px;
   font-weight: 700;
-  font-family: gotham pro;
+  font-family: gotham pro b;
 }
 
 p.white-board-desc {
@@ -601,7 +611,7 @@ p.white-board-desc {
 }
 
 .landing-latest-posts-headings-main-heading {
-  font-family: gotham pro;
+  font-family: gotham pro b;
   font-size: 36px;
   font-weight: 700;
   max-width: 350px;
@@ -718,7 +728,7 @@ a {
 .landing-pricing-heading {
   font-size: 36px;
   font-weight: 700;
-  font-family: gotham pro;
+  font-family: gotham pro b;
   color: #202224;
 }
 
@@ -981,7 +991,7 @@ a {
 .landing-faq-headings-Heading {
   font-size: 61px;
   font-weight: 700;
-  font-family: gotham pro;
+  font-family: gotham pro b;
   text-align: center;
   color: #1E2227;
 }
@@ -1071,7 +1081,7 @@ a {
 .landing-footer-upper-box {
   width: 70%;
   padding-top: 20x;
-  padding-bottom: 45px;
+  padding-bottom: 60px;
   display: flex;
   /* justify-content: center; */
   gap: 80px;
@@ -1097,11 +1107,11 @@ a {
 .landing-footer-upper-box-para {
   font-size: 14px;
   font-weight: 400;
-  font-family: gotham pro !important;
+  font-family: gotham pro b !important;
 }
 
 .landing-footer-upper-box-para p{
-  font-family: gotham pro !important;
+  font-family: gotham pro b !important;
 
 }
 
@@ -1402,7 +1412,7 @@ a {
   }
 
   .landing-pricing-heading {
-    font-size: 20px;
+    font-size: 21px;
   }
 
   .landing-pricing-description {
@@ -1474,6 +1484,9 @@ a {
 
 @media only screen and (max-width: 768px) {
   /* sliders */
+  .landing-latest-posts-headings-main-heading{
+    font-size: 21px;
+  }
 
   p.white-board-title {
     text-align: center;
@@ -1648,7 +1661,11 @@ a {
   }
 }
 
-
+@media screen and (min-width: 768px) and (max-width:1200px) {
+  .future-detail{
+    width: 45%;
+  }
+}
 
 /* landing Media Queries */
 @media screen and (max-width: 1000px) {
