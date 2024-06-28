@@ -12,6 +12,13 @@
 @font-face {
   font-family: gotham pro;
   src: url("./fonts/Gotham\ Pro/gothampro.ttf");
+  /* font-weight: normal; */
+}
+
+@font-face {
+  font-family: gotham pro b;
+  src: url("./fonts/Gotham\ Pro/gothampro_medium.ttf");
+  /* font-weight: bold; */
 }
 
 .bold {
@@ -452,7 +459,10 @@ a.speed-up-link>p {
   font-size: 62.65px;
   font-weight: 700;
   text-align: center;
-  font-family: gotham pro;
+  font-family: gotham pro b;
+}
+.product-carousel-heading span {
+  font-family: gotham pro b;
 }
 
 .product-carousel-desc {
@@ -516,7 +526,7 @@ section.white-board-container {
 p.white-board-title {
   font-size: 71.71px;
   font-weight: 700;
-  font-family: gotham pro;
+  font-family: gotham pro b;
 }
 
 p.white-board-desc {
@@ -581,6 +591,7 @@ p.white-board-desc {
   display: flex;
   flex-direction: column;
   padding: 20px;
+  width: 70%;
 }
 
 .landing-latest-posts-headings {
@@ -600,7 +611,7 @@ p.white-board-desc {
 }
 
 .landing-latest-posts-headings-main-heading {
-  font-family: gotham pro;
+  font-family: gotham pro b;
   font-size: 36px;
   font-weight: 700;
   max-width: 350px;
@@ -717,7 +728,7 @@ a {
 .landing-pricing-heading {
   font-size: 36px;
   font-weight: 700;
-  font-family: gotham pro;
+  font-family: gotham pro b;
   color: #202224;
 }
 
@@ -756,7 +767,7 @@ a {
   gap: 20px;
   display: flex;
   min-height: 460px;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-direction: column;
 }
 
@@ -821,7 +832,7 @@ a {
   height: 1px;
   background-color: #4d4d4d;
   opacity: 0.3;
-  margin: 10px 0;
+  margin-top: 20px;
 }
 
 .landing-pricing-plan-details-container {
@@ -884,7 +895,7 @@ a {
 
 .choose-plan-button {
   display: flex;
-  padding: 10px 20px;
+  padding: 12px 20px;
   font-size: 16px;
   color: #fff;
   background: linear-gradient(90deg, #f1a300 0%, #cb1000 100%);
@@ -915,6 +926,7 @@ a {
   border-radius: 20px;
   padding: 8px;
   color: #fff;
+  margin-bottom: 20px;
 }
 
 /* landing Plans & Pricing Section ends */
@@ -979,7 +991,7 @@ a {
 .landing-faq-headings-Heading {
   font-size: 61px;
   font-weight: 700;
-  font-family: gotham pro;
+  font-family: gotham pro b;
   text-align: center;
   color: #1E2227;
 }
@@ -1030,12 +1042,13 @@ a {
 
 .landing-faq-section-plus-icon-container {
   border-radius: 50%;
-  width: 24px;
-  height: 24px;
+  /* width: 24px; */
+  /* height: 24px; */
   display: flex;
   justify-content: center;
   border: 1px solid #ccc;
   align-items: center;
+  padding: 1px 8px;
 }
 
 .landing-faq-section-plus-icon {
@@ -1067,7 +1080,8 @@ a {
 
 .landing-footer-upper-box {
   width: 70%;
-  padding: 20px 0px;
+  padding-top: 20x;
+  padding-bottom: 60px;
   display: flex;
   /* justify-content: center; */
   gap: 80px;
@@ -1093,11 +1107,11 @@ a {
 .landing-footer-upper-box-para {
   font-size: 14px;
   font-weight: 400;
-  font-family: gotham pro !important;
+  font-family: gotham pro b !important;
 }
 
 .landing-footer-upper-box-para p{
-  font-family: gotham pro !important;
+  font-family: gotham pro b !important;
 
 }
 
@@ -1505,7 +1519,7 @@ a {
   /* landing lastest Post Section Starts */
 
   .landing-latest-post-box {
-    width: 100% !important;
+    width: 90% !important;
   }
 
   /* landing lastest Post Section Ends */
@@ -1537,7 +1551,7 @@ a {
   }
 
   .landing-pricing-heading {
-    font-size: 20px;
+    font-size: 21px;
   }
 
   .landing-pricing-description {
@@ -1609,6 +1623,9 @@ a {
 
 @media only screen and (max-width: 768px) {
   /* sliders */
+  .landing-latest-posts-headings-main-heading{
+    font-size: 21px;
+  }
 
   p.white-board-title {
     text-align: center;
@@ -1783,7 +1800,11 @@ a {
   }
 }
 
-
+@media screen and (min-width: 768px) and (max-width:1200px) {
+  .future-detail{
+    width: 45%;
+  }
+}
 
 /* landing Media Queries */
 @media screen and (max-width: 1000px) {
@@ -1836,6 +1857,10 @@ a {
 }
 
 @media screen and (max-width: 1000px) {
+  .landing-latest-posts-box{
+    width: 90%;
+  }
+
   .landing-footer-upper-box {
     flex-direction: column;
     gap: 20px;
