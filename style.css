@@ -116,6 +116,7 @@ p.chip {
   background: -webkit-linear-gradient(#caa9d3, #828ed6, #b7d6ef);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  font-weight:900;
 }
 
 .moto {
@@ -321,7 +322,7 @@ p.future-heading {
   font-size: 61.5px;
   font-weight: 700;
   text-align: center;
-  font-family: gotham pro;
+  font-family: gotham pro b;
   padding: 15px;
   color: #1E2227;
 }
@@ -337,17 +338,24 @@ p.future-heading {
   height: 90%;
 }
 
+
+
 .future-detail {
   width: 30%;
   display: flex;
   justify-content: flex-start;
   align-items: start;
-  gap: 10px;
+  gap: 8px;
   margin: 10px 0px;
 }
 
-.future-detail > img {
-  width: 52px;
+.future-image{
+  width: 52px ;
+  height: 52px;
+}
+
+.future-detail .future-image > img {
+  width: 52px ;
   height: 52px;
   background: #f2f2f2;
   border-radius: 10px;
@@ -466,7 +474,7 @@ a.speed-up-link>p {
 }
 
 .product-carousel-desc {
-  width: 45%;
+  width: 70%;
   margin: 10px auto;
   font-family: gotham pro;
   font-size: 18.72px;
@@ -1086,17 +1094,19 @@ a {
   flex-direction: column;
   align-items: center;
   padding-top: 50px;
+  border: 1px solid red;
 }
 
 .landing-footer-upper-box {
-  width: 70%;
+  border: 1px solid blue;
+  width: 75%;
   padding-top: 20x;
   padding-bottom: 60px;
   display: flex;
   /* justify-content: center; */
   gap: 80px;
   /* justify-content: space-around; */
-  justify-content: center;
+  justify-content: flex-start;
   /* background-color: rgb(255, 125, 125); */
 }
 
@@ -1227,6 +1237,7 @@ a {
   flex-direction: column;
   align-items: flex-start;
 }
+
 
 /* landing Footer Section Ends */
 
@@ -1622,6 +1633,7 @@ a {
 
   .future-detail {
     width: 100% !important;
+  
   }
 
   /* Ai Future */
@@ -1651,7 +1663,7 @@ a {
   }
 
   .product-carousel-desc {
-    width: 90%;
+    width: 72%;
     font-size: 11px;
     line-height: 12px;
   }
@@ -1674,11 +1686,27 @@ a {
   p.white-board-title{
     font-size: 48px !important;
   }
+  .product-carousel-desc {
+    width: 82%;
+
+  }
 }
 
 @media screen and (min-width: 768px) and (max-width:1200px) {
   .future-detail{
     width: 45%;
+
+  }
+  .product-carousel-desc {
+    width: 80%;
+
+  }
+}
+
+@media (min-width: 1500px) and (max-width: 1990px){
+  .product-carousel-desc {
+    width: 55%;
+
   }
 }
 
