@@ -297,15 +297,17 @@ const cardData = [
   {
     id: 1,
     url: "./assets/blogs-page/blogs/card1.jpg",
+    avatarUrl:"./assets/blogs-page/blogs/avatar1.jpg",
+    name:"Tracey Wilson"
   },
-  { id: 2, url: "./assets/blogs-page/blogs/card2.jpg" },
-  { id: 3, url: "./assets/blogs-page/blogs/card3.jpg" },
-  { id: 4, url: "./assets/blogs-page/blogs/card4.jpg" },
-  { id: 5, url: "./assets/blogs-page/blogs/card5.png" },
-  { id: 6, url: "./assets/blogs-page/blogs/card6.jpg" },
-  { id: 7, url: "./assets/blogs-page/blogs/card7.jpg" },
-  { id: 8, url: "./assets/blogs-page/blogs/card8.jpg" },
-  { id: 9, url: "./assets/blogs-page/blogs/card9.jpg" },
+  { id: 2, url: "./assets/blogs-page/blogs/card2.jpg",avatarUrl:"./assets/blogs-page/blogs/avatar.jpg", name:"Jason Francisco" },
+  { id: 3, url: "./assets/blogs-page/blogs/card3.jpg",avatarUrl:"./assets/blogs-page/blogs/avatar3.jpg",name:"Elizabeth Slavin" },
+  { id: 4, url: "./assets/blogs-page/blogs/card4.jpg",avatarUrl:"./assets/blogs-page/blogs/avatar4.jpg", name:"Ernie Smith" },
+  { id: 5, url: "./assets/blogs-page/blogs/card5.png",avatarUrl:"./assets/blogs-page/blogs/avatar5.jpg",name:"Eric Smith" },
+  { id: 6, url: "./assets/blogs-page/blogs/card6.jpg",avatarUrl:"./assets/blogs-page/blogs/avatar1.jpg", name:"Tracey Wilson" },
+  { id: 7, url: "./assets/blogs-page/blogs/card7.jpg",avatarUrl:"./assets/blogs-page/blogs/avatar.jpg", name:"Jason Francisco" },
+  { id: 8, url: "./assets/blogs-page/blogs/card8.jpg",avatarUrl:"./assets/blogs-page/blogs/avatar3.jpg",name:"Elizabeth Slavin" },
+  { id: 9, url: "./assets/blogs-page/blogs/card9.jpg",avatarUrl:"./assets/blogs-page/blogs/avatar4.jpg", name:"Ernie Smith" },
 ];
 
 const card = cardData
@@ -315,12 +317,14 @@ const card = cardData
                         <div class="cardImageContainer">
                             <img src="${items.url}" alt="cardImg">
                         </div>
-                        <p class="cardTitle">Technology</p>
+                        <p class="cardTitle2">Technology</p>
                         <h4>The Impact of Technology on the Workplace: How Technology is Changing</h4>
                         <div class="blogUserDetail">
-                            <img src="./assets/blogs-page/blogs/avatar.jpg" width="20px" height="20px" alt="avatar">
-                            <p>jason fransisco</p>
-                            <p>August 20 2022</p>
+                            <img src="${items?.avatarUrl}" width="36px" height="36px" alt="avatar">
+                            <div class="blogUserInfo"> 
+                            <p>${items?.name}</p>
+                            <p>August 20, 2022</p>
+                            </div>
                     </div>
                 </div>`
   )
