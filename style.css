@@ -1128,6 +1128,7 @@ a {
 .landing-footer-upper-box-Weebseat {
   max-width: 300px;
   order: 3;
+  margin-right: 60px;
 }
 
 .landing-footer-upper-box-Weebseat-about-box {
@@ -1730,6 +1731,7 @@ a {
 
   .landing-footer-upper-box-Weebseat {
     order: 1;
+    margin-right: 0 !important;
   }
 
   .landing-footer-upper-box-contact {
