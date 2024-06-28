@@ -119,7 +119,7 @@ p.chip {
 }
 
 .moto {
-  font-size: 17px;
+  font-size: 16px;
   text-align: center;
   font-weight: 500;
   font-family: "Inter", sans-serif;
@@ -318,7 +318,7 @@ section.ai-future-container {
 }
 
 p.future-heading {
-  font-size: 40px;
+  font-size: 61.5px;
   font-weight: 700;
   text-align: center;
   font-family: gotham pro;
@@ -358,7 +358,7 @@ p.future-heading {
 
 p.future-title {
   font-size: 21.07px;
-  font-weight: 700;
+  font-weight: 400;
   font-family: gotham pro;
   margin-bottom: 5px;
   color: #1e2227;
@@ -428,7 +428,7 @@ a.speed-up-link {
 
 a.speed-up-link>p {
   color: #14d9a2;
-  font-size: 17px;
+  font-size: 17.62px;
 }
 
 .jump-start-img {
@@ -531,8 +531,9 @@ p.white-board-title {
 
 p.white-board-desc {
   font-family: gotham pro;
-  font-size: 18px;
+  font-size: 18.28px;
   width: 80%;
+  font-weight: 400;
 }
 
 .white-board-detail {
@@ -646,8 +647,8 @@ p.white-board-desc {
 .landing-latest-post-tag {
   background-color: #fff;
   color: #000;
-  width: 55px;
-  height: 55px;
+  width: 85px;
+  height: 85px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -659,8 +660,15 @@ p.white-board-desc {
 }
 
 .landing-latest-post-tag-date {
-  font-size: 20px;
-  font-weight: 700;
+  font-size: 32px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+}
+
+.landing-latest-post-tag p:last-child{
+  font-size: 16px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
 }
 
 .landing-latest-post-poster img {
@@ -800,28 +808,30 @@ a {
 }
 
 .landing-pricing-plan-price {
-  font-size: 22px;
+  font-size: 22.79px;
   color: #4d4d4d;
   font-weight: 400;
   font-family: gotham pro;
 }
 
 .landing-pricing-plan-price-light {
-  font-size: 22px;
+  font-size: 22.79px;
   color: #ffffff;
   font-weight: 400;
   font-family: gotham pro;
 }
 
 .landing-pricing-plan-time-dark {
-  font-size: 12px;
+  font-size: 12.6px;
+  font-weight: 400;
   color: #4d4d4d;
   opacity: 0.6;
   font-family: gotham pro;
 }
 
 .landing-pricing-plan-time-light {
-  font-size: 12px;
+  font-size: 12.6px;
+  font-weight: 400;
   color: #ffffff;
   font-family: gotham pro;
   opacity: 0.6;
@@ -856,7 +866,7 @@ a {
 }
 
 .landing-pricing-plan-detail-para-dark {
-  font-size: 16px;
+  font-size: 16.46px;
   color: #4d4d4d;
   opacity: 0.6;
   text-align: left;
@@ -865,7 +875,7 @@ a {
 }
 
 .landing-pricing-plan-detail-para-light {
-  font-size: 16px;
+  font-size: 16.46px;
   color: #ffffff;
   opacity: 0.6;
   text-align: left;
@@ -989,7 +999,7 @@ a {
 }
 
 .landing-faq-headings-Heading {
-  font-size: 61px;
+  font-size: 61.75px;
   font-weight: 700;
   font-family: gotham pro b;
   text-align: center;
