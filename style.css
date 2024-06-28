@@ -581,6 +581,7 @@ p.white-board-desc {
   display: flex;
   flex-direction: column;
   padding: 20px;
+  width: 70%;
 }
 
 .landing-latest-posts-headings {
@@ -756,7 +757,7 @@ a {
   gap: 20px;
   display: flex;
   min-height: 460px;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-direction: column;
 }
 
@@ -821,7 +822,7 @@ a {
   height: 1px;
   background-color: #4d4d4d;
   opacity: 0.3;
-  margin: 10px 0;
+  margin-top: 20px;
 }
 
 .landing-pricing-plan-details-container {
@@ -884,7 +885,7 @@ a {
 
 .choose-plan-button {
   display: flex;
-  padding: 10px 20px;
+  padding: 12px 20px;
   font-size: 16px;
   color: #fff;
   background: linear-gradient(90deg, #f1a300 0%, #cb1000 100%);
@@ -915,6 +916,7 @@ a {
   border-radius: 20px;
   padding: 8px;
   color: #fff;
+  margin-bottom: 20px;
 }
 
 /* landing Plans & Pricing Section ends */
@@ -1030,12 +1032,13 @@ a {
 
 .landing-faq-section-plus-icon-container {
   border-radius: 50%;
-  width: 24px;
-  height: 24px;
+  /* width: 24px; */
+  /* height: 24px; */
   display: flex;
   justify-content: center;
   border: 1px solid #ccc;
   align-items: center;
+  padding: 1px 8px;
 }
 
 .landing-faq-section-plus-icon {
@@ -1067,7 +1070,8 @@ a {
 
 .landing-footer-upper-box {
   width: 70%;
-  padding: 20px 0px;
+  padding-top: 20x;
+  padding-bottom: 45px;
   display: flex;
   /* justify-content: center; */
   gap: 80px;
@@ -1366,7 +1370,7 @@ a {
   /* landing lastest Post Section Starts */
 
   .landing-latest-post-box {
-    width: 100% !important;
+    width: 90% !important;
   }
 
   /* landing lastest Post Section Ends */
@@ -1697,6 +1701,10 @@ a {
 }
 
 @media screen and (max-width: 1000px) {
+  .landing-latest-posts-box{
+    width: 90%;
+  }
+
   .landing-footer-upper-box {
     flex-direction: column;
     gap: 20px;
