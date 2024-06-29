@@ -333,22 +333,20 @@ p.future-heading {
   justify-content: space-between;
   align-items: flex-start;
   padding: 20px;
-  gap: 20px;
+  /* / gap: 20px; / */
   line-height: 23.55px;
   height: 90%;
 }
 
-
-
 .future-detail {
   width: 30%;
-  min-height: 130px;
+  min-height: 100px;
   display: flex;
   justify-content: flex-start;
   align-items: start;
   gap: 8px;
   margin: 10px 0px;
-  /* border: 1px solid red; */
+  /* / border: 1px solid red; / */
 }
 
 .future-image{
@@ -376,7 +374,7 @@ p.future-title {
 
 p.future-desc {
   font-family: gotham pro;
-  font-size: 16.52px;
+  font-size: 15.52px;
   color: #656f7e;
   font-weight: 400;
   font-family: "Inter", sans-serif;
