@@ -1427,7 +1427,7 @@ a {
   }
 
   .landing-pricing-plan {
-    width: auto;
+    width: 100%;
     min-height: 320px;
   }
 
@@ -1547,7 +1547,7 @@ a {
 
   .jump-start-heading-box {
     width: 90%;
-    padding-left: 10px;
+    /* padding-left: 10px; */
   }
 
 
@@ -1676,7 +1676,7 @@ a {
     width: 145px;
     height: 60px;
     top: 0px;
-    left: -20px;
+    left: -7px;
   }
 
   /* Jump Start */
@@ -1781,6 +1781,7 @@ a {
 
   .jump-start-img img {
     width: 85%;
+    padding-left: 9%;
   }
 }
 
