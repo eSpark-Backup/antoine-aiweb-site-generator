@@ -591,6 +591,240 @@ p.white-board-desc {
 
 /* White board */
 
+
+/* login Sections Starts */
+.login-signup-header {
+  background-color: #17191B;
+  height: 65px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.loginMainContainer{
+  padding-top: 30px;
+  padding-bottom: 80px;
+}
+
+.loginFormContainer{
+  width: 380px;
+  height: 450px;
+  background-color: #ffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 8px;
+}
+
+.loginFormOnboardingTitle{
+  font-size: 14px;
+  text-align: center;
+  margin-top: 30px;
+}
+.loginFormOnboardingTitle .loginFormTitle {
+ font-size: 24px;
+ margin-bottom: 12px;
+  
+}
+.loginFormOnboardingTitle .loginFormTitle span {
+  background: linear-gradient(to right, #F1A300, #CB1000);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  font-weight: 600;    
+}
+
+.LoginForm{
+  height: 70%;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 12px;
+}
+
+.loginTitle{
+  text-decoration: underline;
+  text-decoration-color: gainsboro;
+}
+
+.loginInputContainer{
+width: 300px;
+padding: 5px 5px;
+}
+
+.LoginInputField{
+  width: 300px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding: 4px;
+  margin-top: 4px;
+}
+
+.LoginInputField input{
+  outline: none;
+  border: none;
+  padding-left: 5px;
+}
+
+.additionalAuth{
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 10px;
+  cursor: pointer;
+}
+
+.LoginFormButtons{
+  font-size: 14px;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  margin-top: 10px;
+}
+
+.Login{
+  width: 90%;
+  color: #ffff;
+  background-image: linear-gradient( to right, #F1A300, #CB1000);
+  border: none;
+  padding: 5px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.signup{
+  background-color: transparent;
+  border: none;
+  text-decoration: underline;
+  text-decoration-color: gainsboro;
+  cursor: pointer;
+  
+}
+
+
+/* login Sections Ends */
+
+
+/* SignIn Sections Starts */
+
+.signupMainContainer{
+  padding-top: 30px;
+  padding-bottom: 80px;
+}
+
+.signupFormContainer{
+  width: 380px;
+  height: 500px;
+  background-color: #ffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 8px;
+}
+
+.signupFormOnboardingTitle{
+  font-size: 14px;
+  text-align: center;
+  margin-top: 30px;
+}
+.signupFormOnboardingTitle .signupFormTitle {
+ font-size: 24px;
+ margin-bottom: 12px;
+  
+}
+.signupFormOnboardingTitle .signupFormTitle span {
+  background: linear-gradient(to right, #F1A300, #CB1000);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  font-weight: 600;    
+}
+
+.signupForm{
+  height: 70%;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 12px;
+}
+
+.signupTitle{
+  text-decoration: underline;
+  text-decoration-color: gainsboro;
+}
+
+.signupInputContainer{
+width: 300px;
+padding: 5px 5px;
+margin-top: 8px;
+}
+
+.signupInputContainer label{
+  font-weight: 500;
+}
+
+.signupInputField{
+  width: 300px;
+  border: 1px solid gainsboro;
+  border-radius: 5px;
+  padding: 4px;
+  margin-top: 4px;
+}
+
+.signupInputField input{
+  outline: none;
+  border: none;
+  padding-left: 5px;
+}
+
+
+.signupFormButtons{
+  font-size: 14px;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  margin-top: 10px;
+}
+
+.signup{
+  width: 90%;
+  color: #ffff;
+  background-image: linear-gradient( to right, #F1A300, #CB1000);
+  border: none;
+  padding: 5px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.excistingAccount{
+  background-color: transparent;
+  border: none;
+  text-decoration: underline;
+  text-decoration-color: gainsboro;
+  cursor: pointer;
+  
+}
+
+
+/* SignIn Sections Ends */
+
+
+
+
+
+
+
+
 /* landing lastest Post Section Starts */
 
 .landing-latest-posts-container {
@@ -2866,3 +3100,240 @@ p.point.active {
 }
 
 /* Landing Page Steps Ends */
+
+
+
+
+
+/* large mobilephones */
+@media (min-width: 414px) and (max-width: 600px){
+  .loginFormContainer{
+      width: 350px;
+      height: 430px;
+  }
+  .loginFormOnboardingTitle{
+      font-size: 12px;
+  }
+  .loginFormOnboardingTitle .loginFormTitle {
+     font-size: 22px;
+      
+  }
+  .loginInputContainer{
+      width: 270px;
+  }
+  .LoginInputField{
+      width: 250px;
+  }
+  .additionalAuth{
+      width: 100%;
+  }
+}
+
+/* Tablets */
+@media (min-width: 600px) and (max-width: 780px){
+  .loginFormContainer{
+      width: 350px;
+      height: 430px;
+  }
+  .loginFormOnboardingTitle{
+      font-size: 13px;
+  }
+  .loginFormOnboardingTitle .loginFormTitle {
+     font-size: 22px;
+      
+  }
+  .loginInputContainer{
+      width: 270px;
+  }
+  .LoginInputField{
+      width: 250px;
+  }
+  .additionalAuth{
+      width: 100%;
+  }
+}
+
+/* dekstop */
+@media (min-width: 1440px) {
+  .loginFormContainer{
+      width: 550px;
+      height: 550px;
+  }
+  .loginFormOnboardingTitle{
+      font-size: 16px;
+  }
+  .loginFormOnboardingTitle .loginFormTitle {
+     font-size: 26px;
+      
+  }
+  .loginInputContainer{
+      width: 350px;
+      font-size: 14px;
+  }
+  .loginTitle{
+     font-size: 18px;
+  }
+  
+  .LoginInputField{
+      width: 340px;
+  }
+  .additionalAuth{
+      width: 90%;
+      font-size: 14px;
+  }
+  .Login{
+      width: 90%;
+      padding: 8px;
+      font-size: 14px;
+  }
+  
+  .signup{
+     font-size: 14px;
+      
+  }
+}
+
+/* Login Responsive Ends */
+
+
+/* SignIn responsive stars  */
+
+
+/* small mobile phone */
+@media (min-width: 280px) and (max-width: 360px){
+  .signupMainContainer{
+   height: 550px;
+  }
+  .signupFormContainer{
+      width: 280px;
+      height: 525px;
+  }
+  .signupFormOnboardingTitle{
+      font-size: 12px;
+  }
+  .signupFormOnboardingTitle .signupFormTitle {
+     font-size: 18px;
+      
+  }
+  .signupInputContainer{
+      width: 270px;
+  }
+  .signupInputField{
+      width: 250px;
+  }
+
+}
+
+/* standard mobilephones */
+@media (min-width: 360px) and (max-width: 414px){
+  .signupMainContainer{
+      height: 550px;
+     }
+  .signupFormContainer{
+      width: 320px;
+      height: 480px;
+  }
+  .signupFormOnboardingTitle{
+      font-size: 12px;
+  }
+  .signupFormOnboardingTitle .signupFormTitle {
+     font-size: 22px;
+      
+  }
+  .signupInputContainer{
+      width: 270px;
+  }
+  .signupInputField{
+      width: 250px;
+  }
+
+}
+
+/* large mobilephones */
+@media (min-width: 414px) and (max-width: 600px){
+  .signupMainContainer{
+      height: 550px;
+     }
+  .signupFormContainer{
+      width: 350px;
+      height: 480px;
+  }
+  .signupFormOnboardingTitle{
+      font-size: 12px;
+  }
+  .signupFormOnboardingTitle .signupFormTitle {
+     font-size: 22px;
+      
+  }
+  .signupInputContainer{
+      width: 270px;
+  }
+  .signupInputField{
+      width: 250px;
+  }
+
+}
+
+/* Tablets */
+@media (min-width: 600px) and (max-width: 780px){
+  .signupMainContainer{
+      height: 550px;
+     }
+  .signupFormContainer{
+      width: 350px;
+      height: 490px;
+  }
+  .signupFormOnboardingTitle{
+      font-size: 13px;
+  }
+  .signupFormOnboardingTitle .signupFormTitle {
+     font-size: 22px;
+      
+  }
+  .signupInputContainer{
+      width: 270px;
+  }
+  .signupInputField{
+      width: 250px;
+  }
+
+}
+
+/* dekstop */
+@media (min-width: 1440px) {
+  .signupFormContainer{
+      width: 420px;
+      height: 550px;
+  }
+  .signupFormOnboardingTitle{
+      font-size: 16px;
+  }
+  .signupFormOnboardingTitle .signupFormTitle {
+     font-size: 26px;
+      
+  }
+  .signupInputContainer{
+      width: 350px;
+      font-size: 14px;
+  }
+  .signupTitle{
+     font-size: 18px;
+  }
+  
+  .signupInputField{
+      width: 340px;
+  }
+
+  .signup{
+      width: 90%;
+      padding: 8px;
+      font-size: 14px;
+  }
+  
+  .excistingAccount{
+     font-size: 14px;
+      
+  }
+}
+
+/* SignIn responsive Ends  */
