@@ -1,0 +1,104 @@
+.circle,
+.dots {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+}
+
+.large,
+.small {
+    animation: large 8s infinite ease;
+}
+
+.medium {
+    animation: medium 8s infinite ease;
+}
+
+.img-box {
+    position: relative;
+    background: url(./assets/landing-page/steps/bg-gradient.png) center center;
+    background-size: cover;
+    width: 500px;
+    height: 500px;
+}
+
+
+@keyframes large {
+    from {
+        transform: rotate(0);
+    }
+
+    to {
+        transform: rotate(-360deg);
+    }
+}
+
+@keyframes medium {
+    0% {
+        transform: rotate(-360deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+.dots {
+    position: absolute;
+    width: 100px;
+    z-index: 333;
+    height: 30px;
+    display: flex;
+    gap: 4px;
+    justify-content: center;
+    align-items: center;
+}
+
+.dot {
+    width: 6px;
+    height: 6px;
+    background-color: #fff;
+    border-radius: 100px;
+    animation: wave 1.2s infinite ease-in-out;
+}
+
+.dot:nth-child(1) {
+    animation-delay: 0s;
+}
+
+.dot:nth-child(2) {
+    animation-delay: 0.3s;
+}
+
+.dot:nth-child(3) {
+    animation-delay: 0.6s;
+}
+
+.dot:nth-child(4) {
+    animation-delay: 0.9s;
+}
+
+@keyframes wave {
+
+    0%,
+    60%,
+    100% {
+        transform: translateY(0);
+    }
+
+    30% {
+        transform: translateY(-15px);
+    }
+}
+
+
+@media screen and (max-width:550px){
+    .img-box{
+        width: 80vw;
+        height: 300px;
+    }
+    .img-box img{
+        width: 70vw;
+    }
+}
