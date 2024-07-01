@@ -3299,6 +3299,7 @@ a {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  
 }
 
 .steps-head-left,
@@ -3311,6 +3312,11 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.steps-head-right{
+  display: flex; 
+  justify-content: center;
 }
 
 .steps-head-right button {
@@ -3336,7 +3342,7 @@ a {
   font-size: 22px;
 }
 
-.steps-home {
+.steps-home { 
   background-image: url(./assets/landing-page/steps/bg.png);
   background-position: center;
   background-repeat: no-repeat;
@@ -3354,10 +3360,10 @@ a {
 .step4,
 .step6,
 .step5 {
-  width: 50%;
+  width: 70%;
   background-color: white;
   border-radius: 32px;
-  padding: 10px;
+  padding: 30px;
   box-shadow: 13px 16px 7.8px 0px #00000033 inset;
   display: flex;
   justify-content: center;
@@ -3427,6 +3433,7 @@ a {
   font-size: 20px;
   font-weight: 400;
   color: #000000;
+  font-family: gotham pro b;
 }
 
 .step6>h1,
@@ -3444,15 +3451,15 @@ a {
 .step1>.input-parent {
   width: 90%;
   height: 75px;
-  box-shadow: 0px 0px 4.8px 0px #6C6B69AB;
+  box-shadow: 0px 0px 4.8px 0px #6C6B69;
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
   border-radius: 10px;
-  padding: 2px;
+  padding:8px;
 }
 
-.step1>.input-parent>textarea {
+.step1>.input-parent>textarea{
   width: 90%;
   height: 100%;
   outline: none;
@@ -3460,7 +3467,10 @@ a {
   border: none;
   border-radius: inherit;
   font-size: 15px;
+}
 
+.step1>.input-parent> textarea::placeholder{
+  color:#00000033;;
 }
 
 .step1>.input-parent>div {
@@ -3482,6 +3492,8 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 7px;
+  margin-bottom: 7px;
 }
 
 .file-input-wrapper {
@@ -3797,7 +3809,6 @@ a {
     width: 88%;
     border-width: 2px;
     box-shadow: 4.22px 5.19px 2.53px 0px #00000033 inset;
-
   }
 
   .step1>h1,
@@ -3809,7 +3820,7 @@ a {
     flex-direction: column;
     height: 170px !important;
     width: 95%;
-    padding: 5px 0px;
+    padding: 5px 8px;
   }
 
   .step1>.input-parent>textarea {
@@ -3830,10 +3841,36 @@ a {
     height: 100%;
   }
 
+  .file-input-wrapper{
+    width: 91.59px;
+    height: 91.59px;
+  }
+
+  .file-label>span{
+    font-size: 9.97px
+  };
+
+  .step2 h1{
+    font-size: 14px;
+    font-family: gotham pro b;
+    font-weight: 400;
+
+  }
+
   .step2 input,
   .step3 input {
-    width: 90%;
+    width: 110%;
   }
+
+  .step2 input::placeholder{
+    color: #00000033;
+    font-size: 14px;
+  }
+
+ .step2 .gradient-button{
+  min-width: 80px;
+  height: 30px;
+ }
 
   .label-input>div {
     width: 100%;
@@ -3854,6 +3891,7 @@ a {
   .payment-option-box label {
     font-size: 12px;
   }
+
 }
 
 
@@ -4025,7 +4063,7 @@ a {
 }
 
 .roadmap {
-  width: 80%;
+  width: 90%;
   height: 20px;
   background: #f0f0f0;
   border-radius: 20px;
@@ -4048,6 +4086,7 @@ a {
   border-radius: 20px;
   box-shadow: 0.22px 6.19px 4.53px 0px #00000033 inset;
   margin: 10px 0px 70px 0px;
+  
 }
 
 .roadmap-flex {
@@ -4056,6 +4095,7 @@ a {
   height: 100%;
   align-items: center;
   justify-content: space-between;
+  
 }
 
 .shadow-circle {
@@ -4072,7 +4112,7 @@ a {
 
 .roadmap-chip {
   position: absolute;
-  width: 85px;
+  width: 100px;
   text-align: center;
   top: 60px;
   background: #F0F0F0;
@@ -4126,6 +4166,7 @@ p.point.active {
 
   .roadmap-responsive-container {
     display: flex;
+    min-width: 250px;
   }
 
   .roadmap-responsive {
@@ -4141,7 +4182,7 @@ p.point.active {
   }
 
   .roadmap-responsive .roadmap-chip {
-    width: 70px !important;
+    width: 80px !important;
     height: 20px !important;
     font-size: 12px !important;
     top: 45px !important;
