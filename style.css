@@ -652,7 +652,10 @@ p.white-board-desc {
 
 .loginTitle {
   text-decoration: underline;
-  text-decoration-color: gainsboro;
+  text-decoration-color: #31302F;
+  color: #404040;
+  font-weight: 400;
+  font-family: Gotham pro;
 }
 
 .loginInputContainer {
@@ -660,18 +663,24 @@ p.white-board-desc {
   padding: 5px 5px;
 }
 
-.LoginInputField {
+.loginInputContainer >label {
+  color: #404040;
+  font-weight: 700;
+}
+
+.loginInputField {
   width: 300px;
-  border: 1px solid gray;
+  border: 1px solid #E4E4E4;
   border-radius: 5px;
   padding: 4px;
   margin-top: 4px;
 }
 
-.LoginInputField input {
+.loginInputField input {
   outline: none;
   border: none;
   padding-left: 5px;
+  width: 100%;
 }
 
 .additionalAuth {
@@ -683,7 +692,7 @@ p.white-board-desc {
   cursor: pointer;
 }
 
-.LoginFormButtons {
+.loginFormButtons {
   font-size: 14px;
   width: 90%;
   display: flex;
@@ -693,22 +702,30 @@ p.white-board-desc {
   margin-top: 10px;
 }
 
-.Login {
-  width: 90%;
+.loginFormButtons a{
+width: 90%;
+}
+
+.login {
+  width: 100%;
   color: #ffff;
   background-image: linear-gradient(to right, #F1A300, #CB1000);
   border: none;
   padding: 5px;
   border-radius: 6px;
   cursor: pointer;
+  font-size: 16px;
 }
 
-.signup {
+.loginFormSignup {
+  width: 100%;
   background-color: transparent;
   border: none;
   text-decoration: underline;
-  text-decoration-color: gainsboro;
+  text-decoration-color: #31302F;
+  color: #31302F;
   cursor: pointer;
+  font-size: 16px;
 
 }
 
@@ -725,7 +742,7 @@ p.white-board-desc {
 
 .signupFormContainer {
   width: 380px;
-  height: 500px;
+  height: 550px;
   background-color: #ffff;
   display: flex;
   flex-direction: column;
@@ -765,7 +782,10 @@ p.white-board-desc {
 
 .signupTitle {
   text-decoration: underline;
-  text-decoration-color: gainsboro;
+  text-decoration-color: #31302F;
+  color: #404040;
+  font-weight: 400;
+  font-family: Gotham pro;
 }
 
 .signupInputContainer {
@@ -780,7 +800,7 @@ p.white-board-desc {
 
 .signupInputField {
   width: 300px;
-  border: 1px solid gainsboro;
+  border: 1px solid #E4E4E4;
   border-radius: 5px;
   padding: 4px;
   margin-top: 4px;
@@ -803,23 +823,31 @@ p.white-board-desc {
   margin-top: 10px;
 }
 
-.signup {
+.signupFormButtons a{
   width: 90%;
+}
+
+.signup {
+  width: 100%;
   color: #ffff;
   background-image: linear-gradient(to right, #F1A300, #CB1000);
   border: none;
   padding: 5px;
   border-radius: 6px;
   cursor: pointer;
+  font-size: 16px;
 }
 
 .excistingAccount {
+  width: 100%;
   background-color: transparent;
   border: none;
   text-decoration: underline;
-  text-decoration-color: gainsboro;
+  text-decoration-color: #31302F;
   cursor: pointer;
-
+  color: #404040;
+  font-size: 16px;
+  font-weight: 400;
 }
 
 
@@ -4068,8 +4096,64 @@ p.point.active {
 
 /* Landing Page Steps Ends */
 
+@media (min-width: 280px) and (max-width: 360px) {
+  .loginMainContainer {
+    height: 550px;
+  }
 
+  .loginFormContainer {
+    width: 280px;
+    height: 525px;
+  }
 
+  .loginFormOnboardingTitle {
+    font-size: 12px;
+  }
+
+  .loginFormOnboardingTitle .loginFormTitle {
+    font-size: 18px;
+
+  }
+
+  .loginInputContainer {
+    width: 250px;
+  }
+
+  .loginInputField {
+    width: 240px;
+  }
+
+}
+
+/* standard mobilephones */
+@media (min-width: 360px) and (max-width: 414px) {
+  .loginMainContainer {
+    height: 550px;
+  }
+
+  .loginFormContainer {
+    width: 320px;
+    height: 480px;
+  }
+
+  .loginFormOnboardingTitle {
+    font-size: 12px;
+  }
+
+  .loginFormOnboardingTitle .loginFormTitle {
+    font-size: 22px;
+
+  }
+
+  .loginInputContainer {
+    width: 270px;
+  }
+
+  .loginInputField {
+    width: 250px;
+  }
+
+}
 
 
 /* large mobilephones */
@@ -4089,16 +4173,13 @@ p.point.active {
   }
 
   .loginInputContainer {
+    width: 280px;
+  }
+
+  .loginInputField {
     width: 270px;
   }
 
-  .LoginInputField {
-    width: 250px;
-  }
-
-  .additionalAuth {
-    width: 100%;
-  }
 }
 
 /* Tablets */
@@ -4121,7 +4202,7 @@ p.point.active {
     width: 270px;
   }
 
-  .LoginInputField {
+  .loginInputField {
     width: 250px;
   }
 
@@ -4155,7 +4236,7 @@ p.point.active {
     font-size: 18px;
   }
 
-  .LoginInputField {
+  .loginInputField {
     width: 340px;
   }
 
@@ -4164,7 +4245,7 @@ p.point.active {
     font-size: 14px;
   }
 
-  .Login {
+  .login {
     width: 90%;
     padding: 8px;
     font-size: 14px;
@@ -4215,12 +4296,12 @@ p.point.active {
 /* standard mobilephones */
 @media (min-width: 360px) and (max-width: 414px) {
   .signupMainContainer {
-    height: 550px;
+    height: 570px;
   }
 
   .signupFormContainer {
     width: 320px;
-    height: 480px;
+    height: 530px;
   }
 
   .signupFormOnboardingTitle {
@@ -4245,12 +4326,12 @@ p.point.active {
 /* large mobilephones */
 @media (min-width: 414px) and (max-width: 600px) {
   .signupMainContainer {
-    height: 550px;
+    height: 580px;
   }
 
   .signupFormContainer {
     width: 350px;
-    height: 480px;
+    height: 540px;
   }
 
   .signupFormOnboardingTitle {
@@ -4275,12 +4356,12 @@ p.point.active {
 /* Tablets */
 @media (min-width: 600px) and (max-width: 780px) {
   .signupMainContainer {
-    height: 550px;
+    height: 580px;
   }
 
   .signupFormContainer {
     width: 350px;
-    height: 490px;
+    height:540px;
   }
 
   .signupFormOnboardingTitle {
@@ -4306,7 +4387,7 @@ p.point.active {
 @media (min-width: 1440px) {
   .signupFormContainer {
     width: 420px;
-    height: 550px;
+    height: 580px;
   }
 
   .signupFormOnboardingTitle {
