@@ -1834,6 +1834,8 @@ a {
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
   font-family: gotham pro;
+  font-size: 103px;
+  font-weight: 400;
 
 }
 
@@ -1853,14 +1855,17 @@ a {
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
   font-family: gotham pro !important;
+  font-size: 44px;
+  font-weight: 400;
 
 }
 
 .servicesPara {
   margin-top: 10px;
   text-wrap: pretty;
-  font-size: 14px;
+  font-size: 20px;
   font-family: gotham pro;
+  font-weight: 400;
 
 }
 
@@ -1882,7 +1887,7 @@ a {
   margin-top: 10px;
   text-wrap: pretty;
   font-family: gotham pro;
-
+  font-size: 21px;
 }
 
 /* Terms Of Services Page Ends */
@@ -1916,7 +1921,8 @@ a {
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
   font-family: gotham pro;
-
+  font-size: 103px;
+  font-weight: 400;
 }
 
 .privacyInformationContainer {
@@ -1935,7 +1941,8 @@ a {
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
   font-family: gotham pro;
-
+  font-size: 44px;
+  font-weight: 400;
 }
 
 
@@ -1943,14 +1950,14 @@ a {
   margin-top: 10px;
   text-wrap: pretty;
   font-family: gotham pro;
-
+  font-size: 22px;
 }
 
 .higlightedListsdata {
   margin-top: 10px;
   text-wrap: pretty;
   font-family: gotham pro;
-
+  font-size: 21px;
 }
 
 .contactUsContainer a {
@@ -1970,9 +1977,17 @@ a {
 .privacyInfoPara {
   margin-top: 10px;
   text-wrap: pretty;
-  font-size: 14px;
+  font-size: 20px;
   font-family: gotham pro;
+  font-weight: 400;
+}
 
+.privacyInfoPara2{
+  margin-top: 10px;
+  text-wrap: pretty;
+  font-size: 22px;
+  font-family: gotham pro;
+  font-weight: 400;
 }
 
 /* Privacy Policy Ends */
@@ -3057,6 +3072,14 @@ a {
     font-size: 12px;
     line-height: 20px;
   }
+
+  .serviceHigligtList{
+    font-size: 14px;
+  }
+
+  .mainHeading, .titleOfInfoContainer{
+    font-size: 24px;
+  }
 }
 
 @media (min-width: 576px) and (max-width: 780px) {
@@ -3068,6 +3091,10 @@ a {
     font-size: 14px;
     line-height: 24px;
   }
+
+  .serviceHigligtList{
+    font-size: 16px;
+  }
 }
 
 
@@ -3075,6 +3102,10 @@ a {
   .servicesPara {
     font-size: 14px;
     line-height: 24px;
+  }
+
+  .serviceHigligtList{
+    font-size: 16px;
   }
 }
 
@@ -3113,6 +3144,17 @@ a {
     font-size: 12px;
     line-height: 20px;
   }
+
+  .privacyInfoPara2{
+    font-size: 13px;
+    line-height: 20px;
+  }
+
+  
+
+  .higlightedListsdata, .innerListHeading{
+    font-size: 14px;
+  }
 }
 
 @media (min-width: 576px) and (max-width: 780px) {
@@ -3124,6 +3166,16 @@ a {
     font-size: 14px;
     line-height: 24px;
   }
+
+  .privacyInfoPara2{
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  .higlightedListsdata, .innerListHeading{
+    font-size: 16px;
+  }
+  
 }
 
 
@@ -3132,10 +3184,18 @@ a {
     font-size: 14px;
     line-height: 24px;
   }
+  .privacyInfoPara {
+    font-size: 15px;
+    line-height: 24px;
+  }
+
+  .higlightedListsdata{
+    font-size: 16px;
+  }
 }
 
 @media(min-width: 992px) and (max-width: 1024px) {
-  .privacyInfoPara {
+  .privacyInfoPara,.privacyInfoPara2 {
     line-height: 26px;
   }
 
@@ -3144,18 +3204,18 @@ a {
 
   }
 
-  .higlightedListsdata {
+  .higlightedListsdata, .innerListHeading {
     font-size: 16px;
     line-height: 26px;
   }
 }
 
 @media(min-width: 1024px) and (max-width: 1400px) {
-  .privacyInfoPara {
+  .privacyInfoPara, .privacyInfoPara2 {
     line-height: 26px;
   }
 
-  .innerListHeading {
+  .innerListHeading, .innerListHeading {
     font-size: 18px;
 
   }
