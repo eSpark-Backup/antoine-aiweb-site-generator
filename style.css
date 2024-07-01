@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans&display=swap');
+
 
 /* Global */
 * {
@@ -1421,7 +1423,7 @@ a {
 
 .servicesTitle {
   width: 100%;
-  height: 120px;
+  height: 330px;
   background-color: #191f25;
   display: flex;
   justify-content: center;
@@ -1503,7 +1505,7 @@ a {
 
 .privacyTitle {
   width: 100%;
-  height: 120px;
+  height: 330px;
   background-color: #191f25;
   display: flex;
   justify-content: center;
@@ -1578,6 +1580,358 @@ a {
 }
 
 /* Privacy Policy Ends */
+
+
+/* Recruitment Starts */
+.recruitment-main {
+  /* padding: 20px 0px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  row-gap: 22px;
+  padding: 50px 0px 30px 0px;
+}
+
+.recruitment-head {
+  /* line-height: 9px; */
+  display: flex;
+  flex-direction: column;
+  row-gap: 9px;
+}
+
+.recruitment-main>div>h3 {
+  font-size: 36px;
+  font-weight: 700;
+  text-align: center;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  color: #05264E;
+}
+
+.recruitment-main>div>p {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  color: #6C757D;
+}
+
+.categories-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  flex-direction: column;
+  row-gap: 40px;
+}
+
+.ctaegories {
+  width: 80%;
+  display: flex;
+  /* justify-content: space-between; */
+  flex-wrap: wrap;
+  row-gap: 20px;
+  column-gap: 30px;
+  align-items: center;
+  justify-content: center;
+}
+
+.cataegory {
+  width: 258px;
+  height: 93px;
+  padding: 10px;
+  border: 1px solid #0612241A;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cataegory>img {
+  width: 25%;
+  height: 45px;
+}
+
+.cataegory>div {
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 2px;
+}
+
+.cataegory>div>h3 {
+  font-size: 16px;
+  font-weight: 700;
+  color: #05264E;
+  font-family: gotham pro;
+}
+
+.cataegory>div>p {
+  font-size: 12px;
+  font-weight: 400;
+  color: #4F5E64;
+  font-family: gotham pro;
+}
+
+.categories-container .banner {
+  width: 70%;
+  min-height: 170px;
+  border: 1px solid #E0E6F7;
+  box-shadow: 0px 10px 20px -5px #0A2A690F;
+  display: flex;
+  column-gap: 30px;
+}
+
+.categories-container .banner-data {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 40%;
+}
+
+.categories-container .banner-data div:first-child>h2 {
+  font-size: 16px;
+  font-weight: 700;
+  color: #A0ABB8;
+  font-family: gotham pro;
+}
+
+.categories-container .banner-data div:nth-child(2) {
+  /* border: 1px solid rgb(0, 38, 255); */
+  height: 40%;
+  display: flex;
+  align-items: center;
+  column-gap: 5px;
+}
+
+.categories-container .banner-data div:nth-child(2) h2 {
+  background: linear-gradient(91.07deg, #F1A300 19.69%, #CB1000 85.02%);
+  background-size: 100%;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 52.87px;
+  margin-top: 20px;
+  font-weight: 700;
+  font-family: gotham pro;
+
+}
+
+.categories-container .banner-data div:nth-child(2) p {
+  font-size: 18px;
+  color: #66789C;
+  margin-top: 20px;
+  font-weight: 400;
+  font-family: gotham pro;
+  padding-top: 6px;
+}
+
+.categories-container .banner-btn-parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.categories-container .banner-btn-parent button {
+  width: 110px;
+  height: 54px;
+  background: linear-gradient(91.07deg, #F1A300 19.69%, #CB1000 85.02%);
+  border-radius: 4px;
+  border: none;
+  color: white;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 3px;
+  font-weight: 700;
+}
+
+.categories-container .banner-btn-parent button img{
+  width: 13.39px;
+  height: 13.39px;
+}
+
+.categories-container .banner-btn-parent button p{
+  font-family: gotham pro;
+
+}
+
+.categories-container .banner img {
+  width: 20%;
+}
+
+
+
+
+
+
+.jobs {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 20px;
+}
+
+.jobs h1,
+.jobs p {
+  text-align: center;
+  font-family: gotham pro;
+}
+
+.jobs h1 {
+  font-size: 36px;
+  font-weight: 700;
+  color: #05264E;
+}
+
+.jobs p {
+  color: #6C757D;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.jobs-categories {
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 10px;
+  row-gap: 10px;
+  flex-wrap: wrap;
+}
+
+.jobs-boxes {
+  height: 47px;
+  width: 145px;
+  box-shadow: 0px 2px 4px -5px #0A2A690D;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #D1D1D1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 5px;
+}
+
+.jobs-boxes img {
+  width: 15px;
+  height: 18px;
+}
+
+.jobs-boxes h3 {
+  font-size: 12px;
+  color: #05264E;
+  font-weight: 700;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.active {
+  border: 1px solid #3C65F5;
+  color: #3C65F5;
+}
+
+.active h3 {
+  color: #3C65F5 !important;
+}
+
+.jobs-container {
+  width: 75%;
+  display: flex;
+  column-gap: 30px;
+  row-gap: 20px;
+  flex-wrap: wrap;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.job-box {
+  width: 320px;
+  height: 220px;
+  border: 1px solid #E0E6F7;
+  padding: 31px 27px 10px 27px;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+.job-box>div {
+  display: flex;
+  column-gap: 15px;
+}
+
+.job-box>div>h3 {
+  display: flex;
+}
+
+.jobs-tags {
+  border-bottom: 1px solid #DEE2E6;
+}
+
+.jobs-tags div {
+  background-color: #EFF3FC;
+  color: #4F5E64;
+  border-radius: 5px;
+  min-width: 50px;
+  height: 28px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4px 8px;
+  font-size: 12px;
+  font-weight: 400;
+  margin-bottom: 20px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+
+}
+
+.location {
+  height: 100%;
+  margin-top: 20px;
+  display: flex;
+  column-gap: 2px !important;
+}
+
+.job-box>div:first-child {
+  font-size: 16px;
+  font-weight: 700;
+  color: #05264E;
+  font-family: gotham pro;
+}
+
+.job-box>div>h3 {
+  font-size: 14px;
+  font-weight: 400;
+  display: flex;
+  column-gap: 3px;
+  color: #05264E;
+}
+
+.job-box>div>h3>span{
+  font-family: gotham pro;
+  color: #05264E;
+}
+
+
+.job-box>div>h3 img {
+  width: 12px;
+  height: 12px;
+}
+
+.location img {
+  width: 13px;
+  height: 13px;
+}
+
+.location span {
+  font-size: 10px;
+  font-weight: 400;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+/* Recruitment Ends */
 
 
 
@@ -2364,3 +2718,125 @@ a {
 }
 
 /* Privacy Policy Media Query Ends */
+
+/* Recruitment Media Query Starts */
+@media screen and (max-width:550px) {
+  .categories-container .banner img:first-child {
+    width: 60%;
+  }
+
+  .categories-container .banner img:last-child {
+    width: 60%;
+    height: 60%;
+  }
+
+  .jobs-container,
+  .ctaegories,
+  .jobs-categories {
+    width: 100%;
+  }
+
+  .job-box {
+    width: 80vw;
+    padding: 31px 10px 10px 10px;
+  }
+
+  .job-box>div>h3 {
+    width: 50%;
+  }
+
+  .cataegory,
+  .jobs-boxes {
+    width: 80vw;
+  }
+
+  .job-box>div>h3 {
+    font-size: 12px;
+    width: auto;
+  }
+
+}
+
+
+@media screen and (min-width:551px) and (max-width:991px) {
+
+  .jobs-container,
+  .ctaegories,
+  .jobs-categories {
+    width: 90%;
+  }
+
+  .job-box {
+    width: 42%;
+    padding: 31px 10px 10px 10px;
+  }
+
+  .cataegory,
+  .jobs-boxes {
+    width: 40%;
+  }
+
+  .job-box>div>h3 {
+    font-size: 13px;
+  }
+}
+
+
+
+@media screen and (max-width:991px) {
+  .categories-container .banner>img {
+    margin: auto auto;
+  }
+
+  .categories-container .banner-btn-parent button {
+    width: 70%;
+  }
+
+  .categories-container .banner-btn-parent button img {
+    width: 10px !important;
+    height: 10px;
+  }
+
+  .categories-container .banner {
+    flex-direction: column;
+    padding-bottom: 10px;
+    width: 97%;
+  }
+
+  .categories-container .banner-data {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .categories-container .banner-data div:nth-child(2) {
+    flex-direction: column;
+    height: auto;
+    text-align: center;
+  }
+}
+
+
+@media screen and (min-width:992px) and (max-width:1550px) {
+  .categories-container .banner {
+    width: 90%;
+  }
+}
+
+@media screen and (min-width:992px) and (max-width:1185px) {
+  .categories-container .banner-data div:nth-child(2) h2 {
+    font-size: 40px;
+  }
+
+  .categories-container .banner-data div:nth-child(2) p {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width:1550px) {
+  .jobs-container {
+    justify-content: center;
+  }
+}
+
+/* Recruitment Media Query Ends */
