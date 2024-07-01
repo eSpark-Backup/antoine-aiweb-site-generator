@@ -663,7 +663,7 @@ p.white-board-desc {
   padding: 5px 5px;
 }
 
-.loginInputContainer >label {
+.loginInputContainer>label {
   color: #404040;
   font-weight: 700;
 }
@@ -702,8 +702,8 @@ p.white-board-desc {
   margin-top: 10px;
 }
 
-.loginFormButtons a{
-width: 90%;
+.loginFormButtons a {
+  width: 90%;
 }
 
 .login {
@@ -823,7 +823,7 @@ width: 90%;
   margin-top: 10px;
 }
 
-.signupFormButtons a{
+.signupFormButtons a {
   width: 90%;
 }
 
@@ -1581,7 +1581,7 @@ a {
 
 .blogsReviewCard {
   background-color: #ffff;
-  width: 50%;
+  /* width: 50%; */
   height: 250px;
   border-radius: 6px;
   position: absolute;
@@ -1589,11 +1589,14 @@ a {
   bottom: -40px;
   padding: 30px;
   box-shadow: 1px 1px 2px 1px gainsboro;
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
 }
 
-.blogsReviewCard h3{
+.blogsReviewCard h3 {
   font-weight: 400;
-  font-size: 28px;
+  font-size: 36px;
   width: 90%;
   font-family: gotham pro;
   color: #181A2A;
@@ -1613,7 +1616,7 @@ a {
   justify-content: center;
   align-items: center;
   font-weight: 700;
-  font-family: gotham pro;  
+  font-family: gotham pro;
 }
 
 .userDetail {
@@ -1626,7 +1629,7 @@ a {
   align-items: center;
 }
 
-.userDetail >p{
+.userDetail>p {
   font-size: 16px;
   font-weight: 400;
   font-family: gotham pro;
@@ -1646,21 +1649,21 @@ a {
   background-color: #E8E8EA;
 }
 
-.blogsAdSectiion p:first-child{
+.blogsAdSectiion p:first-child {
   font-size: 14px;
   font-weight: 400;
   font-family: gotham pro;
   color: #696A75;
 }
 
-.blogsAdSectiion h6{
+.blogsAdSectiion h6 {
   font-size: 20px;
   font-weight: 700;
   font-family: gotham pro;
   color: #696A75;
 }
 
-.blogsAdSectiion p:last-child{
+.blogsAdSectiion p:last-child {
   font-family: gotham pro;
   font-size: 18px;
   font-size: 400;
@@ -1676,7 +1679,7 @@ a {
   padding-bottom: 30px;
 }
 
-.card-list-parent{
+.card-list-parent {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
@@ -1699,12 +1702,13 @@ a {
   border: 1px solid #E8E8EA;
   border-radius: 10px 10px 15px 10px;
   margin-top: 10px;
-  padding:10px;
+  padding: 10px;
   display: flex;
   flex-direction: column;
   row-gap: 10px;
 }
-.cardTitle2{
+
+.cardTitle2 {
   width: 97px;
   height: 28px;
   border-radius: 6px;
@@ -1718,7 +1722,7 @@ a {
   font-family: "Work Sans", sans-serif;
 }
 
-.blogCard > h4{
+.blogCard>h4 {
   font-family: gotham Pro;
   font-size: 23px;
   font-weight: 600;
@@ -1746,7 +1750,11 @@ a {
   align-items: center;
   font-weight: 500;
   border-radius: 6px;
+}
+
+.seemore p{
   font-family: "Work Sans", sans-serif;
+
 }
 
 .blogUserDetail {
@@ -1755,33 +1763,35 @@ a {
   align-items: flex-end;
   /* height: 30px; */
   padding: 3px;
-  gap:11px;
+  gap: 11px;
   color: grey;
+  align-items: center;
   /* margin-top: 15px; */
 }
 
-.blogUserInfo{
+.blogUserInfo {
   display: flex;
   /* width: 60%; */
   justify-content: space-between;
   align-items: center;
+  column-gap: 10px;
 }
 
-.blogUserInfo p:first-child{
+.blogUserInfo p:first-child {
   font-family: "Work Sans", sans-serif;
   font-size: 16px;
   font-weight: 500;
   color: #97989F;
 }
 
-.blogUserInfo p:last-child{
+.blogUserInfo p:last-child {
   font-family: "Work Sans", sans-serif;
   font-size: 16px;
   font-weight: 400;
   color: #97989F;
 }
 
-.blogsHead{
+.blogsHead {
   width: 100%;
   /* border: 1px solid red; */
   display: flex;
@@ -1790,12 +1800,12 @@ a {
   padding-left: 12px;
 }
 
-.blogsHeadContent{
+.blogsHeadContent {
   width: 80%;
   /* border: 1px solid; */
 }
 
-.blogsHeadContent h2{
+.blogsHeadContent h2 {
   font-size: 24px;
   font-weight: 700;
   font-family: gotham Pro;
@@ -1982,7 +1992,7 @@ a {
   font-weight: 400;
 }
 
-.privacyInfoPara2{
+.privacyInfoPara2 {
   margin-top: 10px;
   text-wrap: pretty;
   font-size: 22px;
@@ -2809,6 +2819,11 @@ a {
     height: 150px;
   }
 
+  .userDetail img {
+    width: 20px !important;
+    height: 20px !important;
+  }
+
   .blogsReviewCard {
     width: 70%;
     height: 120px;
@@ -2827,8 +2842,8 @@ a {
     border-radius: 5px;
     font-size: 12px;
     font-weight: 600;
-    font-family: gotham pro;  
-}
+    font-family: gotham pro;
+  }
 
   .blogsReviewCard h3 {
     font-size: 12px;
@@ -2842,23 +2857,23 @@ a {
     color: grey;
   }
 
-  .userDetail >p{
-    font-size: 11px;
+  .userDetail>p {
+    font-size: 8px;
   }
 
-  .blogsAdSectiion {
+  .blogsAdSectiion, .seemore {
     width: 90%;
   }
 
-  .blogsAdSectiion p:first-child{
+  .blogsAdSectiion p:first-child {
     font-size: 12px;
   }
 
-  .blogsAdSectiion h6{
+  .blogsAdSectiion h6 {
     font-size: 15px;
   }
 
-  .blogsAdSectiion p:last-child{
+  .blogsAdSectiion p:last-child {
     font-size: 12px;
   }
 
@@ -2873,10 +2888,11 @@ a {
     gap: 15px;
   }
 
-  .blogCard > h4{
+  .blogCard>h4 {
     font-size: 20px;
   }
-  .blogUserInfo{
+
+  .blogUserInfo {
     gap: 8px;
 
   }
@@ -2885,8 +2901,9 @@ a {
     margin-top: 45px;
   }
 
-  .seemore {
-    width: 30%;
+  .blogUserInfo p:first-child,
+  .blogUserInfo p:last-child {
+    font-size: 13px;
   }
 }
 
@@ -2911,6 +2928,7 @@ a {
     bottom: -50px;
     padding: 12px;
   }
+
   .blogsReviewCard h3 {
     font-size: 16px;
     margin-bottom: 6px;
@@ -2925,7 +2943,7 @@ a {
     gap: 7px;
   }
 
-  .blogsAdSectiion {
+  .blogsAdSectiion, .seemore {
     width: 90%;
   }
 
@@ -2940,6 +2958,24 @@ a {
   .seemore {
     width: 20%;
   }
+
+  .blogUserInfo {
+    column-gap: 5px;
+  }
+
+  .blogSubContainer {
+    width: 95%;
+  }
+
+  .blogUserInfo p:first-child,
+  .blogUserInfo p:last-child {
+    font-size: 13px;
+  }
+
+  .userDetail img {
+    width: 25px !important;
+    height: 25px !important;
+  }
 }
 
 @media (min-width: 780px) and (max-width: 992px) {
@@ -2947,7 +2983,7 @@ a {
     width: 80%;
   }
 
-  .blogsAdSectiion {
+  .blogsAdSectiion, .seemore {
     width: 90%;
   }
 
@@ -2958,12 +2994,32 @@ a {
   .blogCard h4 {
     font-size: 16px;
   }
+
+  .blogUserInfo {
+    column-gap: 5px;
+  }
+
+  .blogUserInfo p:first-child,
+  .blogUserInfo p:last-child {
+    font-size: 14px;
+  }
+
+  .blogsReviewCard {
+    width: 70%;
+  }
+
+  .blogsReviewCard h3 {
+    font-size: 18px;
+    margin-bottom: 6px;
+    font-weight: 600;
+  }
 }
 
 @media (min-width: 992px) and (max-width: 1024px) {
   .blogSubContainer {
     width: 80%;
   }
+
   .blogsReviewCard {
     width: 60%;
     height: 150px;
@@ -2972,12 +3028,63 @@ a {
     bottom: -50px;
     padding: 12px;
   }
+
   .blogsReviewCard h3 {
     font-size: 18px;
     font-weight: 600;
   }
 
+  .blogUserInfo {
+    column-gap: 5px;
+  }
+
+  .blogUserInfo p:first-child,
+  .blogUserInfo p:last-child {
+    font-size: 12px;
+  }
+
 }
+
+
+@media screen and (min-width:1025px) and (max-width:1500px) {
+  .blogSubContainer {
+    width: 90%;
+  }
+
+  .blogUserInfo p:first-child,
+  .blogUserInfo p:last-child {
+    font-size: 13px;
+  }
+
+  .blogsReviewCard h3 {
+    font-size: 20px;
+    margin-bottom: 6px;
+    font-weight: 600;
+  }
+
+  .blogUserInfo {
+    column-gap: 7px;
+  }
+}
+
+@media screen and (min-width:1025px) and (max-width:1549px) {
+  .blogsReviewCard {
+    width: 45%;
+  }
+
+  .blogsReviewCard h3 {
+    font-size: 24px;
+    margin-bottom: 6px;
+    font-weight: 600;
+  }
+}
+
+@media screen and (min-width:1550px) {
+  .blogsReviewCard {
+    width: 45%;
+  }
+}
+
 
 /* Blogs Page Media Queries Ends */
 
@@ -3073,11 +3180,12 @@ a {
     line-height: 20px;
   }
 
-  .serviceHigligtList{
+  .serviceHigligtList {
     font-size: 14px;
   }
 
-  .mainHeading, .titleOfInfoContainer{
+  .mainHeading,
+  .titleOfInfoContainer {
     font-size: 24px;
   }
 }
@@ -3092,7 +3200,7 @@ a {
     line-height: 24px;
   }
 
-  .serviceHigligtList{
+  .serviceHigligtList {
     font-size: 16px;
   }
 }
@@ -3104,7 +3212,7 @@ a {
     line-height: 24px;
   }
 
-  .serviceHigligtList{
+  .serviceHigligtList {
     font-size: 16px;
   }
 }
@@ -3145,14 +3253,15 @@ a {
     line-height: 20px;
   }
 
-  .privacyInfoPara2{
+  .privacyInfoPara2 {
     font-size: 13px;
     line-height: 20px;
   }
 
-  
 
-  .higlightedListsdata, .innerListHeading{
+
+  .higlightedListsdata,
+  .innerListHeading {
     font-size: 14px;
   }
 }
@@ -3167,15 +3276,16 @@ a {
     line-height: 24px;
   }
 
-  .privacyInfoPara2{
+  .privacyInfoPara2 {
     font-size: 15px;
     line-height: 20px;
   }
 
-  .higlightedListsdata, .innerListHeading{
+  .higlightedListsdata,
+  .innerListHeading {
     font-size: 16px;
   }
-  
+
 }
 
 
@@ -3184,18 +3294,21 @@ a {
     font-size: 14px;
     line-height: 24px;
   }
+
   .privacyInfoPara {
     font-size: 15px;
     line-height: 24px;
   }
 
-  .higlightedListsdata{
+  .higlightedListsdata {
     font-size: 16px;
   }
 }
 
 @media(min-width: 992px) and (max-width: 1024px) {
-  .privacyInfoPara,.privacyInfoPara2 {
+
+  .privacyInfoPara,
+  .privacyInfoPara2 {
     line-height: 26px;
   }
 
@@ -3204,18 +3317,22 @@ a {
 
   }
 
-  .higlightedListsdata, .innerListHeading {
+  .higlightedListsdata,
+  .innerListHeading {
     font-size: 16px;
     line-height: 26px;
   }
 }
 
 @media(min-width: 1024px) and (max-width: 1400px) {
-  .privacyInfoPara, .privacyInfoPara2 {
+
+  .privacyInfoPara,
+  .privacyInfoPara2 {
     line-height: 26px;
   }
 
-  .innerListHeading, .innerListHeading {
+  .innerListHeading,
+  .innerListHeading {
     font-size: 18px;
 
   }
@@ -4462,7 +4579,7 @@ p.point.active {
 
   .signupFormContainer {
     width: 350px;
-    height:540px;
+    height: 540px;
   }
 
   .signupFormOnboardingTitle {

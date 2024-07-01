@@ -317,7 +317,7 @@ function blogPage() {
                         <p class="cardTitle2">Technology</p>
                         <h4>The Impact of Technology on the Workplace: How Technology is Changing</h4>
                         <div class="blogUserDetail">
-                            <img src="./assets/blogs-page/blogs/avatar.jpg" width="20px" height="20px" alt="avatar">
+                            <img src="${items?.avatarUrl}" width="36px" height="36px" alt="avatar">
                            <div class="blogUserInfo"> 
                             <p>${items?.name}</p>
                             <p>August 20, 2022</p>
