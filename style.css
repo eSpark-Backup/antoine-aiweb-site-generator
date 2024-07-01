@@ -116,7 +116,7 @@ p.chip {
   background: -webkit-linear-gradient(#caa9d3, #828ed6, #b7d6ef);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-weight:900;
+  font-weight: 900;
 }
 
 .moto {
@@ -349,13 +349,13 @@ p.future-heading {
   /* / border: 1px solid red; / */
 }
 
-.future-image{
-  width: 52px ;
+.future-image {
+  width: 52px;
   height: 52px;
 }
 
-.future-detail .future-image > img {
-  width: 52px ;
+.future-detail .future-image>img {
+  width: 52px;
   height: 52px;
   background: #f2f2f2;
   border-radius: 10px;
@@ -395,12 +395,12 @@ section.jump-start-container {
   display: flex;
   align-items: center;
   gap: 50px;
-  
+
 }
 
 .jump-start-description-box {
   width: 60%;
-  
+
 }
 
 .jump-start-heading-box {
@@ -472,6 +472,7 @@ a.speed-up-link>p {
   text-align: center;
   font-family: gotham pro b;
 }
+
 .product-carousel-heading span {
   font-family: gotham pro b;
 }
@@ -676,7 +677,7 @@ p.white-board-desc {
   font-family: "Poppins", sans-serif;
 }
 
-.landing-latest-post-tag p:last-child{
+.landing-latest-post-tag p:last-child {
   font-size: 16px;
   font-weight: 600;
   font-family: "Poppins", sans-serif;
@@ -1100,13 +1101,13 @@ a {
 }
 
 .landing-footer-upper-box {
-/* <<<<<<< HEAD */
+  /* <<<<<<< HEAD */
   /* width: 70%; */
   padding-top: 20x;
   padding-bottom: 60px;
   display: flex;
   justify-content: space-around;
-/* =======
+  /* =======
   width: 75%;
   padding-top: 20x;
   padding-bottom: 60px;
@@ -1116,7 +1117,7 @@ a {
   /* justify-content: space-around; */
   /* justify-content: space-between; */
   /* background-color: rgb(255, 125, 125); */
-/* >>>>>>> 0bc70756074fd5f1f40e04da1bce902152c6bbe1 */
+  /* >>>>>>> 0bc70756074fd5f1f40e04da1bce902152c6bbe1 */
 }
 
 .landing-footer-upper-box-contact {
@@ -1140,7 +1141,7 @@ a {
   font-family: gotham pro b !important;
 }
 
-.landing-footer-upper-box-para p{
+.landing-footer-upper-box-para p {
   font-family: gotham pro b !important;
 
 }
@@ -1406,6 +1407,179 @@ a {
 /* BLOGS PAGE Ends */
 
 
+/* Terms Of Services Page Starts */
+
+.servicesContainer {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: gotham pro;
+
+}
+
+.servicesTitle {
+  width: 100%;
+  height: 120px;
+  background-color: #191f25;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 28px;
+  font-family: gotham pro;
+
+}
+
+.servicesTitle h1 {
+  background: linear-gradient(to right, #F1A300, #CB1000);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  font-family: gotham pro;
+
+}
+
+.servicesInformationContainer {
+  width: 80%;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-bottom: 40px;
+  font-family: gotham pro;
+
+}
+
+.mainHeading {
+  background: linear-gradient(to right, #f1a100, #c41000);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  font-family: gotham pro !important;
+
+}
+
+.servicesPara {
+  margin-top: 10px;
+  text-wrap: pretty;
+  font-size: 14px;
+  font-family: gotham pro;
+
+}
+
+.serviceOrderList {
+  padding-left: 20px;
+  font-family: gotham pro;
+
+}
+
+.contactInfoContainer a {
+  color: black;
+  text-decoration: none;
+  font-weight: 600;
+  font-family: gotham pro;
+
+}
+
+.serviceHigligtList {
+  margin-top: 10px;
+  text-wrap: pretty;
+  font-family: gotham pro;
+
+}
+
+/* Terms Of Services Page Ends */
+
+
+/* Privacy Policy Starts */
+.privacyContainer {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: gotham pro;
+
+}
+
+.privacyTitle {
+  width: 100%;
+  height: 120px;
+  background-color: #191f25;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 28px;
+  font-family: gotham pro;
+
+}
+
+.privacyTitle h1 {
+  background: linear-gradient(to right, #F1A300, #CB1000);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  font-family: gotham pro;
+
+}
+
+.privacyInformationContainer {
+  width: 80%;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-bottom: 40px;
+  font-family: gotham pro;
+
+}
+
+.titleOfInfoContainer {
+  background: linear-gradient(to right, #f1a100, #c41000);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  font-family: gotham pro;
+
+}
+
+
+.innerListHeading {
+  margin-top: 10px;
+  text-wrap: pretty;
+  font-family: gotham pro;
+
+}
+
+.higlightedListsdata {
+  margin-top: 10px;
+  text-wrap: pretty;
+  font-family: gotham pro;
+
+}
+
+.contactUsContainer a {
+  color: black;
+  font-weight: 600;
+  text-decoration: none;
+  font-family: gotham pro;
+
+}
+
+.privacyOrderList {
+  padding-left: 20px;
+  font-family: gotham pro;
+
+}
+
+.privacyInfoPara {
+  margin-top: 10px;
+  text-wrap: pretty;
+  font-size: 14px;
+  font-family: gotham pro;
+
+}
+
+/* Privacy Policy Ends */
+
+
 
 
 @media only screen and (max-width: 768px) {
@@ -1450,7 +1624,8 @@ a {
     text-align: center;
   }
 
-  .landing-pricing-plan-name-dark, .landing-pricing-plan-name-dark2 {
+  .landing-pricing-plan-name-dark,
+  .landing-pricing-plan-name-dark2 {
     font-size: 24.5px;
   }
 
@@ -1508,16 +1683,19 @@ a {
   /* FAQ section Sections Ends  */
 
   /* footer section */
-  .landing-footer-upper-box-contact{
+  .landing-footer-upper-box-contact {
     margin-right: 0px;
   }
-  .landing-footer-upper-box-More{
+
+  .landing-footer-upper-box-More {
     margin-right: 0px;
   }
-  .landing-footer-upper-box-Weebseat{
+
+  .landing-footer-upper-box-Weebseat {
     margin-right: 0px;
   }
-  .landing-footer-upper-box-get-in-touch{
+
+  .landing-footer-upper-box-get-in-touch {
     margin-right: 0px;
   }
 }
@@ -1527,8 +1705,9 @@ a {
 
 
 @media only screen and (max-width: 768px) {
+
   /* sliders */
-  .landing-latest-posts-headings-main-heading{
+  .landing-latest-posts-headings-main-heading {
     font-size: 21px;
   }
 
@@ -1612,16 +1791,19 @@ a {
       color: #DA4728;
       transform: translateY(-5px);
     }
+
     50% {
       opacity: 1;
       color: #DA4728;
       transform: translateY(-10px);
     }
+
     75% {
       opacity: 1;
       color: #cb1000;
       transform: translateY(-55px);
     }
+
     100% {
       opacity: 1;
       color: #f1a300;
@@ -1705,9 +1887,10 @@ a {
 
 @media screen and (min-width: 769px) and (max-width:1025px) {
 
-  p.white-board-title{
+  p.white-board-title {
     font-size: 48px !important;
   }
+
   .product-carousel-desc {
     width: 82%;
 
@@ -1715,17 +1898,18 @@ a {
 }
 
 @media screen and (min-width: 768px) and (max-width:1200px) {
-  .future-detail{
+  .future-detail {
     width: 45%;
 
   }
+
   .product-carousel-desc {
     width: 80%;
 
   }
 }
 
-@media (min-width: 1500px) and (max-width: 1990px){
+@media (min-width: 1500px) and (max-width: 1990px) {
   .product-carousel-desc {
     width: 55%;
 
@@ -1784,7 +1968,7 @@ a {
 }
 
 @media screen and (max-width: 1000px) {
-  .landing-latest-posts-box{
+  .landing-latest-posts-box {
     width: 90%;
   }
 
@@ -2019,15 +2203,15 @@ a {
   /* White board */
 }
 
- 
+
 @media only screen and (max-width: 500px) {
-  .generate-btn{
+  .generate-btn {
     font-size: 12.62px;
     width: 230px;
     height: 45px;
   }
 
-  .white-board-input{
+  .white-board-input {
     flex-direction: column;
   }
 
@@ -2044,16 +2228,139 @@ a {
   }
 }
 
-@media only screen and (max-width: 1150px) { 
-  .landing-pricing-plans-container{
+@media only screen and (max-width: 1150px) {
+  .landing-pricing-plans-container {
     flex-direction: column;
     gap: 20px;
   }
 }
 
 
-@media only screen and  (max-width: 1250px) and (min-width: 768px) { 
+@media only screen and (max-width: 1250px) and (min-width: 768px) {
   .future-title {
     font-size: 17px !important;
   }
 }
+
+
+
+/* Terms of Services Media Query Starts */
+@media (min-width: 0px) and (max-width: 576px) {
+  .servicesTitle h1 {
+    font-size: 32px;
+  }
+
+  .servicesPara {
+    font-size: 12px;
+    line-height: 20px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 780px) {
+  .servicesTitle h1 {
+    font-size: 56px;
+  }
+
+  .servicesPara {
+    font-size: 14px;
+    line-height: 24px;
+  }
+}
+
+
+@media(min-width: 780px) and (max-width: 992px) {
+  .servicesPara {
+    font-size: 14px;
+    line-height: 24px;
+  }
+}
+
+@media(min-width: 992px) and (max-width: 1024px) {
+  .servicesPara {
+    line-height: 26px;
+  }
+
+  .serviceHigligtList {
+    font-size: 16px;
+    line-height: 26px;
+  }
+}
+
+@media(min-width: 1024px) and (max-width: 1400px) {
+  .servicesPara {
+    line-height: 26px;
+  }
+
+  .serviceHigligtList {
+    font-size: 16px;
+    line-height: 26px;
+  }
+}
+
+/* Terms of Services Media Query Ends */
+
+
+/* Privacy Policy Media Query Starts */
+@media (min-width: 0px) and (max-width: 576px) {
+  .privacyTitle h1 {
+    font-size: 32px;
+  }
+
+  .privacyInfoPara {
+    font-size: 12px;
+    line-height: 20px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 780px) {
+  .privacyTitle h1 {
+    font-size: 56px;
+  }
+
+  .privacyInfoPara {
+    font-size: 14px;
+    line-height: 24px;
+  }
+}
+
+
+@media(min-width: 780px) and (max-width: 992px) {
+  .privacyInfoPara {
+    font-size: 14px;
+    line-height: 24px;
+  }
+}
+
+@media(min-width: 992px) and (max-width: 1024px) {
+  .privacyInfoPara {
+    line-height: 26px;
+  }
+
+  .innerListHeading {
+    font-size: 18px;
+
+  }
+
+  .higlightedListsdata {
+    font-size: 16px;
+    line-height: 26px;
+  }
+}
+
+@media(min-width: 1024px) and (max-width: 1400px) {
+  .privacyInfoPara {
+    line-height: 26px;
+  }
+
+  .innerListHeading {
+    font-size: 18px;
+
+  }
+
+  .higlightedListsdata {
+    font-size: 16px;
+    line-height: 26px;
+  }
+}
+
+/* Privacy Policy Media Query Ends */
