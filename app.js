@@ -64,8 +64,12 @@ const swiper3 = new Swiper(".sample-slider-3", {
     clickable: true,
   },
   breakpoints: {
-    1024: {
+    1550: {
       slidesPerView: 5,
+      spaceBetween: 20,
+    },
+    1024: {
+      slidesPerView: 4,
       spaceBetween: 20,
     },
     768: {
