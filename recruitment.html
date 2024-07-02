@@ -6,6 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Recruitment</title>
     <link rel="stylesheet" href="./style.css">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
 </head>
 
 <body>
@@ -17,79 +22,96 @@
             <h3>Browse by category</h3>
             <p>Find the job that’s perfect for you. about 800+ new jobs everyday</p>
         </div>
-        <div class="categories-container">
-            <div class="ctaegories">
-                <div class="cataegory">
-                    <img src="./assets/recruitement/customer-service.svg" alt="">
-                    <div>
+        <div class="swiper-container">
+            <div class="swiper sample-slider-3">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide cataegory-wrapper">
+                    <div class="cataegory">
+                      <img src="./assets/recruitement/customer-service.svg" alt="" />
+                      <div>
                         <h3>Human Resource</h3>
                         <p>No Job Available</p>
+                      </div>
                     </div>
-                </div>
-                <div class="cataegory">
-                    <img src="./assets/recruitement/research.svg" alt="">
-                    <div>
+                    <div class="cataegory">
+                      <img src="./assets/recruitement/management.svg" alt="" />
+                      <div>
+                        <h3>Management</h3>
+                        <p>No Job Available</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide cataegory-wrapper">
+                    <div class="cataegory">
+                      <img src="./assets/recruitement/research.svg" alt="" />
+                      <div>
                         <h3>Market Research</h3>
                         <p>1 Job Available</p>
+                      </div>
                     </div>
-                </div>
-                <div class="cataegory">
-                    <img src="./assets/recruitement/retail.svg" alt="">
-                    <div>
-                        <h3>Retail & Product</h3>
-                        <p>No Job Available</p>
-                    </div>
-                </div>
-                <div class="cataegory">
-                    <img src="./assets/recruitement/content-writer.svg" alt="">
-                    <div>
-                        <h3>Content Writer</h3>
-                        <p>4 Jobs Available</p>
-                    </div>
-                </div>
-                <div class="cataegory">
-                    <img src="./assets/recruitement/customer-service.svg" alt="">
-                    <div>
-                        <h3>Human Resource</h3>
-                        <p>No Job Available</p>
-                    </div>
-                </div>
-                <div class="cataegory">
-                    <img src="./assets/recruitement/management.svg" alt="">
-                    <div>
-                        <h3>Management</h3>
-                        <p>No Job Available</p>
-                    </div>
-                </div>
-                <div class="cataegory">
-                    <img src="./assets/recruitement/sale.svg" alt="">
-                    <div>
+                    <div class="cataegory">
+                      <img src="./assets/recruitement/sale.svg" alt="" />
+                      <div>
                         <h3>Marketing & Sale</h3>
                         <p>No Job Available</p>
+                      </div>
                     </div>
-                </div>
-                <div class="cataegory">
-                    <img src="./assets/recruitement/marketing.svg" alt="">
-                    <div>
+                  </div>
+                  <div class="swiper-slide cataegory-wrapper">
+                    <div class="cataegory">
+                      <img src="./assets/recruitement/retail.svg" alt="" />
+                      <div>
+                        <h3>Retail & Product</h3>
+                        <p>No Job Available</p>
+                      </div>
+                    </div>
+                    <div class="cataegory">
+                      <img src="./assets/recruitement/marketing.svg" alt="" />
+                      <div>
                         <h3>Software</h3>
                         <p>No Job Available</p>
+                      </div>
                     </div>
-                </div>
-                <div class="cataegory">
-                    <img src="./assets/recruitement/finance.svg" alt="">
-                    <div>
+                  </div>
+                  <div class="swiper-slide cataegory-wrapper">
+                    <div class="cataegory">
+                      <img src="./assets/recruitement/content-writer.svg" alt="" />
+                      <div>
+                        <h3>Content Writer</h3>
+                        <p>4 Jobs Available</p>
+                      </div>
+                    </div>
+                    <div class="cataegory">
+                      <img src="./assets/recruitement/finance.svg" alt="" />
+                      <div>
                         <h3>Finance</h3>
                         <p>No Job Available</p>
+                      </div>
                     </div>
-                </div>
-                <div class="cataegory">
-                    <img src="./assets/recruitement/management.svg" alt="">
-                    <div>
+                  </div>
+                  <div class="swiper-slide cataegory-wrapper">
+                    <div class="cataegory">
+                      <img src="./assets/recruitement/customer-service.svg" alt="" />
+                      <div>
+                        <h3>Human Resource</h3>
+                        <p>No Job Available</p>
+                      </div>
+                    </div>
+                    <div class="cataegory">
+                        <img src="./assets/recruitement/management.svg" alt="" />
+                      <div>
                         <h3>Management</h3>
                         <p>No Job Available</p>
+                      </div>
                     </div>
+                  </div>
                 </div>
             </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+      <div class="categories-container">
             <div class="banner">
                 <img src="./assets/recruitement/banner-left.svg" alt="">
                 <div class="banner-data">
@@ -593,6 +615,7 @@
             <p>Copyright © 2024 Weebseat. All rights reserved</p>
         </div>
     </div>
+    <script src="app.js"></script>
 </body>
 
 </html>

@@ -49,6 +49,33 @@ document.addEventListener("DOMContentLoaded", () => {
   });
   // Product Carousel
 
+  // Jobs Carousel
+const swiper3 = new Swiper(".sample-slider-3", {
+  loop: true,
+  speed: 3000,
+  slidesPerView: 1,
+  spaceBetween: 10,
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+  breakpoints: {
+    1024: {
+      slidesPerView: 5,
+      spaceBetween: 20,
+    },
+    768: {
+      slidesPerView: 3,
+      spaceBetween: 10,
+    },
+  },
+});
+// Jobs Carousel
+
   // lastest Post Section Landing Page starts
   const lastestPosts = [
     {

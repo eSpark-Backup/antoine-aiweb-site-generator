@@ -2004,6 +2004,50 @@ a {
 
 
 /* Recruitment Starts */
+.swiper-container {
+  width: 85%;
+  position: relative;
+}
+
+.sample-slider-3 {
+  width: 90% !important;
+  padding-bottom: 70px !important;
+}
+
+.cataegory-wrapper {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+.swiper-pagination-bullet {
+  opacity: 1 !important;
+  background-color: #f1a300 !important;
+  width: 12px !important;
+  height: 12px !important;
+}
+
+.swiper-pagination-bullet-active {
+  opacity: 1 !important;
+  background-color: #CB1000 !important;
+}
+
+.swiper-pagination {
+  bottom: -5px !important;
+}
+
+.swiper-button-next, .swiper-button-prev {
+  top: 40% !important;
+  color: #9BA4BF !important;
+  background: #E6ECFF !important;
+  padding: 25px !important;
+  border-radius: 50%;
+}
+
+.swiper-button-next::after, .swiper-button-prev::after {
+  font-size: 20px !important;
+}
+
 .recruitment-main {
   /* padding: 20px 0px; */
   display: flex;
@@ -2058,7 +2102,7 @@ a {
 }
 
 .cataegory {
-  width: 258px;
+  width: 100%;
   height: 93px;
   padding: 10px;
   border: 1px solid #0612241A;
@@ -2263,7 +2307,7 @@ a {
   column-gap: 30px;
   row-gap: 20px;
   flex-wrap: wrap;
-  /* justify-content: center; */
+  justify-content: space-between;
   align-items: center;
 }
 
