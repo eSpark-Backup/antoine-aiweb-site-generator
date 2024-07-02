@@ -2009,6 +2009,18 @@ a {
   position: relative;
 }
 
+.swiper-button-next{
+  right: -30px !important;
+  width: 10px !important;
+  height: 10px !important;
+}
+
+.swiper-button-prev{
+  left: -30px !important;
+  width: 10px !important;
+  height: 10px !important;
+}
+
 .sample-slider-3 {
   width: 90% !important;
   padding-bottom: 70px !important;
@@ -2307,7 +2319,7 @@ a {
   column-gap: 30px;
   row-gap: 20px;
   flex-wrap: wrap;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   align-items: center;
 }
 
@@ -3428,13 +3440,34 @@ a {
     width: auto;
   }
 
+  .swiper-container{
+    width: 90%;
+  }
+
+  .swiper-button-next, .swiper-button-prev{
+    padding: 12px !important;
+  }
+
+  .swiper-button-next::after, .swiper-button-prev::after {
+    font-size: 14px !important;
+  }
+
+  .swiper-button-next{
+    right: -12px !important;
+    margin-top: -10px !important;
+  }
+
+  .swiper-button-prev{
+    left: -12px !important;
+    margin-top: -10px !important;
+  }
+
 }
 
 
 @media screen and (min-width:551px) and (max-width:991px) {
 
   .jobs-container,
-  .ctaegories,
   .jobs-categories {
     width: 90%;
   }
@@ -3452,6 +3485,16 @@ a {
   .job-box>div>h3 {
     font-size: 13px;
   }
+
+  .cataegory{
+    width: 100%;
+  }
+
+  .swiper-container{
+    width: 90%;
+  }
+
+
 }
 
 /* Landing Page Steps Starts */
@@ -4374,6 +4417,17 @@ a {
 @media screen and (max-width:1550px) {
   .jobs-container {
     justify-content: center;
+  }
+}
+
+
+@media screen and (min-width:768px) and (max-width:1550px){
+  .cataegory>img{
+    width: 20%;
+  }
+
+  .cataegory>div>h3{
+    font-size: 14px;
   }
 }
 
