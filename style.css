@@ -1900,6 +1900,17 @@ a {
   font-size: 21px;
 }
 
+.paymentTermContainer ol li::marker,
+.serviceInformationContainer ol li::marker,
+.serviceProvideContainer ol li::marker,
+.intellactualPropertyContainer ol li::marker,
+.miscellaneousContainer ol li::marker,
+.userResponsibiltyContainer ol li::marker {
+  font-size: 20px;
+  font-weight: 400;
+  font-family: gotham pro;
+}
+
 /* Terms Of Services Page Ends */
 
 
@@ -1963,6 +1974,15 @@ a {
   font-size: 22px;
 }
 
+.informationContainer ol li::marker,
+.useOfInformationContainer ol li::marker,
+.disclosureInformationContainer ol li::marker,
+.trackingContainer ol li::marker {
+  font-size: 22px;
+  font-weight: 700;
+  font-family: gotham pro;
+}
+
 .higlightedListsdata {
   margin-top: 10px;
   text-wrap: pretty;
@@ -2000,6 +2020,10 @@ a {
   font-weight: 400;
 }
 
+
+
+
+
 /* Privacy Policy Ends */
 
 
@@ -2009,13 +2033,13 @@ a {
   position: relative;
 }
 
-.swiper-button-next{
+.swiper-button-next {
   right: -30px !important;
   width: 10px !important;
   height: 10px !important;
 }
 
-.swiper-button-prev{
+.swiper-button-prev {
   left: -30px !important;
   width: 10px !important;
   height: 10px !important;
@@ -2048,7 +2072,8 @@ a {
   bottom: -5px !important;
 }
 
-.swiper-button-next, .swiper-button-prev {
+.swiper-button-next,
+.swiper-button-prev {
   top: 40% !important;
   color: #9BA4BF !important;
   background: #E6ECFF !important;
@@ -2056,7 +2081,8 @@ a {
   border-radius: 50%;
 }
 
-.swiper-button-next::after, .swiper-button-prev::after {
+.swiper-button-next::after,
+.swiper-button-prev::after {
   font-size: 20px !important;
 }
 
@@ -2406,6 +2432,7 @@ a {
   font-size: 10px;
   font-weight: 400;
   font-family: "Plus Jakarta Sans", sans-serif;
+  color: #2D2C2C;
 }
 
 /* Recruitment Ends */
@@ -3265,6 +3292,15 @@ a {
     line-height: 20px;
   }
 
+  .paymentTermContainer ol li::marker,
+  .serviceInformationContainer ol li::marker,
+  .serviceProvideContainer ol li::marker,
+  .intellactualPropertyContainer ol li::marker,
+  .miscellaneousContainer ol li::marker,
+  .userResponsibiltyContainer ol li::marker {
+    font-size: 12px;
+  }
+
   .serviceHigligtList {
     font-size: 14px;
   }
@@ -3285,6 +3321,17 @@ a {
     line-height: 24px;
   }
 
+  .paymentTermContainer ol li::marker,
+  .serviceInformationContainer ol li::marker,
+  .serviceProvideContainer ol li::marker,
+  .intellactualPropertyContainer ol li::marker,
+  .miscellaneousContainer ol li::marker,
+  .userResponsibiltyContainer ol li::marker {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: gotham pro;
+  }
+
   .serviceHigligtList {
     font-size: 16px;
   }
@@ -3295,6 +3342,17 @@ a {
   .servicesPara {
     font-size: 14px;
     line-height: 24px;
+  }
+
+  .paymentTermContainer ol li::marker,
+  .serviceInformationContainer ol li::marker,
+  .serviceProvideContainer ol li::marker,
+  .intellactualPropertyContainer ol li::marker,
+  .miscellaneousContainer ol li::marker,
+  .userResponsibiltyContainer ol li::marker {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: gotham pro;
   }
 
   .serviceHigligtList {
@@ -3349,6 +3407,13 @@ a {
   .innerListHeading {
     font-size: 14px;
   }
+
+  .informationContainer ol li::marker,
+  .useOfInformationContainer ol li::marker,
+  .disclosureInformationContainer ol li::marker,
+  .trackingContainer ol li::marker {
+    font-size: 14px;
+  }
 }
 
 @media (min-width: 576px) and (max-width: 780px) {
@@ -3368,6 +3433,13 @@ a {
 
   .higlightedListsdata,
   .innerListHeading {
+    font-size: 16px;
+  }
+
+  .informationContainer ol li::marker,
+  .useOfInformationContainer ol li::marker,
+  .disclosureInformationContainer ol li::marker,
+  .trackingContainer ol li::marker {
     font-size: 16px;
   }
 
@@ -3407,6 +3479,13 @@ a {
     font-size: 16px;
     line-height: 26px;
   }
+
+  .informationContainer ol li::marker,
+  .useOfInformationContainer ol li::marker,
+  .disclosureInformationContainer ol li::marker,
+  .trackingContainer ol li::marker {
+    font-size: 16px;
+  }
 }
 
 @media(min-width: 1024px) and (max-width: 1400px) {
@@ -3420,6 +3499,13 @@ a {
   .innerListHeading {
     font-size: 18px;
 
+  }
+
+  .informationContainer ol li::marker,
+  .useOfInformationContainer ol li::marker,
+  .disclosureInformationContainer ol li::marker,
+  .trackingContainer ol li::marker {
+    font-size: 18px;
   }
 
   .higlightedListsdata {
@@ -3466,24 +3552,26 @@ a {
     width: auto;
   }
 
-  .swiper-container{
+  .swiper-container {
     width: 90%;
   }
 
-  .swiper-button-next, .swiper-button-prev{
+  .swiper-button-next,
+  .swiper-button-prev {
     padding: 12px !important;
   }
 
-  .swiper-button-next::after, .swiper-button-prev::after {
+  .swiper-button-next::after,
+  .swiper-button-prev::after {
     font-size: 14px !important;
   }
 
-  .swiper-button-next{
+  .swiper-button-next {
     right: -12px !important;
     margin-top: -10px !important;
   }
 
-  .swiper-button-prev{
+  .swiper-button-prev {
     left: -12px !important;
     margin-top: -10px !important;
   }
@@ -3512,11 +3600,11 @@ a {
     font-size: 13px;
   }
 
-  .cataegory{
+  .cataegory {
     width: 100%;
   }
 
-  .swiper-container{
+  .swiper-container {
     width: 90%;
   }
 
@@ -3549,13 +3637,15 @@ a {
   height: 400px !important;
 }
 
-.img-box .large{
+.img-box .large {
   width: 350px;
 }
-.img-box .medium{
+
+.img-box .medium {
   width: 250px;
 }
-.img-box .small{
+
+.img-box .small {
   width: 150px;
 }
 
@@ -3575,6 +3665,7 @@ a {
   height: 49px;
   border: none;
   font-size: 24px;
+  font-weight: 700;
 }
 
 .gradient-button {
@@ -4225,9 +4316,10 @@ a {
 
   }
 
-  .step4{
+  .step4 {
     row-gap: 3px;
   }
+
   .label-input>div {
     width: 100%;
     height: 37.42px;
@@ -4239,33 +4331,34 @@ a {
     padding: 0px 5px;
     justify-content: center;
     column-gap: 6px;
-  border-image-source:none;
-  box-shadow: 9px 12px 6.8px 0px #00000014 inset;
-  box-shadow: 0px 0px 4.8px 0px #6C6B69AB;
+    border-image-source: none;
+    box-shadow: 9px 12px 6.8px 0px #00000014 inset;
+    box-shadow: 0px 0px 4.8px 0px #6C6B69AB;
   }
 
-.switch .slider{
-  height: 28px;
-  margin-top: 4px;
-  padding-left: 2px;
-}
-.switch .slider::after{
-  height: 18px;
-  width: 18px;
+  .switch .slider {
+    height: 28px;
+    margin-top: 4px;
+    padding-left: 2px;
+  }
 
-}
+  .switch .slider::after {
+    height: 18px;
+    width: 18px;
 
-.website-data img{
-  width: 30px;
-}
+  }
 
-.website-data>div{
-  column-gap: 5px;
-}
+  .website-data img {
+    width: 30px;
+  }
 
-.website-data>div img{
-  width: 20px;
-}
+  .website-data>div {
+    column-gap: 5px;
+  }
+
+  .website-data>div img {
+    width: 20px;
+  }
 
   .step6>div>h1 {
     font-size: 14px;
@@ -4279,31 +4372,35 @@ a {
     font-size: 6.47px;
   }
 
-  .input-box>label{
+  .input-box>label {
     font-size: 14px;
   }
 
-  .text-parent{
+  .text-parent {
     padding: 5px 7px;
   }
 
-  .text-parent>h2:first-child, .text-parent>h2:last-child{
+  .text-parent>h2:first-child,
+  .text-parent>h2:last-child {
     font-size: 14px;
   }
 
-  .step7>h1, .step6>h1:first-child{
+  .step7>h1,
+  .step6>h1:first-child {
     font-size: 17px;
   }
 
-  .payment-box>h1, .step4>h1, .step5>h1{
+  .payment-box>h1,
+  .step4>h1,
+  .step5>h1 {
     display: none;
   }
 
-  .live-website-heading{
+  .live-website-heading {
     font-size: 15.32px;
   }
 
-  .step7>textarea{
+  .step7>textarea {
     margin-bottom: 10px;
   }
 
@@ -4339,17 +4436,19 @@ a {
   .img-box .large{
     width: 250px;
   }
-  .img-box .medium{
+
+  .img-box .medium {
     width: 180px;
   }
-  .img-box .small{
+
+  .img-box .small {
     width: 100px;
   }
 
-  
+
 }
 
-@media screen and (min-width:551px) and (max-width:768px){
+@media screen and (min-width:551px) and (max-width:768px) {
   .website-data {
     width: 100%;
     padding: 0px 5px;
@@ -4523,12 +4622,12 @@ a {
 }
 
 
-@media screen and (min-width:768px) and (max-width:1550px){
-  .cataegory>img{
+@media screen and (min-width:768px) and (max-width:1550px) {
+  .cataegory>img {
     width: 20%;
   }
 
-  .cataegory>div>h3{
+  .cataegory>div>h3 {
     font-size: 14px;
   }
 }
@@ -4833,7 +4932,7 @@ p.point.active {
   }
 
   .login {
-    width: 90%;
+    width: 100%;
     padding: 8px;
     font-size: 14px;
   }
@@ -5000,7 +5099,7 @@ p.point.active {
   }
 
   .signup {
-    width: 90%;
+    width: 100%;
     padding: 8px;
     font-size: 14px;
   }
