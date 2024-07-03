@@ -3230,9 +3230,35 @@ a {
 
 /* Terms of Services Media Query Starts */
 @media (min-width: 0px) and (max-width: 576px) {
-  .servicesTitle h1 {
-    font-size: 32px;
+
+  /* recruitment page */
+
+  .servicesTitle{
+    height: 250px;
   }
+  .servicesTitle h1 {
+    font-size: 36px;
+    font-weight: 700;
+  }
+
+  .recruitment-head{
+    padding: 3px;
+  }
+  
+  .recruitment-head>p{
+    margin-top: 20px;
+  }
+
+  .banner-data>div>h2{
+    margin-top: 20px;
+  }
+
+  .banner-btn-parent>button{
+    border: 1px solid red;
+    margin-top: 15px;
+  }
+
+/* service page */
 
   .servicesPara {
     font-size: 12px;
@@ -3515,8 +3541,12 @@ a {
   width: 30%;
 }
 
+.step5 .gradient-button{
+  display: none;
+}
 .img-box{
   width: 100%;
+  height: 400px !important;
 }
 
 .img-box .large{
@@ -3583,7 +3613,7 @@ a {
 .step4,
 .step6,
 .step5 {
-  width: 56%;
+  width: 76%;
   background-color: white;
   border-radius: 32px;
   padding: 30px;
@@ -4286,6 +4316,24 @@ a {
   .step3>h1,
   .step4>h1 {
     font-size: 14px;
+  }
+
+  .gradient-button{
+    width: 65.97px;
+    height: 27.12px;
+    border-radius: 4.07px;
+    font-weight: 700;
+    font-size: 12.72px;
+  }
+
+  .img-box{
+    height: 300px !important;
+  }
+  .step5 .gradient-button{
+    display: block ;
+    border: none;
+    padding: 0px;
+    font-family: Space grotesk;
   }
 
   .img-box .large{
