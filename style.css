@@ -1830,7 +1830,11 @@ a {
 .servicesTitle {
   width: 100%;
   height: 330px;
-  background-color: #191f25;
+  /* background-color: #191f25; */
+  background-image: url(./assets/landing-page/hero/hero-bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1843,7 +1847,7 @@ a {
   background: linear-gradient(to right, #F1A300, #CB1000);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
-  font-family: gotham pro;
+  font-family: gotham pro b;
   font-size: 103px;
   font-weight: 400;
 
@@ -1851,20 +1855,20 @@ a {
 
 .servicesInformationContainer {
   width: 80%;
-  padding-top: 20px;
+  padding-top: 60px;
   display: flex;
   flex-direction: column;
-  gap: 20px;
-  padding-bottom: 40px;
+  gap: 35px;
+  padding-bottom: 70px;
   font-family: gotham pro;
 
 }
 
 .mainHeading {
-  background: linear-gradient(to right, #f1a100, #c41000);
+  background: -webkit-linear-gradient(left, #f1a300, #cb1000);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
-  font-family: gotham pro !important;
+  font-family: gotham pro b !important;
   font-size: 44px;
   font-weight: 400;
 
@@ -1896,7 +1900,8 @@ a {
 .serviceHigligtList {
   margin-top: 10px;
   text-wrap: pretty;
-  font-family: gotham pro;
+  font-family: gotham pro b;
+  font-weight: 400;
   font-size: 21px;
 }
 
@@ -3260,32 +3265,33 @@ a {
 
   /* recruitment page */
 
-  .servicesTitle{
+  .servicesTitle {
     height: 250px;
   }
+
   .servicesTitle h1 {
     font-size: 36px;
     font-weight: 700;
   }
 
-  .recruitment-head{
+  .recruitment-head {
     padding: 3px;
   }
-  
-  .recruitment-head>p{
+
+  .recruitment-head>p {
     margin-top: 20px;
   }
 
-  .banner-data>div>h2{
+  .banner-data>div>h2 {
     margin-top: 20px;
   }
 
-  .banner-btn-parent>button{
+  .banner-btn-parent>button {
     border: 1px solid red;
     margin-top: 15px;
   }
 
-/* service page */
+  /* service page */
 
   .servicesPara {
     font-size: 12px;
@@ -3629,10 +3635,11 @@ a {
   width: 30%;
 }
 
-.step5 .gradient-button{
+.step5 .gradient-button {
   display: none;
 }
-.img-box{
+
+.img-box {
   width: 100%;
   height: 400px !important;
 }
@@ -4415,7 +4422,7 @@ a {
     font-size: 14px;
   }
 
-  .gradient-button{
+  .gradient-button {
     width: 65.97px;
     height: 27.12px;
     border-radius: 4.07px;
@@ -4423,17 +4430,18 @@ a {
     font-size: 12.72px;
   }
 
-  .img-box{
+  .img-box {
     height: 300px !important;
   }
-  .step5 .gradient-button{
-    display: block ;
+
+  .step5 .gradient-button {
+    display: block;
     border: none;
     padding: 0px;
     font-family: Space grotesk;
   }
 
-  .img-box .large{
+  .img-box .large {
     width: 250px;
   }
 
