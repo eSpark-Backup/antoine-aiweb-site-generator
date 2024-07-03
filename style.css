@@ -1933,7 +1933,11 @@ a {
 .privacyTitle {
   width: 100%;
   height: 330px;
-  background-color: #191f25;
+  /* background-color: #191f25; */
+  background-image: url(./assets/landing-page/hero/hero-bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1946,14 +1950,14 @@ a {
   background: linear-gradient(to right, #F1A300, #CB1000);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
-  font-family: gotham pro;
+  font-family: gotham pro b;
   font-size: 103px;
   font-weight: 400;
 }
 
 .privacyInformationContainer {
   width: 80%;
-  padding-top: 20px;
+  padding-top: 60px;
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -1966,7 +1970,7 @@ a {
   background: linear-gradient(to right, #f1a100, #c41000);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
-  font-family: gotham pro;
+  font-family: gotham pro b;
   font-size: 44px;
   font-weight: 400;
 }
@@ -1977,6 +1981,7 @@ a {
   text-wrap: pretty;
   font-family: gotham pro;
   font-size: 22px;
+  font-weight: 700;
 }
 
 .informationContainer ol li::marker,
@@ -1997,10 +2002,10 @@ a {
 
 .contactUsContainer a {
   color: black;
-  font-weight: 600;
+  font-weight: 700;
   text-decoration: none;
   font-family: gotham pro;
-
+  font-size: 22px;
 }
 
 .privacyOrderList {
@@ -3420,6 +3425,10 @@ a {
   .trackingContainer ol li::marker {
     font-size: 14px;
   }
+
+  .contactUsContainer a{
+    font-size: 14px;
+  }
 }
 
 @media (min-width: 576px) and (max-width: 780px) {
@@ -3446,6 +3455,10 @@ a {
   .useOfInformationContainer ol li::marker,
   .disclosureInformationContainer ol li::marker,
   .trackingContainer ol li::marker {
+    font-size: 16px;
+  }
+
+  .contactUsContainer a{
     font-size: 16px;
   }
 
