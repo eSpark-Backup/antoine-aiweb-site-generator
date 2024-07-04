@@ -1892,9 +1892,9 @@ a {
 .contactInfoContainer a {
   color: black;
   text-decoration: none;
-  font-weight: 600;
+  font-weight: 400;
   font-family: gotham pro;
-
+  font-size: 20px;
 }
 
 .serviceHigligtList {
