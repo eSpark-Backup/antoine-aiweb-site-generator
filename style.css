@@ -1871,7 +1871,7 @@ a {
   font-family: gotham pro b !important;
   font-size: 44px;
   font-weight: 400;
-
+  width: fit-content;
 }
 
 .servicesPara {
@@ -1973,12 +1973,13 @@ a {
 }
 
 .titleOfInfoContainer {
-  background: linear-gradient(to right, #f1a100, #c41000);
+  background: -webkit-linear-gradient(left, #f1a300, #cb1000);;
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
   font-family: gotham pro b;
   font-size: 44px;
   font-weight: 400;
+  width: fit-content;
 }
 
 
