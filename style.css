@@ -2407,6 +2407,7 @@ a {
   flex-wrap: wrap;
   justify-content: flex-start;
   align-items: center;
+  margin-top: 10px;
 }
 
 .job-box {
