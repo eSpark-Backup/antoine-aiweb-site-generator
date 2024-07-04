@@ -39,7 +39,8 @@
 .general-link-decoration {
     text-decoration: none;
     color: #000;
-    font-family: gotham pro;
+    font-family: gotham pro b;
+    font-size: 14px;
 }
 
 .general-gradient-bg {
