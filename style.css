@@ -734,7 +734,7 @@ p.white-board-desc {
 
 
 /* SignIn Sections Starts */
-
+/* 
 .signupMainContainer {
   padding-top: 30px;
   padding-bottom: 80px;
@@ -848,7 +848,7 @@ p.white-board-desc {
   color: #404040;
   font-size: 16px;
   font-weight: 400;
-}
+} */
 
 
 /* SignIn Sections Ends */
@@ -2794,10 +2794,6 @@ a {
     font-size: 14px;
   }
 
-  .signup {
-    font-size: 14px;
-
-  }
 }
 
 /* Login Responsive Ends */
@@ -2807,7 +2803,7 @@ a {
 
 
 /* small mobile phone */
-@media (min-width: 280px) and (max-width: 360px) {
+/* @media (min-width: 280px) and (max-width: 360px) {
   .signupMainContainer {
     height: 550px;
   }
@@ -2834,10 +2830,10 @@ a {
     width: 250px;
   }
 
-}
+} */
 
 /* standard mobilephones */
-@media (min-width: 360px) and (max-width: 414px) {
+/* @media (min-width: 360px) and (max-width: 414px) {
   .signupMainContainer {
     height: 570px;
   }
@@ -2864,10 +2860,10 @@ a {
     width: 250px;
   }
 
-}
+} */
 
 /* large mobilephones */
-@media (min-width: 414px) and (max-width: 600px) {
+/* @media (min-width: 414px) and (max-width: 600px) {
   .signupMainContainer {
     height: 580px;
   }
@@ -2894,10 +2890,10 @@ a {
     width: 250px;
   }
 
-}
+} */
 
 /* Tablets */
-@media (min-width: 600px) and (max-width: 780px) {
+/* @media (min-width: 600px) and (max-width: 780px) {
   .signupMainContainer {
     height: 580px;
   }
@@ -2924,10 +2920,10 @@ a {
     width: 250px;
   }
 
-}
+} */
 
 /* dekstop */
-@media (min-width: 1440px) {
+/* @media (min-width: 1440px) {
   .signupFormContainer {
     width: 420px;
     height: 580px;
@@ -2965,6 +2961,6 @@ a {
     font-size: 14px;
 
   }
-}
+} */
 
 /* SignIn responsive Ends  */
