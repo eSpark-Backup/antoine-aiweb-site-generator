@@ -595,7 +595,8 @@ p.white-board-desc {
 
 
 /* login Sections Starts */
-.login-signup-header {
+
+/* .login-signup-header {
   background-color: #17191B;
   height: 65px;
   width: 100%;
@@ -726,7 +727,7 @@ p.white-board-desc {
   cursor: pointer;
   font-size: 16px;
 
-}
+} */
 
 
 /* login Sections Ends */
@@ -4400,7 +4401,7 @@ p.point.active {
 
 /* Landing Page Steps Ends */
 
-@media (min-width: 280px) and (max-width: 360px) {
+/* @media (min-width: 280px) and (max-width: 360px) {
   .loginMainContainer {
     height: 550px;
   }
@@ -4427,10 +4428,10 @@ p.point.active {
     width: 240px;
   }
 
-}
+} */
 
 /* standard mobilephones */
-@media (min-width: 360px) and (max-width: 414px) {
+/* @media (min-width: 360px) and (max-width: 414px) {
   .loginMainContainer {
     height: 550px;
   }
@@ -4457,11 +4458,11 @@ p.point.active {
     width: 250px;
   }
 
-}
+} */
 
 
 /* large mobilephones */
-@media (min-width: 414px) and (max-width: 600px) {
+/* @media (min-width: 414px) and (max-width: 600px) {
   .loginFormContainer {
     width: 350px;
     height: 430px;
@@ -4484,10 +4485,10 @@ p.point.active {
     width: 270px;
   }
 
-}
+} */
 
 /* Tablets */
-@media (min-width: 600px) and (max-width: 780px) {
+/* @media (min-width: 600px) and (max-width: 780px) {
   .loginFormContainer {
     width: 350px;
     height: 430px;
@@ -4513,10 +4514,10 @@ p.point.active {
   .additionalAuth {
     width: 100%;
   }
-}
+} */
 
 /* dekstop */
-@media (min-width: 1440px) {
+/* @media (min-width: 1440px) {
   .loginFormContainer {
     width: 550px;
     height: 550px;
@@ -4555,7 +4556,7 @@ p.point.active {
     font-size: 14px;
   }
 
-}
+} */
 
 /* Login Responsive Ends */
 
