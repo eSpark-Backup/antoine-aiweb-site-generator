@@ -369,8 +369,7 @@
     row-gap: 20px;
 }
 
-.jobs h1,
-.jobs p {
+.jobs h1 {
     text-align: center;
     font-family: gotham pro b;
 }
@@ -385,6 +384,7 @@
     color: #6C757D;
     font-size: 18px;
     font-weight: 400;
+    font-family: gotham pro;
 }
 
 .jobs-categories {
