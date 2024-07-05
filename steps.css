@@ -1020,8 +1020,6 @@
 }
 
 
-
-/* Recruitment Media Query Ends */
 @media screen and (min-width:768px) {
     .label-input>div>input::placeholder {
         color: rgb(255, 255, 255) !important;
