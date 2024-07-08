@@ -150,7 +150,7 @@
   color: #404040;
   font-weight: 700;
   font-size: 26px;
-  font-family: Gotham pro;
+  font-family: Gotham pro b;
   text-decoration: underline;
   text-decoration-color: #31302f;
   margin-bottom: 12px;
@@ -236,6 +236,7 @@
   cursor: pointer;
   font-size: 16px;
   font-family: gotham pro;
+  height: 40px;
 }
 
 .signupFormButtons p{
