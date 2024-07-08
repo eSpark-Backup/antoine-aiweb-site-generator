@@ -289,7 +289,7 @@
 /* large mobilephones */
 @media (min-width: 414px) and (max-width: 600px) {
   .signupMainContainer {
-    width: 70%;
+    width: 90%;
   }
 
   .signupFormOnboardingTitle {
