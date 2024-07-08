@@ -39,7 +39,8 @@
 .general-link-decoration {
   text-decoration: none;
   color: #000;
-  font-family: gotham pro;
+  font-family: gotham pro b;
+  font-size: 14px;
 }
 
 .general-gradient-bg {
@@ -742,6 +743,23 @@
   .jump-start-img img {
     width: 100%;
   }
+
+    /* footer section */
+    .landing-footer-upper-box-contact {
+      margin-right: 0px;
+    }
+  
+    .landing-footer-upper-box-More {
+      margin-right: 0px;
+    }
+  
+    .landing-footer-upper-box-Weebseat {
+      margin-right: 0px;
+    }
+  
+    .landing-footer-upper-box-get-in-touch {
+      margin-right: 0px;
+    }
 
   /* Footer section Sections Responsive Ends */
 }
