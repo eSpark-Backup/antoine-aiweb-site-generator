@@ -103,7 +103,7 @@
   align-items: center;
   border-radius: 8px;
   padding: 10px 15px 0px 15px;
-  min-height: 700px;
+  min-height: 650px;
 }
 
 .loginFormOnboardingTitle {
@@ -161,6 +161,7 @@
   color: #404040;
   font-weight: 400;
   font-family: Gotham pro b !important;
+  font-size: 26px;
 }
 
 .loginInputContainer {
@@ -450,6 +451,13 @@
   }
 }
 
+@media screen and (max-width:768px){
+  .loginTitle h2 {
+    font-size: 18px;
+  }
+}
+
+
 /* dekstop */
 @media (min-width: 1440px) {
   .loginFormOnboardingTitle {
@@ -461,9 +469,7 @@
 
   }
 
-  .loginTitle h2 {
-    font-size: 26px;
-  }
+
 
   .additionalAuth {
     /* width: 91%;

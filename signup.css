@@ -113,6 +113,11 @@
   margin-bottom: 12px;
 }
 
+.signupFormTitle p{
+  font-family: gotham pro;
+  
+}
+
 .signupFormOnboardingTitle .signupFormTitle span {
   background: linear-gradient(to right, #f1a300, #cb1000);
   -webkit-text-fill-color: transparent;
@@ -136,13 +141,19 @@
 }
 
 .signupTitle {
-  text-decoration: underline;
-  text-decoration-color: #31302f;
+
+
+  margin-top: 20px;
+}
+
+.signupTitle h2 {
   color: #404040;
   font-weight: 700;
   font-size: 26px;
   font-family: Gotham pro;
-  margin-top: 20px;
+  text-decoration: underline;
+  text-decoration-color: #31302f;
+  margin-bottom: 12px;
 }
 
 .signupInputContainer {
@@ -153,6 +164,7 @@
   font-size: 16px;
   font-family: gotham pro b;
   font-weight: 500;
+  color: #404040;
 }
 
 .signupInputField {
@@ -168,6 +180,7 @@
   border: none;
   padding-left: 5px;
   height: 30px;
+  width: 100%;
 }
 
 .signupInputFiel2 {
@@ -181,10 +194,11 @@
   justify-content: space-between;
 }
 
-.signupInputFiel2 span{
+.signupInputFiel2 span {
   cursor: pointer;
 }
-.signupInputFiel2 span img{
+
+.signupInputFiel2 span img {
   width: 18.75px;
   height: 17.5px;
   margin-top: 5px;
@@ -221,6 +235,12 @@
   border-radius: 6px;
   cursor: pointer;
   font-size: 16px;
+  font-family: gotham pro;
+}
+
+.signupFormButtons p{
+  font-family: gotham pro;
+
 }
 
 .excistingAccount-a {
@@ -232,6 +252,7 @@
 }
 
 .excistingAccount {
+  font-family: gotham pro;  
   width: max-content;
   background-color: transparent;
   border: none;
@@ -301,8 +322,8 @@
   }
 }
 
-@media screen and (min-width:601px) and (max-width:1024px){
-  .signupMainContainer{
+@media screen and (min-width:601px) and (max-width:1024px) {
+  .signupMainContainer {
     width: 70%;
   }
 }
@@ -318,13 +339,13 @@
   }
 }
 
-@media screen and (min-width:1440px){
-  .signupInputFiel2 input{
+@media screen and (min-width:1440px) {
+  .signupInputFiel2 input {
     width: 95%;
   }
 }
 
-@media only screen and (max-width: 1750px) {
+@media screen and (max-width:1550px) {
   .signupFormPara p {
     font-size: 13px;
   }
@@ -332,6 +353,11 @@
   .signupFormOnboardingTitle .signupFormTitle {
     font-size: 22px;
   }
+}
+
+@media only screen and (max-width: 1750px) {
+
+
 
   .signupTitle {
     font-size: 13px;
@@ -489,6 +515,7 @@
 /* Footer Section Ends */
 
 @media only screen and (max-width: 768px) {
+
   /* footer section */
   .landing-footer-upper-box-contact {
     margin-right: 0px;
@@ -505,8 +532,14 @@
   .landing-footer-upper-box-get-in-touch {
     margin-right: 0px;
   }
+
+  .signupTitle h2{
+    font-size: 18px;
+  }
 }
+
 @media screen and (max-width: 1200px) and (min-width: 1000px) {
+
   /* Footer section Sections Responsive Starts  */
   .landing-footer-upper-box {
     width: 90%;
@@ -569,22 +602,22 @@
     width: 100%;
   }
 
-    /* footer section */
-    .landing-footer-upper-box-contact {
-      margin-right: 0px;
-    }
-  
-    .landing-footer-upper-box-More {
-      margin-right: 0px;
-    }
-  
-    .landing-footer-upper-box-Weebseat {
-      margin-right: 0px;
-    }
-  
-    .landing-footer-upper-box-get-in-touch {
-      margin-right: 0px;
-    }
+  /* footer section */
+  .landing-footer-upper-box-contact {
+    margin-right: 0px;
+  }
+
+  .landing-footer-upper-box-More {
+    margin-right: 0px;
+  }
+
+  .landing-footer-upper-box-Weebseat {
+    margin-right: 0px;
+  }
+
+  .landing-footer-upper-box-get-in-touch {
+    margin-right: 0px;
+  }
 
   /* Footer section Sections Responsive Ends */
 }
