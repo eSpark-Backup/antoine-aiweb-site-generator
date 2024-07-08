@@ -173,6 +173,18 @@
     position: relative;
 }
 
+.step2{
+    width: 69%;
+}
+
+
+
+.step1{
+    height: 500px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
 .step1::before,
 .step2::before,
 .step3::before,
@@ -244,6 +256,10 @@
 .step3>h1,
 .step4>h1 {
     font-weight: 600;
+}
+
+.step3>h1{
+    margin-bottom: 5px;
 }
 
 
@@ -385,7 +401,7 @@
 
 .step2 input,
 .step3 input {
-    width: 50%;
+    width: 58.5%;
     height: 75.7px;
     padding: 10px 20px;
     background-color: white;
@@ -426,6 +442,7 @@
     align-items: center;
 }
 
+
 .label-input>div {
     height: 67px;
     width: 55%;
@@ -454,6 +471,7 @@
     outline: none;
     height: 100%;
     font-size: 20px;
+    padding-left: 4px;
 }
 
 
@@ -707,6 +725,8 @@
     .payment-option-box {
         height: 70px;
      } 
+
+
 }
 
 
@@ -714,10 +734,36 @@
     .payment-option-box {
         height: 62px;
      } 
+     .step1{
+        height: 500px;
+        margin-bottom: 0px;
+        margin-top: 0px;
+    }
+
+    .payment-options{
+        height: 96px;
+    }
+    .payment-options .lineImg{
+        height: 70px !important;
+    }
+    
 }
 
 
 @media screen and (max-width:550px) {
+
+    .step1{
+        height: 500px;
+        margin-bottom: 0px;
+        margin-top: 0px;
+    }
+
+    .payment-options{
+        height: 96px;
+    }
+    .payment-options .lineImg{
+        height: 70px !important;
+    }
 
     .input-box>input{
         height: 30px;
