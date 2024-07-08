@@ -81,10 +81,6 @@
   align-items: center;
 }
 
-
-
-
-
 .login-signup-header {
   background-color: #17191B;
   height: 65px;
@@ -99,7 +95,7 @@
 }
 
 .loginFormContainer {
-  width: 95%;
+  width: 100%;
   background-color: #ffff;
   display: flex;
   flex-direction: column;

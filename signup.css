@@ -85,8 +85,9 @@
 
 .signupMainContainer {
   width: 40%;
-  padding-top: 30px;
-  padding-bottom: 80px;
+  /* padding-top: 30px;
+  padding-bottom: 80px; */
+  /* border: 1px solid red; */
 }
 
 .signupFormContainer {
