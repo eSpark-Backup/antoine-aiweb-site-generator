@@ -362,3 +362,18 @@ function blogPage() {
 
   // Blogs  Page ends
 }
+
+
+function TogglePassword() {
+  const passInput = document.getElementById("loginPasswordInput");
+  const toggleIcon = document.querySelector('.togglePassIcon img');
+
+  if (passInput.type === "password") {
+    passInput.type = "text";
+    toggleIcon.src = "./assets/login/eye.png"; // Update the src attribute to eye open
+  } else {
+    passInput.type = "password";
+    toggleIcon.src = "./assets/login/eye-close.svg"; // Update the src attribute to eye close
+  }
+}
+
