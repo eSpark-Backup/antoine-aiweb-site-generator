@@ -1,0 +1,190 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap");
+
+/* Global */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Space Grotesk;
+}
+
+@font-face {
+  font-family: gotham pro;
+  src: url("./fonts/Gotham\ Pro/gothampro.ttf");
+}
+
+@font-face {
+  font-family: gotham pro b;
+  src: url("./fonts/Gotham\ Pro/gothampro_medium.ttf");
+}
+
+.bold {
+  font-weight: 800;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+/* GENERAL */
+.general-gradient-color {
+  background: linear-gradient(90deg, #f1a300 0%, #cb1000 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.general-link-decoration {
+  text-decoration: none;
+  color: #000;
+  font-family: gotham pro b;
+  font-size: 14px;
+}
+
+.general-gradient-bg {
+  background: linear-gradient(90deg, #f1a300 0%, #cb1000 100%);
+}
+
+.gradient-text {
+  background: -webkit-linear-gradient(left, #f1a300, #cb1000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: gotham pro;
+}
+
+/* Global */
+
+/* Dashboard Start */
+section.dashboard {
+  display: flex;
+}
+
+.sidebar {
+  width: 378px;
+  height: 100vh;
+  border: 1px solid;
+}
+
+.layout-container {
+  flex: 1;
+}
+
+.header {
+  height: 92px;
+  padding: 15px 15px 15px 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.layout {
+  height: calc(100vh - 92px);
+  background-color: #F9FAFB;
+  overflow-y: auto;
+}
+
+.header-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.language {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.language > div {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.profile {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+}
+
+.profile > div {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+img.arrow-icon {
+  border: 0.26px solid #5c5c5c;
+  border-radius: 50%;
+  padding: 10px 7px;
+}
+
+p.noti-count {
+  position: absolute;
+  top: -12px;
+  right: -6px;
+  width: 23px;
+  height: 23px;
+  border-radius: 50%;
+  background: #f93c65;
+  color: #f7d1d1;
+  border: 2px solid #f7d1d1;
+  font-weight: 900;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: gotham pro;
+  font-size: 13px;
+}
+
+.notification-icon {
+  position: relative;
+}
+
+.language > div > p {
+  color: #646464;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: Nunito;
+}
+
+p.profile-desc {
+  color: #565656;
+  font-size: 15px;
+  font-weight: 600;
+  font-family: Nunito;
+}
+
+p.profile-name {
+  font-size: 18px;
+  font-weight: 700;
+  color: #404040;
+  font-family: Nunito;
+}
+
+.search-bar {
+  background: #f5f6fa;
+  border: 1px solid #d5d5d5;
+  border-radius: 25px;
+  padding: 10px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+  width: 320px;
+}
+
+.search-bar > input {
+  border: none;
+  outline: none;
+  background: transparent;
+  font-family: Nunito;
+  font-size: 18px;
+  font-weight: 400;
+}
