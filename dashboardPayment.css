@@ -1,0 +1,351 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/* Global */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Space Grotesk;
+}
+
+@font-face {
+    font-family: gotham pro;
+    src: url("./fonts/Gotham\ Pro/gothampro.ttf");
+}
+
+@font-face {
+    font-family: gotham pro b;
+    src: url("./fonts/Gotham\ Pro/gothampro_medium.ttf");
+}
+
+.bold {
+    font-weight: 800;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+/* GENERAL */
+.general-gradient-color {
+    background: linear-gradient(90deg, #f1a300 0%, #cb1000 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.general-link-decoration {
+    text-decoration: none;
+    color: #000;
+    font-family: gotham pro b;
+    font-size: 14px;
+}
+
+.general-gradient-bg {
+    background: linear-gradient(90deg, #f1a300 0%, #cb1000 100%);
+}
+
+.gradient-text {
+    background: -webkit-linear-gradient(left, #f1a300, #cb1000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: gotham pro;
+}
+
+/* Global */
+
+/* Dashboard payment section */
+
+.dashboardPaymentBox{
+    padding: 40px 30px;
+    background-color: #F9FAFB;
+    ;
+
+}
+
+.dashboardPaymentSecTitle{
+    margin-bottom: 32px;
+}
+
+.dashboardPaymentSecTitle>p{
+    font-size: 18.47px;
+    font-weight: 600;
+    font-family: "Nunito Sans";
+}
+.dashboardPaymentSecTitle>h1{
+    margin-bottom: 8px;
+    font-size: 42.21px;
+    font-weight: 700;
+    font-family: gotham pro;
+}
+
+.step7 {
+    width: 59.3%;
+    background-color: white;
+    border-radius: 11.73px;
+    padding: 15px;
+    box-shadow: 0px 0px 23.46px 0px #C2C2C2;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 15px;
+    position: relative;
+}
+
+.step7>h1 {
+    text-align: center;
+    font-size: 30.47px;
+    font-weight: 400;
+    font-family: gotham pro;
+}
+
+.payment-box {
+    width: 95%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.payment-box>h1 {
+    font-size: 18px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    color: #191C1F;
+}
+
+.payment-options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #E4E7E9;
+    padding: 10px;
+}
+
+.payment-options img {
+    width: 4%;
+}
+
+.payment-option-box {
+    width: 22%;
+    height: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.payment-option-box label {
+    text-align: center;
+    height: 40%;
+    margin-top: 10px;
+    font-size: 12px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    color: #191C1F;
+}
+
+.payment-option-box img {
+    width: 20px;
+    height: 20px;
+}
+
+.input-box {
+    display: flex;
+    flex-direction: column;
+    row-gap: 6px;
+}
+
+.input-box>input {
+    height: 44px;
+    border: 1px solid #E4E7E9;
+    outline: none;
+    background-color: white;
+    padding: 5px 10px;
+    font-family: "Poppins";
+}
+
+.input-box>input::placeholder {
+    color: #8f7777 !important;
+    font-size: 18px;
+}
+
+.input-box>label {
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    color: #191C1F;
+
+}
+
+.horizontal-input-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.horizontal-input-box>div {
+    width: 48%;
+}
+
+.text-parent {
+    padding: 5px 20px;
+    display: flex;
+    row-gap: 10px;
+    flex-direction: column;
+}
+
+.text-parent>h2:first-child {
+    font-size: 18px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    color: #191C1F;
+}
+
+.text-parent>h2:last-child {
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    color: #191C1F;
+}
+
+.text-parent>h2>span {
+    color: #a2a2a3;
+    font-family: "Poppins";
+}
+
+
+.step7>textarea {
+    padding: 10px 20px;
+    resize: none;
+    height: 100px;
+    border: 1px solid #E4E7E9;
+    font-family: "Poppins";
+}
+
+.step7>textarea::placeholder {
+    color: #929FA5 !important;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Poppins";
+}
+
+@media screen and (max-width:400px) {
+    .payment-option-box {
+        height: 70px;
+     } 
+
+
+}
+
+
+@media screen and (min-width:400px)  and (max-width:550px) {
+    .payment-option-box {
+        height: 62px;
+     } 
+    .payment-options{
+        height: 96px;
+    }
+    .payment-options .lineImg{
+        height: 70px !important;
+    }
+    
+}
+
+
+@media screen and (max-width:550px) {
+
+    .payment-options{
+        height: 96px;
+    }
+    .payment-options .lineImg{
+        height: 70px !important;
+    }
+
+    .input-box>input{
+        height: 30px;
+    }
+
+    .step7>textarea::placeholder {
+        font-size: 12px;
+    }
+
+    .input-box>input::placeholder {
+        font-size: 12px;
+    }
+
+    .step7{
+        width:100%;
+    }
+
+    .payment-option-box label {
+        font-size: 7.47px;
+    }
+
+    .input-box>label {
+        font-size: 14px;
+    }
+
+    .text-parent {
+        padding: 5px 7px;
+    }
+
+    .text-parent>h2:first-child,
+    .text-parent>h2:last-child {
+        font-size: 14px;
+    }
+
+    .step7>h1,
+    .step6>h1:first-child {
+        font-size: 17px;
+    }
+
+    .payment-box>h1{
+        display: none;
+    }
+
+    .step7>textarea {
+        margin-bottom: 10px;
+    }
+}
+
+
+
+@media screen and (min-width:551px) and (max-width:1024px) {
+    .step7{
+        width: 80%;
+        border-width: 2px;
+    }
+
+}
+
+
+@media screen and (max-width:767px) {
+    .payment-box {
+        width: 100%;
+        padding: 4px;
+    }
+
+    .payment-options {
+        padding: 2px;
+    }
+
+    .payment-option-box {
+        width: 22%;
+    }
+
+}
+
+
+@media screen and (min-width:768px) {
+
+    .step7 {
+        padding: 30px;
+    }
+
+    .payment-box {
+        border: 1px solid #E4E7E9;
+        width: 100%;
+    }
+}
