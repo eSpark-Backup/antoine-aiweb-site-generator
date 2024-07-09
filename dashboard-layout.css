@@ -1,60 +1,11 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap");
 
-/* Global */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Space Grotesk;
+  font-family: Nunito;
 }
-
-@font-face {
-  font-family: gotham pro;
-  src: url("./fonts/Gotham\ Pro/gothampro.ttf");
-}
-
-@font-face {
-  font-family: gotham pro b;
-  src: url("./fonts/Gotham\ Pro/gothampro_medium.ttf");
-}
-
-.bold {
-  font-weight: 800;
-}
-
-.uppercase {
-  text-transform: uppercase;
-}
-
-/* GENERAL */
-.general-gradient-color {
-  background: linear-gradient(90deg, #f1a300 0%, #cb1000 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-.general-link-decoration {
-  text-decoration: none;
-  color: #000;
-  font-family: gotham pro b;
-  font-size: 14px;
-}
-
-.general-gradient-bg {
-  background: linear-gradient(90deg, #f1a300 0%, #cb1000 100%);
-}
-
-.gradient-text {
-  background: -webkit-linear-gradient(left, #f1a300, #cb1000);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-family: gotham pro;
-}
-
-/* Global */
 
 /* Dashboard Start */
 section.dashboard {
@@ -62,9 +13,12 @@ section.dashboard {
 }
 
 .sidebar {
-  width: 378px;
+  width: 355px;
   height: 100vh;
-  border: 1px solid;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
 }
 
 .layout-container {
@@ -81,7 +35,7 @@ section.dashboard {
 
 .layout {
   height: calc(100vh - 92px);
-  background-color: #F9FAFB;
+  background-color: #f9fafb;
   overflow-y: auto;
 }
 
@@ -151,21 +105,19 @@ p.noti-count {
   color: #646464;
   font-size: 18px;
   font-weight: 600;
-  font-family: Nunito;
+  line-height: 12px;
 }
 
 p.profile-desc {
   color: #565656;
   font-size: 15px;
   font-weight: 600;
-  font-family: Nunito;
 }
 
 p.profile-name {
   font-size: 18px;
   font-weight: 700;
   color: #404040;
-  font-family: Nunito;
 }
 
 .search-bar {
@@ -184,7 +136,72 @@ p.profile-name {
   border: none;
   outline: none;
   background: transparent;
-  font-family: Nunito;
   font-size: 18px;
   font-weight: 400;
+}
+
+img.logo {
+  margin-top: 30px;
+}
+
+.menu-list {
+  flex: 1;
+  margin: 50px 0;
+  width: 100%;
+  overflow-y: auto;
+}
+
+.footer-menu-list {
+  border-top: 0.79px solid #e0e0e0;
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.footer-menu-list > .menu {
+  text-align: left;
+  padding: 20px 20px 20px 65px;
+  margin: 20px;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: Nonito;
+  color: #262525;
+  cursor: pointer;
+}
+
+.menu-list > .menu {
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: Nonito;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 12px;
+  color: #262525;
+  cursor: pointer;
+}
+
+.menu.active {
+  position: relative;
+  background: linear-gradient(to right, #f1a300, #cb1000) !important;
+  color: #fff !important;
+}
+
+.menu.active img {
+  filter: brightness(0) saturate(100%) invert(100%) sepia(100%) saturate(2%)
+    hue-rotate(11deg) brightness(105%) contrast(101%);
+}
+
+.menu.active::after {
+  background: #cb1000;
+  content: "";
+  position: absolute;
+  width: 5px;
+  height: 100%;
+  top: 0;
+  left: -20px;
+  border-radius: 0px 10px 10px 0px;
 }
