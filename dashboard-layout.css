@@ -49,7 +49,7 @@ section.dashboard {
   align-items: center;
 }
 
-.layout {
+.main {
   height: calc(100vh - 92px);
   background-color: #f9fafb;
   overflow-y: auto;
@@ -69,7 +69,7 @@ section.dashboard {
   gap: 15px;
 }
 
-.language > div {
+.language>div {
   display: flex;
   justify-content: center;
   align-items: flex-start;
@@ -83,7 +83,7 @@ section.dashboard {
   align-items: center;
 }
 
-.profile > div {
+.profile>div {
   display: flex;
   flex-direction: column;
   gap: 5px;
@@ -117,7 +117,7 @@ p.noti-count {
   position: relative;
 }
 
-.language > div > p {
+.language>div>p {
   color: #646464;
   font-size: 18px;
   font-weight: 600;
@@ -148,7 +148,7 @@ p.profile-name {
   width: 320px;
 }
 
-.search-bar > input {
+.search-bar>input {
   border: none;
   outline: none;
   background: transparent;
