@@ -10,35 +10,69 @@
 
 <body>
     <section class="dashboard">
-        <div class="sidebar">Sidebar</div>
-        <div class="layout-container">
-            <div class="header">
-                <div class="search-bar">
-                    <img src="./assets/dashboard/search.png" alt="google" />
-                    <input placeholder="Search" />
+        <div id="sidebar" class="sidebar">
+            <img id="menu-close" class="cross" src="./assets/dashboard/cross.png" alt="cross" />
+            <img class="logo" src="./assets/dashboard/logo.png" alt="logo" />
+            <div class="menu-list">
+                <div class="menu">
+                    <img src="./assets/dashboard/calendar.png" alt="calendar" />
+                    <p>Monthly/Annual Subscription</p>
                 </div>
-                <div class="header-content">
-                    <div class="notification-icon">
-                        <img src="./assets/dashboard/notification.png" alt="bell" />
-                        <p class="noti-count">6</p>
-                    </div>
-                    <div class="language">
-                        <img class="flag-icon" src="./assets/dashboard/flag.png" alt="flag" />
-                        <div>
-                            <p>English</p>
-                            <img src="./assets/dashboard/down-arrow.png" alt="arrow" />
-                        </div>
-                    </div>
-                    <div class="profile">
-                        <img class="profile-icon" src="./assets/dashboard/profile.png" alt="profile" />
-                        <div>
-                            <p class="profile-name">Moni Roy</p>
-                            <p class="profile-desc">Website name</p>
-                        </div>
-                        <img class="arrow-icon" src="./assets/dashboard/down-arrow.png" alt="arrow" />
-                    </div>
+                <div class="menu">
+                    <img src="./assets/dashboard/headphone.png" alt="calendar" />
+                    <p>Technical Support and Consulting</p>
                 </div>
             </div>
+            <div class="footer-menu-list">
+                <div class="menu active">
+                    <p>Settings</p>
+                </div>
+                <div class="menu">
+                    <p class="logout">Logout</p>
+                </div>
+            </div>
+        </div>
+        <div class="layout-container">
+            <div class="header">
+                <img id="menu-open" class="hamburger" src="./assets/dashboard/menu.png" />
+                <div class="search-bar">
+                  <img src="./assets/dashboard/search.png" alt="google" />
+                  <input placeholder="Search" />
+                </div>
+                <div class="header-content">
+                  <div class="notification-icon">
+                    <img src="./assets/dashboard/notification.png" alt="bell" />
+                    <p class="noti-count">6</p>
+                  </div>
+                  <div class="language">
+                    <img
+                      class="flag-icon"
+                      src="./assets/dashboard/flag.png"
+                      alt="flag"
+                    />
+                    <div>
+                      <p>English</p>
+                      <img src="./assets/dashboard/down-arrow.png" alt="arrow" />
+                    </div>
+                  </div>
+                  <div class="profile">
+                    <img
+                      class="profile-icon"
+                      src="./assets/dashboard/profile.png"
+                      alt="profile"
+                    />
+                    <div>
+                      <p class="profile-name">Moni Roy</p>
+                      <p class="profile-desc">Website name</p>
+                    </div>
+                    <img
+                      class="arrow-icon"
+                      src="./assets/dashboard/down-arrow.png"
+                      alt="arrow"
+                    />
+                  </div>
+                </div>
+              </div>
             <div class="main">
                 <h1>Your Website</h1>
                 <p>12 June</p>
@@ -117,6 +151,7 @@
             </div>
         </div>
     </section>
+    <script src="./app.js"></script>
 </body>
 
 </html>
