@@ -6,6 +6,26 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 });
 
+//Dashboard
+document.addEventListener("DOMContentLoaded", function () {
+  const openImage = document.getElementById("menu-open");
+  const closeImage = document.getElementById("menu-close");
+  const targetElement = document.getElementById("sidebar");
+
+  if (openImage && targetElement) {
+    openImage.addEventListener("click", function () {
+      targetElement.classList.add("active");
+    });
+  }
+
+  if (closeImage && targetElement) {
+    closeImage.addEventListener("click", function () {
+      targetElement.classList.remove("active");
+    });
+  }
+});
+//Dashboard
+
 // Partner Carousel
 // function landingPage() {
   const swiper = new Swiper(".sample-slider", {
