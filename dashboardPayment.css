@@ -8,7 +8,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Space Grotesk;
+    font-family:  Nunito;;
 }
 
 @font-face {
@@ -243,16 +243,35 @@
 
 /* dasboard-layout css start */
 /* Dashboard Start */
+
+.hamburger {
+    display: none;
+  }
+  
 section.dashboard {
     display: flex;
   }
   
   .sidebar {
-    width: 378px;
+    background-color: #FFF;
+    width: 355px;
     height: 100vh;
-    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    z-index: 99;
+    position: relative;
   }
   
+  .cross {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    width: 30px;
+    display: none;
+  }
+    
   .layout-container {
     flex: 1;
   }
@@ -261,13 +280,14 @@ section.dashboard {
     height: 92px;
     padding: 15px 15px 15px 60px;
     display: flex;
+    gap: 10px;
     justify-content: space-between;
     align-items: center;
   }
   
   .layout {
     height: calc(100vh - 92px);
-    background-color: #F9FAFB;
+    background-color: #f9fafb;
     overflow-y: auto;
   }
   
@@ -337,21 +357,19 @@ section.dashboard {
     color: #646464;
     font-size: 18px;
     font-weight: 600;
-    font-family: Nunito;
+    line-height: 12px;
   }
   
   p.profile-desc {
     color: #565656;
     font-size: 15px;
     font-weight: 600;
-    font-family: Nunito;
   }
   
   p.profile-name {
     font-size: 18px;
     font-weight: 700;
     color: #404040;
-    font-family: Nunito;
   }
   
   .search-bar {
@@ -373,6 +391,73 @@ section.dashboard {
     font-family: Nunito;
     font-size: 18px;
     font-weight: 400;
+  }
+
+  
+img.logo {
+    margin-top: 30px;
+  }
+  
+  .menu-list {
+    flex: 1;
+    margin: 50px 0;
+    width: 100%;
+    overflow-y: auto;
+  }
+  
+  .footer-menu-list {
+    border-top: 0.79px solid #e0e0e0;
+    width: 100%;
+    margin-bottom: 50px;
+  }
+  
+  .footer-menu-list > .menu {
+    text-align: left;
+    padding: 20px 20px 20px 65px;
+    margin: 20px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: Nonito;
+    color: #262525;
+    cursor: pointer;
+  }
+  
+  .menu-list > .menu {
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: Nonito;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 12px;
+    color: #262525;
+    cursor: pointer;
+  }
+  
+  .menu.active {
+    position: relative;
+    background: linear-gradient(to right, #f1a300, #cb1000) !important;
+    color: #fff !important;
+  }
+  
+  .menu.active img {
+    filter: brightness(0) saturate(100%) invert(100%) sepia(100%) saturate(2%)
+      hue-rotate(11deg) brightness(105%) contrast(101%);
+  }
+  
+  .menu.active::after {
+    background: #cb1000;
+    content: "";
+    position: absolute;
+    width: 5px;
+    height: 100%;
+    top: 0;
+    left: -20px;
+    border-radius: 0px 10px 10px 0px;
   }
   
 /* dasboard-layout css end */
@@ -428,7 +513,8 @@ section.dashboard {
     }
 
     .step7{
-        width:80%;
+        width:90%;
+        margin-bottom: 0px;
     }
 
     .payment-option-box label {
@@ -460,6 +546,16 @@ section.dashboard {
     .step7>textarea {
         margin-bottom: 10px;
     }
+
+    .dashboardPaymentSecTitle{
+        width: 90%;
+    }
+    
+    .dashboardPaymentSecTitle>h1{
+        font-size: 28px;
+       
+    }
+    
 }
 
 
@@ -569,7 +665,64 @@ section.dashboard {
         width: 28.12px;
         height: 28.12px;
     }
-    
-    
-    
-}
+    }
+
+/* dashboard layout media quieries */
+
+    @media only screen and (max-width: 1220px) {
+        .search-bar {
+          display: none;
+        }
+        .header {
+          justify-content: flex-end;
+        }
+      }
+      
+      @media only screen and (max-width: 786px) {
+        .sidebar {
+          position: absolute;
+          left: -355px;
+          transition: 0.5s ease-in-out;
+        }
+        .cross {
+          display: block;
+        }
+        .sidebar.active {
+          left: 0px;
+        }
+        .hamburger {
+          display: block;
+          cursor: pointer;
+          width: 35px;
+        }
+        .header {
+          padding: 15px !important;
+          justify-content: space-between;
+        }
+      }
+      
+      @media only screen and (max-width: 540px) {
+        .layout {
+            height: 100% !important;
+          }
+        .profile > div {
+          display: none;
+        }
+        .language > div {
+          display: none;
+        }
+        .sidebar {
+          width: 320px;
+        }
+        .footer-menu-list {
+          margin-bottom: 0px;
+        }
+        .footer-menu-list > .menu {
+          font-size: 13px;
+        }
+        
+        .menu-list > .menu {
+          font-size: 13px;
+        }
+      }
+      
