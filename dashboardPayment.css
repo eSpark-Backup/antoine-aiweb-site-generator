@@ -56,17 +56,23 @@
 
 /* Global */
 
-/* Dashboard payment section */
+/* Dashboard payment card css start */
 
-.dashboardPaymentBox{
-    padding: 40px 30px;
-    background-color: #F9FAFB;
-    ;
-
+.layout{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
 }
 
+
 .dashboardPaymentSecTitle{
-    margin-bottom: 32px;
+    margin-bottom: 12px;
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 8px;
 }
 
 .dashboardPaymentSecTitle>p{
@@ -82,7 +88,7 @@
 }
 
 .step7 {
-    width: 59.3%;
+    width: 95%;
     background-color: white;
     border-radius: 11.73px;
     padding: 15px;
@@ -92,6 +98,7 @@
     flex-direction: column;
     row-gap: 15px;
     position: relative;
+    margin-bottom: 30px;
 }
 
 .step7>h1 {
@@ -231,6 +238,149 @@
     font-family: "Poppins";
 }
 
+/* dasboard-payment card css End */
+
+
+/* dasboard-layout css start */
+/* Dashboard Start */
+section.dashboard {
+    display: flex;
+  }
+  
+  .sidebar {
+    width: 378px;
+    height: 100vh;
+    border: 1px solid;
+  }
+  
+  .layout-container {
+    flex: 1;
+  }
+  
+  .header {
+    height: 92px;
+    padding: 15px 15px 15px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .layout {
+    height: calc(100vh - 92px);
+    background-color: #F9FAFB;
+    overflow-y: auto;
+  }
+  
+  .header-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+  }
+  
+  .language {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .language > div {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+  }
+  
+  .profile {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+  }
+  
+  .profile > div {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  
+  img.arrow-icon {
+    border: 0.26px solid #5c5c5c;
+    border-radius: 50%;
+    padding: 10px 7px;
+  }
+  
+  p.noti-count {
+    position: absolute;
+    top: -12px;
+    right: -6px;
+    width: 23px;
+    height: 23px;
+    border-radius: 50%;
+    background: #f93c65;
+    color: #f7d1d1;
+    border: 2px solid #f7d1d1;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: gotham pro;
+    font-size: 13px;
+  }
+  
+  .notification-icon {
+    position: relative;
+  }
+  
+  .language > div > p {
+    color: #646464;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: Nunito;
+  }
+  
+  p.profile-desc {
+    color: #565656;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: Nunito;
+  }
+  
+  p.profile-name {
+    font-size: 18px;
+    font-weight: 700;
+    color: #404040;
+    font-family: Nunito;
+  }
+  
+  .search-bar {
+    background: #f5f6fa;
+    border: 1px solid #d5d5d5;
+    border-radius: 25px;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    width: 320px;
+  }
+  
+  .search-bar > input {
+    border: none;
+    outline: none;
+    background: transparent;
+    font-family: Nunito;
+    font-size: 18px;
+    font-weight: 400;
+  }
+  
+/* dasboard-layout css end */
+
+
+
+/* medi quieries payment card */
+
 @media screen and (max-width:400px) {
     .payment-option-box {
         height: 70px;
@@ -250,6 +400,8 @@
     .payment-options .lineImg{
         height: 70px !important;
     }
+   
+
     
 }
 
@@ -314,8 +466,12 @@
 
 @media screen and (min-width:551px) and (max-width:1024px) {
     .step7{
-        width: 80%;
+        width: 90%;
         border-width: 2px;
+    }
+
+    .dashboardPaymentSecTitle{
+        width: 90%;
     }
 
 }
