@@ -106,6 +106,7 @@ section.dashboard {
     display: flex;
     row-gap: 15px;
     flex-direction: column;
+    
 }
 
 .header-content {
@@ -321,7 +322,7 @@ img.logo {
     }
 }
 
-@media only screen and (max-width: 1023px) {
+@media only screen and (max-width: 786px) {
     .sidebar {
         position: absolute;
         left: -355px;
@@ -401,8 +402,7 @@ img.logo {
     width: 100%;
     /* min-height: 90%; */
     border-radius: 11.73px;
-    box-shadow: 0px 11.73px 23.46px 0px #C2C2C229;
-    box-shadow: 0px 0px 35.19px 0px #AAAAAA29;
+    box-shadow: 0px 0px 23.46px 0px #C2C2C2;
     padding: 35px 25px;
     display: flex;
     flex-direction: column;
@@ -585,6 +585,10 @@ img.logo {
     border: none;
 }
 
+.payment-box a{
+    text-decoration: none;
+}
+
 .payment-box p {
     font-size: 18px;
     font-weight: 400;
@@ -609,6 +613,24 @@ img.logo {
     }
 }
 
+@media screen and (min-width:787px) and (max-width:1023px){
+    .main {
+        padding: 20px 10px;
+    }
+
+    .text-box p{
+        font-size: 14.42px;
+    }
+
+    .text-box, .check-box, .link-box{
+        padding: 0px 8px;
+    }
+
+    .text-box >img{
+        width: 20px;
+    }
+}
+
 @media screen and (max-width:767px) {
     .input-parent {
         flex-direction: column;
@@ -626,11 +648,12 @@ img.logo {
 
 @media screen and (min-width:768px) and (max-width:1550px) {
     .last-box p {
-        font-size: 14px;
+        font-size: 12px;
     }
 
     .last-box {
-        padding: 29px 15px;
+        padding: 20px 1px;
+        align-items: center;
     }
 
     .check-box {
