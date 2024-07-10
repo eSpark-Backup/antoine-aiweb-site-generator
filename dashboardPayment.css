@@ -1,0 +1,728 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/* Global */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  Nunito;;
+}
+
+@font-face {
+    font-family: gotham pro;
+    src: url("./fonts/Gotham\ Pro/gothampro.ttf");
+}
+
+@font-face {
+    font-family: gotham pro b;
+    src: url("./fonts/Gotham\ Pro/gothampro_medium.ttf");
+}
+
+.bold {
+    font-weight: 800;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+/* GENERAL */
+.general-gradient-color {
+    background: linear-gradient(90deg, #f1a300 0%, #cb1000 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.general-link-decoration {
+    text-decoration: none;
+    color: #000;
+    font-family: gotham pro b;
+    font-size: 14px;
+}
+
+.general-gradient-bg {
+    background: linear-gradient(90deg, #f1a300 0%, #cb1000 100%);
+}
+
+.gradient-text {
+    background: -webkit-linear-gradient(left, #f1a300, #cb1000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: gotham pro;
+}
+
+/* Global */
+
+/* Dashboard payment card css start */
+
+.layout{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+}
+
+
+.dashboardPaymentSecTitle{
+    margin-bottom: 12px;
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 8px;
+}
+
+.dashboardPaymentSecTitle>p{
+    font-size: 14px;
+    font-weight: 600;
+    font-family: "Nunito Sans";
+}
+.dashboardPaymentSecTitle>h1{
+    margin-bottom: 8px;
+    font-size: 32px;
+    font-weight: 700;
+    font-family: gotham pro;
+}
+
+.step7 {
+    width: 95%;
+    background-color: white;
+    border-radius: 11.73px;
+    padding: 15px;
+    box-shadow: 0px 0px 23.46px 0px #C2C2C2;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 15px;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.step7>h1 {
+    text-align: center;
+    font-size: 30.47px;
+    font-weight: 400;
+    font-family: gotham pro;
+}
+
+.payment-box {
+    width: 95%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.payment-box>h1 {
+    font-size: 18px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    color: #191C1F;
+}
+
+.payment-options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #E4E7E9;
+    padding: 10px;
+}
+
+.payment-options img {
+    width: 4%;
+}
+
+.payment-option-box {
+    width: 22%;
+    height: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.payment-option-box label {
+    text-align: center;
+    height: 40%;
+    margin-top: 10px;
+    font-size: 12px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    color: #191C1F;
+}
+
+.payment-option-box img {
+    width: 20px;
+    height: 20px;
+}
+
+.input-box {
+    display: flex;
+    flex-direction: column;
+    row-gap: 6px;
+}
+
+.input-box>input {
+    height: 44px;
+    border: 1px solid #E4E7E9;
+    outline: none;
+    background-color: white;
+    padding: 5px 10px;
+    font-family: "Poppins";
+}
+
+.input-box>input::placeholder {
+    color: #8f7777 !important;
+    font-size: 18px;
+}
+
+.input-box>label {
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    color: #191C1F;
+
+}
+
+.horizontal-input-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.horizontal-input-box>div {
+    width: 48%;
+}
+
+.text-parent {
+    padding: 5px 20px;
+    display: flex;
+    row-gap: 10px;
+    flex-direction: column;
+}
+
+.text-parent>h2:first-child {
+    font-size: 18px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    color: #191C1F;
+}
+
+.text-parent>h2:last-child {
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    color: #191C1F;
+}
+
+.text-parent>h2>span {
+    color: #a2a2a3;
+    font-family: "Poppins";
+}
+
+
+.step7>textarea {
+    padding: 10px 20px;
+    resize: none;
+    height: 100px;
+    border: 1px solid #E4E7E9;
+    font-family: "Poppins";
+}
+
+.step7>textarea::placeholder {
+    color: #929FA5 !important;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Poppins";
+}
+
+/* dasboard-payment card css End */
+
+
+/* dasboard-layout css start */
+/* Dashboard Start */
+
+.hamburger {
+    display: none;
+  }
+  
+section.dashboard {
+    display: flex;
+  }
+  
+  .sidebar {
+    background-color: #FFF;
+    width: 355px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    z-index: 99;
+    position: relative;
+  }
+  
+  .cross {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    width: 30px;
+    display: none;
+  }
+    
+  .layout-container {
+    flex: 1;
+  }
+  
+  .header {
+    height: 92px;
+    padding: 15px 15px 15px 60px;
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .layout {
+    height: calc(100vh - 92px);
+    background-color: #f9fafb;
+    overflow-y: auto;
+  }
+  
+  .header-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+  }
+  
+  .language {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .language > div {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+  }
+  
+  .profile {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+  }
+  
+  .profile > div {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  
+  img.arrow-icon {
+    border: 0.26px solid #5c5c5c;
+    border-radius: 50%;
+    padding: 10px 7px;
+  }
+  
+  p.noti-count {
+    position: absolute;
+    top: -12px;
+    right: -6px;
+    width: 23px;
+    height: 23px;
+    border-radius: 50%;
+    background: #f93c65;
+    color: #f7d1d1;
+    border: 2px solid #f7d1d1;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: gotham pro;
+    font-size: 13px;
+  }
+  
+  .notification-icon {
+    position: relative;
+  }
+  
+  .language > div > p {
+    color: #646464;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 12px;
+  }
+  
+  p.profile-desc {
+    color: #565656;
+    font-size: 15px;
+    font-weight: 600;
+  }
+  
+  p.profile-name {
+    font-size: 18px;
+    font-weight: 700;
+    color: #404040;
+  }
+  
+  .search-bar {
+    background: #f5f6fa;
+    border: 1px solid #d5d5d5;
+    border-radius: 25px;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    width: 320px;
+  }
+  
+  .search-bar > input {
+    border: none;
+    outline: none;
+    background: transparent;
+    font-family: Nunito;
+    font-size: 18px;
+    font-weight: 400;
+  }
+
+  
+img.logo {
+    margin-top: 30px;
+  }
+  
+  .menu-list {
+    flex: 1;
+    margin: 50px 0;
+    width: 100%;
+    overflow-y: auto;
+  }
+  
+  .footer-menu-list {
+    border-top: 0.79px solid #e0e0e0;
+    width: 100%;
+    margin-bottom: 50px;
+  }
+  
+  .footer-menu-list > .menu {
+    text-align: left;
+    padding: 20px 20px 20px 65px;
+    margin: 20px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: Nonito;
+    color: #262525;
+    cursor: pointer;
+  }
+  
+  .menu-list > .menu {
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: Nonito;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 12px;
+    color: #262525;
+    cursor: pointer;
+  }
+  
+  .menu.active {
+    position: relative;
+    background: linear-gradient(to right, #f1a300, #cb1000) !important;
+    color: #fff !important;
+  }
+  
+  .menu.active img {
+    filter: brightness(0) saturate(100%) invert(100%) sepia(100%) saturate(2%)
+      hue-rotate(11deg) brightness(105%) contrast(101%);
+  }
+  
+  .menu.active::after {
+    background: #cb1000;
+    content: "";
+    position: absolute;
+    width: 5px;
+    height: 100%;
+    top: 0;
+    left: -20px;
+    border-radius: 0px 10px 10px 0px;
+  }
+  
+/* dasboard-layout css end */
+
+
+
+/* medi quieries payment card */
+
+@media screen and (max-width:400px) {
+    .payment-option-box {
+        height: 70px;
+     } 
+
+
+}
+
+
+@media screen and (min-width:400px)  and (max-width:550px) {
+    .payment-option-box {
+        height: 62px;
+     } 
+    .payment-options{
+        height: 96px;
+    }
+    .payment-options .lineImg{
+        height: 70px !important;
+    }
+   
+
+    
+}
+
+
+@media screen and (max-width:550px) {
+
+    .payment-options{
+        height: 96px;
+    }
+    .payment-options .lineImg{
+        height: 70px !important;
+    }
+
+    .input-box>input{
+        height: 30px;
+    }
+
+    .step7>textarea::placeholder {
+        font-size: 12px;
+    }
+
+    .input-box>input::placeholder {
+        font-size: 12px;
+    }
+
+    .step7{
+        width:90%;
+        margin-bottom: 0px;
+    }
+
+    .payment-option-box label {
+        font-size: 7.47px;
+    }
+
+    .input-box>label {
+        font-size: 14px;
+    }
+
+    .text-parent {
+        padding: 5px 7px;
+    }
+
+    .text-parent>h2:first-child,
+    .text-parent>h2:last-child {
+        font-size: 14px;
+    }
+
+    .step7>h1,
+    .step6>h1:first-child {
+        font-size: 17px;
+    }
+
+    .payment-box>h1{
+        display: none;
+    }
+
+    .step7>textarea {
+        margin-bottom: 10px;
+    }
+
+    .dashboardPaymentSecTitle{
+        width: 90%;
+    }
+    
+    .dashboardPaymentSecTitle>h1{
+        font-size: 28px;
+       
+    }
+    
+}
+
+
+
+@media screen and (min-width:551px) and (max-width:1024px) {
+    .step7{
+        width: 90%;
+        border-width: 2px;
+    }
+
+    .dashboardPaymentSecTitle{
+        width: 90%;
+    }
+
+}
+
+
+@media screen and (max-width:767px) {
+    .payment-box {
+        width: 100%;
+        padding: 4px;
+    }
+
+    .payment-options {
+        padding: 2px;
+    }
+
+    .payment-option-box {
+        width: 22%;
+    }
+
+}
+
+
+@media screen and (min-width:768px) {
+
+    .step7 {
+        padding: 30px;
+    }
+
+    .payment-box {
+        border: 1px solid #E4E7E9;
+        width: 100%;
+    }
+}
+
+
+@media screen and (min-width: 1880px) {
+
+    .step7{
+        height: 1129.33px;
+        padding:60px;
+    }
+
+    .dashboardPaymentSecTitle>p{
+        font-size: 18.47px;
+    }
+    .dashboardPaymentSecTitle>h1{ 
+        font-size: 42.21px;
+    }
+    
+
+    .payment-box>h1 {
+        font-size: 25.31px;
+    }
+
+    .input-box>label {
+        font-size: 25.31px;
+    
+    }
+    .text-parent>h2:first-child {
+        font-size: 25.31px;
+       
+    }
+    
+    .text-parent>h2:last-child {
+        font-size: 25.31px;
+    }
+    .payment-option-box img {
+        width: 44.99px;
+        height: 44.99px;
+    }
+    .payment-option-box label {
+        font-size: 19.68px;
+        height: 50px;
+    }
+    .input-box>input{
+        height: 61.86px;
+    }
+
+    .payment-option-box{
+        height: 200px;
+    }
+
+    .payment-options .lineImg{
+        height: 160px !important;
+    }
+
+    .step7>textarea {
+       height: 286.79px;
+    }
+    .payment-box{
+        height: 754px;
+        padding: 40px 60px;
+    }
+    .payment-option-box>input{
+        width: 28.12px;
+        height: 28.12px;
+    }
+    }
+
+/* dashboard layout media quieries */
+
+    @media only screen and (max-width: 1220px) {
+        .search-bar {
+          display: none;
+        }
+        .header {
+          justify-content: flex-end;
+        }
+      }
+      
+      @media only screen and (max-width: 786px) {
+        .sidebar {
+          position: absolute;
+          left: -355px;
+          transition: 0.5s ease-in-out;
+        }
+        .cross {
+          display: block;
+        }
+        .sidebar.active {
+          left: 0px;
+        }
+        .hamburger {
+          display: block;
+          cursor: pointer;
+          width: 35px;
+        }
+        .header {
+          padding: 15px !important;
+          justify-content: space-between;
+        }
+      }
+      
+      @media only screen and (max-width: 540px) {
+        .layout {
+            height: 100% !important;
+          }
+        .profile > div {
+          display: none;
+        }
+        .language > div {
+          display: none;
+        }
+        .sidebar {
+          width: 320px;
+        }
+        .footer-menu-list {
+          margin-bottom: 0px;
+        }
+        .footer-menu-list > .menu {
+          font-size: 13px;
+        }
+        
+        .menu-list > .menu {
+          font-size: 13px;
+        }
+      }
+      
