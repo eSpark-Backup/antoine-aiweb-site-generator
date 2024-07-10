@@ -76,13 +76,13 @@
 }
 
 .dashboardPaymentSecTitle>p{
-    font-size: 18.47px;
+    font-size: 14px;
     font-weight: 600;
     font-family: "Nunito Sans";
 }
 .dashboardPaymentSecTitle>h1{
     margin-bottom: 8px;
-    font-size: 42.21px;
+    font-size: 32px;
     font-weight: 700;
     font-family: gotham pro;
 }
@@ -428,7 +428,7 @@ section.dashboard {
     }
 
     .step7{
-        width:100%;
+        width:80%;
     }
 
     .payment-option-box label {
@@ -504,4 +504,72 @@ section.dashboard {
         border: 1px solid #E4E7E9;
         width: 100%;
     }
+}
+
+
+@media screen and (min-width: 1880px) {
+
+    .step7{
+        height: 1129.33px;
+        padding:60px;
+    }
+
+    .dashboardPaymentSecTitle>p{
+        font-size: 18.47px;
+    }
+    .dashboardPaymentSecTitle>h1{ 
+        font-size: 42.21px;
+    }
+    
+
+    .payment-box>h1 {
+        font-size: 25.31px;
+    }
+
+    .input-box>label {
+        font-size: 25.31px;
+    
+    }
+    .text-parent>h2:first-child {
+        font-size: 25.31px;
+       
+    }
+    
+    .text-parent>h2:last-child {
+        font-size: 25.31px;
+    }
+    .payment-option-box img {
+        width: 44.99px;
+        height: 44.99px;
+    }
+    .payment-option-box label {
+        font-size: 19.68px;
+        height: 50px;
+    }
+    .input-box>input{
+        height: 61.86px;
+    }
+
+    .payment-option-box{
+        height: 200px;
+    }
+
+    .payment-options .lineImg{
+        height: 160px !important;
+    }
+
+    .step7>textarea {
+       height: 286.79px;
+    }
+    .payment-box{
+        height: 754px;
+        padding: 40px 60px;
+    }
+    .payment-option-box>input{
+        width: 28.12px;
+        height: 28.12px;
+    }
+    
+    
+    
 }
