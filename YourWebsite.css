@@ -587,6 +587,7 @@ img.logo {
     font-family: Gotham pro;
     font-weight: 400;
     border: none;
+    cursor: pointer;
 }
 
 .payment-box a{
