@@ -8,7 +8,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family:  Nunito;;
+    font-family:  Nunito;
 }
 
 @font-face {
@@ -79,19 +79,21 @@
     font-size: 14px;
     font-weight: 600;
     font-family: "Nunito Sans";
+    color: #202224;
 }
 .dashboardPaymentSecTitle>h1{
     margin-bottom: 8px;
     font-size: 32px;
     font-weight: 700;
-    font-family: gotham pro;
+    color:#202224 ;
+    font-family: gotham pro b;
 }
 
 .step7 {
     width: 95%;
     background-color: white;
     border-radius: 11.73px;
-    padding: 15px;
+    padding: 40px 60px 30px 40px !important;
     box-shadow: 0px 0px 23.46px 0px #C2C2C2;
     display: flex;
     justify-content: center;
@@ -110,7 +112,7 @@
 
 .payment-box {
     width: 95%;
-    padding: 20px;
+    padding: 25px;
     display: flex;
     flex-direction: column;
     row-gap: 20px;
@@ -121,11 +123,13 @@
     font-weight: 600;
     font-family: "Poppins", sans-serif;
     color: #191C1F;
+    margin-bottom: 5px;
 }
 
 .payment-options {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
+    gap: 4px;
     align-items: center;
     border: 1px solid #E4E7E9;
     padding: 10px;
@@ -149,7 +153,7 @@
     height: 40%;
     margin-top: 10px;
     font-size: 12px;
-    font-weight: 500;
+    font-weight: 600;
     font-family: "Poppins", sans-serif;
     color: #191C1F;
 }
@@ -157,6 +161,41 @@
 .payment-option-box img {
     width: 20px;
     height: 20px;
+}
+
+.payment-option-box>input{
+  width: 12px;
+  height: 12px;
+  
+  
+}
+
+.payment-option-box>input[type='radio']:after {
+  width: 12px;
+  height: 12px;
+  border-radius: 15px;
+  top: -2px;
+  left: 0px;
+  position: relative;
+  background-color: white;
+  content: '';
+  display: inline-block;
+  visibility: visible;
+  border: 2px solid gainsboro;
+}
+
+.payment-option-box>input[type='radio']:checked:after {
+  width: 10px;
+  height: 10px;
+  border-radius: 15px;
+  top: -4px;
+  left: -2px;
+  position: relative;
+  content: '';
+  display: inline-block;
+  background-color: white;
+  visibility: visible;
+  border: 5px solid #2DA5F3;
 }
 
 .input-box {
@@ -181,7 +220,7 @@
 
 .input-box>label {
     font-size: 18px;
-    font-weight: 500;
+    font-weight: 600;
     font-family: "Poppins", sans-serif;
     color: #191C1F;
 
@@ -197,7 +236,7 @@
 }
 
 .text-parent {
-    padding: 5px 20px;
+    padding: 5px 25px;
     display: flex;
     row-gap: 10px;
     flex-direction: column;
@@ -224,7 +263,7 @@
 
 
 .step7>textarea {
-    padding: 10px 20px;
+    padding: 10px 25px;
     resize: none;
     height: 100px;
     border: 1px solid #E4E7E9;
@@ -381,7 +420,7 @@ section.dashboard {
     justify-content: flex-start;
     align-items: center;
     gap: 10px;
-    width: 320px;
+    width: 498px;
   }
   
   .search-bar > input {
@@ -403,6 +442,7 @@ img.logo {
     margin: 50px 0;
     width: 100%;
     overflow-y: auto;
+
   }
   
   .footer-menu-list {
@@ -418,18 +458,20 @@ img.logo {
     border-radius: 10px;
     font-size: 18px;
     font-weight: 600;
-    font-family: Nonito;
     color: #262525;
     cursor: pointer;
   }
+
+  .footer-menu-list > .menu>p{
+    font-family: Nunito sans;
+  }
   
   .menu-list > .menu {
-    padding: 20px;
+    padding: 10px;
     margin: 20px;
     border-radius: 10px;
     font-size: 18px;
     font-weight: 600;
-    font-family: Nonito;
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -437,6 +479,20 @@ img.logo {
     color: #262525;
     cursor: pointer;
   }
+
+.menu> .para1{
+  font-size: 18.47px;
+  font-weight: 600;
+  color: #222222;
+  font-family: Nunito sans;
+}
+
+.menu> .para2{
+  font-size: 18.47px;
+  font-weight: 600;
+  color: #262525;
+  font-family: Nunito sans;
+}
   
   .menu.active {
     position: relative;
@@ -481,6 +537,7 @@ img.logo {
      } 
     .payment-options{
         height: 96px;
+        justify-content: space-between;
     }
     .payment-options .lineImg{
         height: 70px !important;
@@ -495,6 +552,7 @@ img.logo {
 
     .payment-options{
         height: 96px;
+        justify-content: space-between;
     }
     .payment-options .lineImg{
         height: 70px !important;
@@ -515,6 +573,9 @@ img.logo {
     .step7{
         width:90%;
         margin-bottom: 0px;
+    }
+    .payment-options{
+      gap: 7px;
     }
 
     .payment-option-box label {
@@ -555,6 +616,14 @@ img.logo {
         font-size: 28px;
        
     }
+    .payment-option-box>input[type='radio']:checked:after {
+      border: 2px solid #2DA5F3;
+     width: 12px;
+     height: 12px;
+     top: -2px;
+     left: 0px;
+    }
+   
     
 }
 
@@ -569,6 +638,17 @@ img.logo {
     .dashboardPaymentSecTitle{
         width: 90%;
     }
+    
+    .payment-option-box>input[type='radio']:checked:after {
+      border: 4px solid #2DA5F3;
+    }
+    .payment-option-box label{
+      margin-top: 6px;
+    }
+    .payment-options{
+      gap: 7px;
+    }
+    
 
 }
 
@@ -607,7 +687,7 @@ img.logo {
 
     .step7{
         height: 1129.33px;
-        padding:60px;
+        padding: 60px 80px 30px 60px !important;
     }
 
     .dashboardPaymentSecTitle>p{
@@ -620,12 +700,17 @@ img.logo {
 
     .payment-box>h1 {
         font-size: 25.31px;
+        margin-bottom: 12px;
     }
 
     .input-box>label {
         font-size: 25.31px;
     
     }
+    .text-parent {
+      padding: 5px 58px;
+    }
+
     .text-parent>h2:first-child {
         font-size: 25.31px;
        
@@ -656,7 +741,9 @@ img.logo {
 
     .step7>textarea {
        height: 286.79px;
+       padding: 10px 58px;
     }
+    
     .payment-box{
         height: 754px;
         padding: 40px 60px;
@@ -665,6 +752,36 @@ img.logo {
         width: 28.12px;
         height: 28.12px;
     }
+
+    .payment-option-box>input[type='radio']:after {
+      width: 28.12px;
+      height: 28.12px;
+      border-radius: 15px;
+      top: -2px;
+      left: 0px;
+      position: relative;
+      background-color: white;
+      content: '';
+      display: inline-block;
+      visibility: visible;
+      border: 2px solid gainsboro;
+    }
+    
+    .payment-option-box>input[type='radio']:checked:after {
+      width: 22.12px;
+      height: 22.12px;
+      border-radius: 20px;
+      top: -5px;
+      left: -2px;
+      position: relative;
+      content: '';
+      display: inline-block;
+      background-color: white;
+      visibility: visible;
+      border: 7px solid #2DA5F3;
+    }
+    
+    
     }
 
 /* dashboard layout media quieries */
