@@ -86,7 +86,7 @@
     font-size: 32px;
     font-weight: 700;
     color:#202224 ;
-    font-family: gotham pro;
+    font-family: gotham pro b;
 }
 
 .step7 {
@@ -220,7 +220,7 @@
 
 .input-box>label {
     font-size: 18px;
-    font-weight: 500;
+    font-weight: 600;
     font-family: "Poppins", sans-serif;
     color: #191C1F;
 
@@ -442,6 +442,7 @@ img.logo {
     margin: 50px 0;
     width: 100%;
     overflow-y: auto;
+
   }
   
   .footer-menu-list {
@@ -457,9 +458,12 @@ img.logo {
     border-radius: 10px;
     font-size: 18px;
     font-weight: 600;
-    font-family: Nonito;
     color: #262525;
     cursor: pointer;
+  }
+
+  .footer-menu-list > .menu>p{
+    font-family: Nunito sans;
   }
   
   .menu-list > .menu {
@@ -476,10 +480,18 @@ img.logo {
     cursor: pointer;
   }
 
-.menu>p{
+.menu> .para1{
   font-size: 18.47px;
   font-weight: 600;
   color: #222222;
+  font-family: Nunito sans;
+}
+
+.menu> .para2{
+  font-size: 18.47px;
+  font-weight: 600;
+  color: #262525;
+  font-family: Nunito sans;
 }
   
   .menu.active {
