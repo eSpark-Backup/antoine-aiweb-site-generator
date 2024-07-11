@@ -249,6 +249,10 @@ img.logo {
     font-family: "Nunito Sans", sans-serif;    
 }
 
+.technical{
+    color: #262525 !important;
+}
+
 .menu.active p{
     color: #F4F4F4;
     font-size: 18.47px;
@@ -471,7 +475,7 @@ img.logo {
 }
 
 .check-box {
-    width: 45%;
+    width: 35%;
     align-items: center;
     justify-content: space-between;
     padding: 0px 15px;
